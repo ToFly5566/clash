@@ -1,0 +1,11 @@
+# NAME: panda-emby
+# AUTHOR: ToFly5566
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2025-02-26 16:12:40
+# DOMAIN: 1
+# DOMAIN-SUFFIX: 9
+# TOTAL: 4
+
+DOMAIN-SUFFIX, embyclub.maoxiong.cloud
+DOMAIN-SUFFIX, embyclub2.maoxiong.cloud
+DOMAIN-SUFFIX, pornemby.maoxiong.cloud
