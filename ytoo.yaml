@@ -6,7 +6,7 @@ mode: rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-- name: "[SS] \U0001F1ED\U0001F1F0 YToo 日用  香港"
+- name: "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 日用  香港"
   server: bepgzbgp01.114837322.xyz
   port: 14091
   type: ss
@@ -17,7 +17,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1F8\U0001F1EC YToo 日用  狮城"
+- name: "[SS] \U0001F1F8\U0001F1EC YToo \U0001F1F8\U0001F1EC 日用  狮城"
   server: bepgzbgp01.114837322.xyz
   port: 14092
   type: ss
@@ -28,7 +28,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1EF\U0001F1F5 YToo 日用  日本"
+- name: "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 日用  日本"
   server: bepshbgp01.114837322.xyz
   port: 14093
   type: ss
@@ -39,7 +39,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1EF\U0001F1F5 YToo 日用  美国"
+- name: "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1FA\U0001F1F8 日用  美国"
   server: bepshbgp01.114837322.xyz
   port: 14094
   type: ss
@@ -50,7 +50,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1ED\U0001F1F0 YToo 高级  香港 01"
+- name: "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 高级  香港 01"
   server: bepgzbgp01.114837322.xyz
   port: 14101
   type: ss
@@ -61,7 +61,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1ED\U0001F1F0 YToo 高级  香港 02"
+- name: "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 高级  香港 02"
   server: bepgzbgp01.114837322.xyz
   port: 14102
   type: ss
@@ -72,7 +72,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1ED\U0001F1F0 YToo 高级  香港 03"
+- name: "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 高级  香港 03"
   server: bepgzbgp01.114837322.xyz
   port: 14103
   type: ss
@@ -83,7 +83,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1ED\U0001F1F0 YToo 高级  香港 04"
+- name: "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 高级  香港 04"
   server: bepgzbgp01.114837322.xyz
   port: 14104
   type: ss
@@ -94,7 +94,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1ED\U0001F1F0 YToo 高级  香港 05"
+- name: "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 高级  香港 05"
   server: bepgzbgp01.114837322.xyz
   port: 14105
   type: ss
@@ -105,7 +105,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1ED\U0001F1F0 YToo 高级  香港 06"
+- name: "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 高级  香港 06"
   server: bepgzbgp01.114837322.xyz
   port: 14106
   type: ss
@@ -116,7 +116,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1ED\U0001F1F0 YToo 高级  香港 07"
+- name: "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 高级  香港 07"
   server: bepgzbgp01.114837322.xyz
   port: 14107
   type: ss
@@ -127,7 +127,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1ED\U0001F1F0 YToo 高级  香港 08"
+- name: "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 高级  香港 08"
   server: bepgzbgp01.114837322.xyz
   port: 14108
   type: ss
@@ -138,7 +138,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1F8\U0001F1EC YToo 高级  狮城 01"
+- name: "[SS] \U0001F1F8\U0001F1EC YToo \U0001F1F8\U0001F1EC 高级  狮城 01"
   server: bepgzbgp01.114837322.xyz
   port: 14111
   type: ss
@@ -149,7 +149,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1F8\U0001F1EC YToo 高级  狮城 02"
+- name: "[SS] \U0001F1F8\U0001F1EC YToo \U0001F1F8\U0001F1EC 高级  狮城 02"
   server: bepgzbgp01.114837322.xyz
   port: 14112
   type: ss
@@ -160,7 +160,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1F8\U0001F1EC YToo 高级  狮城 03"
+- name: "[SS] \U0001F1F8\U0001F1EC YToo \U0001F1F8\U0001F1EC 高级  狮城 03"
   server: bepgzbgp01.114837322.xyz
   port: 14113
   type: ss
@@ -171,7 +171,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1F8\U0001F1EC YToo 高级  狮城 04"
+- name: "[SS] \U0001F1F8\U0001F1EC YToo \U0001F1F8\U0001F1EC 高级  狮城 04"
   server: bepgzbgp01.114837322.xyz
   port: 14114
   type: ss
@@ -182,7 +182,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1F8\U0001F1EC YToo 高级  狮城 05"
+- name: "[SS] \U0001F1F8\U0001F1EC YToo \U0001F1F8\U0001F1EC 高级  狮城 05"
   server: bepgzbgp01.114837322.xyz
   port: 14115
   type: ss
@@ -193,7 +193,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1FA\U0001F1F8 YToo 高级  美国 01"
+- name: "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 高级  美国 01"
   server: bepshbgp01.114837322.xyz
   port: 14131
   type: ss
@@ -204,7 +204,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1FA\U0001F1F8 YToo 高级  美国 02"
+- name: "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 高级  美国 02"
   server: bepshbgp01.114837322.xyz
   port: 14132
   type: ss
@@ -215,7 +215,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1FA\U0001F1F8 YToo 高级  美国 03"
+- name: "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 高级  美国 03"
   server: bepshbgp01.114837322.xyz
   port: 14133
   type: ss
@@ -226,7 +226,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1FA\U0001F1F8 YToo 高级  美国 04"
+- name: "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 高级  美国 04"
   server: bepshbgp01.114837322.xyz
   port: 14134
   type: ss
@@ -237,7 +237,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1FA\U0001F1F8 YToo 高级  美国 05"
+- name: "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 高级  美国 05"
   server: bepshbgp01.114837322.xyz
   port: 14135
   type: ss
@@ -248,7 +248,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1FA\U0001F1F8 YToo 高级  美国 06"
+- name: "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 高级  美国 06"
   server: bepshbgp01.114837322.xyz
   port: 14136
   type: ss
@@ -259,7 +259,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1FA\U0001F1F8 YToo 高级  美国 07"
+- name: "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 高级  美国 07"
   server: bepshbgp01.114837322.xyz
   port: 14137
   type: ss
@@ -270,7 +270,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1FA\U0001F1F8 YToo 高级  美国 08"
+- name: "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 高级  美国 08"
   server: bepshbgp01.114837322.xyz
   port: 14138
   type: ss
@@ -281,7 +281,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1FA\U0001F1F8 YToo 高级  美国 09"
+- name: "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 高级  美国 09"
   server: bepshbgp01.114837322.xyz
   port: 14139
   type: ss
@@ -292,7 +292,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1FA\U0001F1F8 YToo 高级  美国 10"
+- name: "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 高级  美国 10"
   server: bepshbgp01.114837322.xyz
   port: 14140
   type: ss
@@ -303,7 +303,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1F0\U0001F1F7 YToo 高级  韩国 01"
+- name: "[SS] \U0001F1F0\U0001F1F7 YToo \U0001F1F0\U0001F1F7 高级  韩国 01"
   server: bepshbgp01.114837322.xyz
   port: 14141
   type: ss
@@ -314,7 +314,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1F0\U0001F1F7 YToo 高级  韩国 02"
+- name: "[SS] \U0001F1F0\U0001F1F7 YToo \U0001F1F0\U0001F1F7 高级  韩国 02"
   server: bepshbgp01.114837322.xyz
   port: 14142
   type: ss
@@ -325,7 +325,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1E8\U0001F1F3 YToo 高级  台湾 01"
+- name: "[SS] \U0001F1E8\U0001F1F3 YToo \U0001F1E8\U0001F1F3 高级  台湾 01"
   server: bepgzbgp01.114837322.xyz
   port: 14151
   type: ss
@@ -336,7 +336,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1E8\U0001F1F3 YToo 高级  台湾 02"
+- name: "[SS] \U0001F1E8\U0001F1F3 YToo \U0001F1E8\U0001F1F3 高级  台湾 02"
   server: bepgzbgp01.114837322.xyz
   port: 14152
   type: ss
@@ -347,7 +347,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1EF\U0001F1F5 YToo 高级  日本 01"
+- name: "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 高级  日本 01"
   server: bepshbgp01.114837322.xyz
   port: 14121
   type: ss
@@ -358,7 +358,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1EF\U0001F1F5 YToo 高级  日本 02"
+- name: "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 高级  日本 02"
   server: bepshbgp01.114837322.xyz
   port: 14122
   type: ss
@@ -369,7 +369,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1EF\U0001F1F5 YToo 高级  日本 03"
+- name: "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 高级  日本 03"
   server: bepshbgp01.114837322.xyz
   port: 14123
   type: ss
@@ -380,7 +380,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1EF\U0001F1F5 YToo 高级  日本 04"
+- name: "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 高级  日本 04"
   server: bepshbgp01.114837322.xyz
   port: 14124
   type: ss
@@ -391,7 +391,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1EF\U0001F1F5 YToo 高级  日本 05"
+- name: "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 高级  日本 05"
   server: bepshbgp01.114837322.xyz
   port: 14125
   type: ss
@@ -402,7 +402,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1EF\U0001F1F5 YToo 高级  日本 06"
+- name: "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 高级  日本 06"
   server: bepshbgp01.114837322.xyz
   port: 14126
   type: ss
@@ -413,7 +413,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1EF\U0001F1F5 YToo 高级  日本 07"
+- name: "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 高级  日本 07"
   server: bepshbgp01.114837322.xyz
   port: 14127
   type: ss
@@ -424,7 +424,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1EF\U0001F1F5 YToo 高级  日本 08"
+- name: "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 高级  日本 08"
   server: bepshbgp01.114837322.xyz
   port: 14128
   type: ss
@@ -435,7 +435,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1ED\U0001F1F0 YToo 标准  香港 01"
+- name: "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 标准  香港 01"
   server: bepgzbgp01.114837322.xyz
   port: 14001
   type: ss
@@ -446,7 +446,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1ED\U0001F1F0 YToo 标准  香港 02"
+- name: "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 标准  香港 02"
   server: bepgzbgp01.114837322.xyz
   port: 14002
   type: ss
@@ -457,7 +457,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1ED\U0001F1F0 YToo 标准  香港 03"
+- name: "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 标准  香港 03"
   server: bepgzbgp01.114837322.xyz
   port: 14003
   type: ss
@@ -468,7 +468,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1F8\U0001F1EC YToo 标准  狮城 01"
+- name: "[SS] \U0001F1F8\U0001F1EC YToo \U0001F1F8\U0001F1EC 标准  狮城 01"
   server: bepgzbgp01.114837322.xyz
   port: 14011
   type: ss
@@ -479,7 +479,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1F8\U0001F1EC YToo 标准  狮城 02"
+- name: "[SS] \U0001F1F8\U0001F1EC YToo \U0001F1F8\U0001F1EC 标准  狮城 02"
   server: bepgzbgp01.114837322.xyz
   port: 14012
   type: ss
@@ -490,7 +490,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1F8\U0001F1EC YToo 标准  狮城 03"
+- name: "[SS] \U0001F1F8\U0001F1EC YToo \U0001F1F8\U0001F1EC 标准  狮城 03"
   server: bepgzbgp01.114837322.xyz
   port: 14013
   type: ss
@@ -501,7 +501,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1FA\U0001F1F8 YToo 标准  美国 01"
+- name: "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 标准  美国 01"
   server: bepshbgp01.114837322.xyz
   port: 14031
   type: ss
@@ -512,7 +512,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1FA\U0001F1F8 YToo 标准  美国 02"
+- name: "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 标准  美国 02"
   server: bepshbgp01.114837322.xyz
   port: 14032
   type: ss
@@ -523,7 +523,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1FA\U0001F1F8 YToo 标准  美国 03"
+- name: "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 标准  美国 03"
   server: bepshbgp01.114837322.xyz
   port: 14033
   type: ss
@@ -534,7 +534,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1FA\U0001F1F8 YToo 标准  美国 04"
+- name: "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 标准  美国 04"
   server: bepshbgp01.114837322.xyz
   port: 14034
   type: ss
@@ -545,7 +545,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1FA\U0001F1F8 YToo 标准  美国 05"
+- name: "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 标准  美国 05"
   server: bepshbgp01.114837322.xyz
   port: 14035
   type: ss
@@ -556,7 +556,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1FA\U0001F1F8 YToo 标准  美国 06"
+- name: "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 标准  美国 06"
   server: bepshbgp01.114837322.xyz
   port: 14036
   type: ss
@@ -567,7 +567,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1F0\U0001F1F7 YToo 标准  韩国 01"
+- name: "[SS] \U0001F1F0\U0001F1F7 YToo \U0001F1F0\U0001F1F7 标准  韩国 01"
   server: bepshbgp01.114837322.xyz
   port: 14041
   type: ss
@@ -578,7 +578,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1EF\U0001F1F5 YToo 标准  日本 01"
+- name: "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 标准  日本 01"
   server: bepshbgp01.114837322.xyz
   port: 14021
   type: ss
@@ -589,7 +589,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1EF\U0001F1F5 YToo 标准  日本 02"
+- name: "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 标准  日本 02"
   server: bepshbgp01.114837322.xyz
   port: 14022
   type: ss
@@ -600,7 +600,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1EF\U0001F1F5 YToo 标准  日本 03"
+- name: "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 标准  日本 03"
   server: bepshbgp01.114837322.xyz
   port: 14023
   type: ss
@@ -611,7 +611,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1EF\U0001F1F5 YToo 标准  日本 04"
+- name: "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 标准  日本 04"
   server: bepshbgp01.114837322.xyz
   port: 14024
   type: ss
@@ -622,7 +622,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1E8\U0001F1F3 YToo 标准  台湾 01"
+- name: "[SS] \U0001F1E8\U0001F1F3 YToo \U0001F1E8\U0001F1F3 标准  台湾 01"
   server: bepgzbgp01.114837322.xyz
   port: 14051
   type: ss
@@ -633,7 +633,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1EC\U0001F1E7 YToo 特殊  伦敦 01"
+- name: "[SS] \U0001F1EC\U0001F1E7 YToo \U0001F1EC\U0001F1E7 特殊  伦敦 01"
   server: bepbjbgp01.114837322.xyz
   port: 14201
   type: ss
@@ -644,7 +644,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1EC\U0001F1E7 YToo 特殊  伦敦 02"
+- name: "[SS] \U0001F1EC\U0001F1E7 YToo \U0001F1EC\U0001F1E7 特殊  伦敦 02"
   server: bepbjbgp01.114837322.xyz
   port: 14202
   type: ss
@@ -655,7 +655,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1E9\U0001F1EA YToo 特殊  德国 01"
+- name: "[SS] \U0001F1E9\U0001F1EA YToo \U0001F1E9\U0001F1EA 特殊  德国 01"
   server: bepbjbgp01.114837322.xyz
   port: 14200
   type: ss
@@ -666,7 +666,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1E9\U0001F1EA YToo 特殊  德国 02"
+- name: "[SS] \U0001F1E9\U0001F1EA YToo \U0001F1E9\U0001F1EA 特殊  德国 02"
   server: bepbjbgp01.114837322.xyz
   port: 14207
   type: ss
@@ -677,7 +677,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1E7\U0001F1F7 YToo 特殊  巴西 01"
+- name: "[SS] \U0001F1E7\U0001F1F7 YToo \U0001F1E7\U0001F1F7 特殊  巴西 01"
   server: bepshbgp01.114837322.xyz
   port: 14205
   type: ss
@@ -688,7 +688,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1E8\U0001F1E6 YToo 特殊  加拿大 01"
+- name: "[SS] \U0001F1E8\U0001F1E6 YToo \U0001F1E8\U0001F1E6 特殊  加拿大 01"
   server: bepshbgp01.114837322.xyz
   port: 14206
   type: ss
@@ -699,7 +699,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1E8\U0001F1E6 YToo 特殊  加拿大 02"
+- name: "[SS] \U0001F1E8\U0001F1E6 YToo \U0001F1E8\U0001F1E6 特殊  加拿大 02"
   server: bepshbgp01.114837322.xyz
   port: 14208
   type: ss
@@ -710,7 +710,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1F9\U0001F1F7 YToo 特殊  土耳其 01"
+- name: "[SS] \U0001F1F9\U0001F1F7 YToo \U0001F1F9\U0001F1F7 特殊  土耳其 01"
   server: bepbjbgp01.114837322.xyz
   port: 14198
   type: ss
@@ -721,7 +721,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1F9\U0001F1F7 YToo 特殊  土耳其 02"
+- name: "[SS] \U0001F1F9\U0001F1F7 YToo \U0001F1F9\U0001F1F7 特殊  土耳其 02"
   server: bepbjbgp01.114837322.xyz
   port: 14218
   type: ss
@@ -732,7 +732,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1F9\U0001F1ED YToo 特殊  泰国"
+- name: "[SS] \U0001F1F9\U0001F1ED YToo \U0001F1F9\U0001F1ED 特殊  泰国"
   server: bepgzbgp01.114837322.xyz
   port: 14161
   type: ss
@@ -743,7 +743,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1FB\U0001F1F3 YToo 特殊  越南"
+- name: "[SS] \U0001F1FB\U0001F1F3 YToo \U0001F1FB\U0001F1F3 特殊  越南"
   server: bepgzbgp01.114837322.xyz
   port: 14162
   type: ss
@@ -754,7 +754,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1EE\U0001F1F3 YToo 特殊  印度"
+- name: "[SS] \U0001F1EE\U0001F1F3 YToo \U0001F1EE\U0001F1F3 特殊  印度"
   server: bepgzbgp01.114837322.xyz
   port: 14194
   type: ss
@@ -765,7 +765,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1E6\U0001F1FA YToo 特殊  悉尼"
+- name: "[SS] \U0001F1E6\U0001F1FA YToo \U0001F1E6\U0001F1FA 特殊  悉尼"
   server: bepgzbgp01.114837322.xyz
   port: 14199
   type: ss
@@ -776,7 +776,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1E6\U0001F1EA YToo 特殊  迪拜"
+- name: "[SS] \U0001F1E6\U0001F1EA YToo \U0001F1E6\U0001F1EA 特殊  迪拜"
   server: bepgzbgp01.114837322.xyz
   port: 14203
   type: ss
@@ -787,7 +787,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1EB\U0001F1F7 YToo 特殊  法国"
+- name: "[SS] \U0001F1EB\U0001F1F7 YToo \U0001F1EB\U0001F1F7 特殊  法国"
   server: bepbjbgp01.114837322.xyz
   port: 14204
   type: ss
@@ -798,7 +798,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1F3\U0001F1F1 YToo 特殊  荷兰"
+- name: "[SS] \U0001F1F3\U0001F1F1 YToo \U0001F1F3\U0001F1F1 特殊  荷兰"
   server: bepbjbgp01.114837322.xyz
   port: 14213
   type: ss
@@ -809,7 +809,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1EE\U0001F1E9 YToo 特殊  印尼"
+- name: "[SS] \U0001F1EE\U0001F1E9 YToo \U0001F1EE\U0001F1E9 特殊  印尼"
   server: bepgzbgp01.114837322.xyz
   port: 14214
   type: ss
@@ -820,7 +820,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1FF\U0001F1E6 YToo 特殊  南非"
+- name: "[SS] \U0001F1FF\U0001F1E6 YToo \U0001F1FF\U0001F1E6 特殊  南非"
   server: bepgzbgp01.114837322.xyz
   port: 14215
   type: ss
@@ -831,7 +831,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1EA\U0001F1EC YToo 特殊  埃及"
+- name: "[SS] \U0001F1EA\U0001F1EC YToo \U0001F1EA\U0001F1EC 特殊  埃及"
   server: bepbjbgp01.114837322.xyz
   port: 14220
   type: ss
@@ -842,7 +842,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1F5\U0001F1ED YToo 特殊  菲律宾"
+- name: "[SS] \U0001F1F5\U0001F1ED YToo \U0001F1F5\U0001F1ED 特殊  菲律宾"
   server: bepgzbgp01.114837322.xyz
   port: 14191
   type: ss
@@ -853,7 +853,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1EE\U0001F1F9 YToo 特殊  意大利"
+- name: "[SS] \U0001F1EE\U0001F1F9 YToo \U0001F1EE\U0001F1F9 特殊  意大利"
   server: bepbjbgp01.114837322.xyz
   port: 14193
   type: ss
@@ -864,7 +864,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1EA\U0001F1F8 YToo 特殊  西班牙"
+- name: "[SS] \U0001F1EA\U0001F1F8 YToo \U0001F1EA\U0001F1F8 特殊  西班牙"
   server: bepbjbgp01.114837322.xyz
   port: 14192
   type: ss
@@ -875,7 +875,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1ED\U0001F1FA YToo 特殊  匈牙利"
+- name: "[SS] \U0001F1ED\U0001F1FA YToo \U0001F1ED\U0001F1FA 特殊  匈牙利"
   server: bepbjbgp01.114837322.xyz
   port: 14196
   type: ss
@@ -886,7 +886,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1EE\U0001F1F1 YToo 特殊  以色列"
+- name: "[SS] \U0001F1EE\U0001F1F1 YToo \U0001F1EE\U0001F1F1 特殊  以色列"
   server: bepbjbgp01.114837322.xyz
   port: 14209
   type: ss
@@ -897,7 +897,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1FA\U0001F1E6 YToo 特殊  乌克兰"
+- name: "[SS] \U0001F1FA\U0001F1E6 YToo \U0001F1FA\U0001F1E6 特殊  乌克兰"
   server: bepbjbgp01.114837322.xyz
   port: 14211
   type: ss
@@ -908,7 +908,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1F7\U0001F1FA YToo 特殊  俄罗斯"
+- name: "[SS] \U0001F1F7\U0001F1FA YToo \U0001F1F7\U0001F1FA 特殊  俄罗斯"
   server: bepbjbgp01.114837322.xyz
   port: 14195
   type: ss
@@ -919,7 +919,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1F2\U0001F1FE YToo 特殊  马来西亚"
+- name: "[SS] \U0001F1F2\U0001F1FE YToo \U0001F1F2\U0001F1FE 特殊  马来西亚"
   server: bepgzbgp01.114837322.xyz
   port: 14219
   type: ss
@@ -930,7 +930,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1F3\U0001F1EC YToo 特殊  尼日利亚"
+- name: "[SS] \U0001F1F3\U0001F1EC YToo \U0001F1EF\U0001F1F5 特殊  尼日利亚"
   server: bepgzbgp01.114837322.xyz
   port: 14210
   type: ss
@@ -941,7 +941,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1F5\U0001F1F0 YToo 特殊  巴基斯坦"
+- name: "[SS] \U0001F1F5\U0001F1F0 YToo \U0001F1F5\U0001F1F0 特殊  巴基斯坦"
   server: bepgzbgp01.114837322.xyz
   port: 14216
   type: ss
@@ -952,7 +952,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1F2\U0001F1E9 YToo 特殊  摩尔多瓦"
+- name: "[SS] \U0001F1F2\U0001F1E9 YToo \U0001F1F2\U0001F1E9 特殊  摩尔多瓦"
   server: bepbjbgp01.114837322.xyz
   port: 14217
   type: ss
@@ -963,7 +963,7 @@ proxies:
     mode: http
     host: 2ed7162c05.iqiyi.com
   udp: true
-- name: "[SS] \U0001F1E6\U0001F1F7 YToo 购物  阿根廷"
+- name: "[SS] \U0001F1E6\U0001F1F7 YToo \U0001F1E6\U0001F1F7 购物  阿根廷"
   server: bepshbgp01.114837322.xyz
   port: 14197
   type: ss
@@ -2641,94 +2641,94 @@ proxy-groups:
 - name: 所有-手动
   type: select
   proxies:
-  - "[SS] \U0001F1ED\U0001F1F0 YToo 日用  香港"
-  - "[SS] \U0001F1F8\U0001F1EC YToo 日用  狮城"
-  - "[SS] \U0001F1EF\U0001F1F5 YToo 日用  日本"
-  - "[SS] \U0001F1EF\U0001F1F5 YToo 日用  美国"
-  - "[SS] \U0001F1ED\U0001F1F0 YToo 高级  香港 01"
-  - "[SS] \U0001F1ED\U0001F1F0 YToo 高级  香港 02"
-  - "[SS] \U0001F1ED\U0001F1F0 YToo 高级  香港 03"
-  - "[SS] \U0001F1ED\U0001F1F0 YToo 高级  香港 04"
-  - "[SS] \U0001F1ED\U0001F1F0 YToo 高级  香港 05"
-  - "[SS] \U0001F1ED\U0001F1F0 YToo 高级  香港 06"
-  - "[SS] \U0001F1ED\U0001F1F0 YToo 高级  香港 07"
-  - "[SS] \U0001F1ED\U0001F1F0 YToo 高级  香港 08"
-  - "[SS] \U0001F1F8\U0001F1EC YToo 高级  狮城 01"
-  - "[SS] \U0001F1F8\U0001F1EC YToo 高级  狮城 02"
-  - "[SS] \U0001F1F8\U0001F1EC YToo 高级  狮城 03"
-  - "[SS] \U0001F1F8\U0001F1EC YToo 高级  狮城 04"
-  - "[SS] \U0001F1F8\U0001F1EC YToo 高级  狮城 05"
-  - "[SS] \U0001F1FA\U0001F1F8 YToo 高级  美国 01"
-  - "[SS] \U0001F1FA\U0001F1F8 YToo 高级  美国 02"
-  - "[SS] \U0001F1FA\U0001F1F8 YToo 高级  美国 03"
-  - "[SS] \U0001F1FA\U0001F1F8 YToo 高级  美国 04"
-  - "[SS] \U0001F1FA\U0001F1F8 YToo 高级  美国 05"
-  - "[SS] \U0001F1FA\U0001F1F8 YToo 高级  美国 06"
-  - "[SS] \U0001F1FA\U0001F1F8 YToo 高级  美国 07"
-  - "[SS] \U0001F1FA\U0001F1F8 YToo 高级  美国 08"
-  - "[SS] \U0001F1FA\U0001F1F8 YToo 高级  美国 09"
-  - "[SS] \U0001F1FA\U0001F1F8 YToo 高级  美国 10"
-  - "[SS] \U0001F1F0\U0001F1F7 YToo 高级  韩国 01"
-  - "[SS] \U0001F1F0\U0001F1F7 YToo 高级  韩国 02"
-  - "[SS] \U0001F1E8\U0001F1F3 YToo 高级  台湾 01"
-  - "[SS] \U0001F1E8\U0001F1F3 YToo 高级  台湾 02"
-  - "[SS] \U0001F1EF\U0001F1F5 YToo 高级  日本 01"
-  - "[SS] \U0001F1EF\U0001F1F5 YToo 高级  日本 02"
-  - "[SS] \U0001F1EF\U0001F1F5 YToo 高级  日本 03"
-  - "[SS] \U0001F1EF\U0001F1F5 YToo 高级  日本 04"
-  - "[SS] \U0001F1EF\U0001F1F5 YToo 高级  日本 05"
-  - "[SS] \U0001F1EF\U0001F1F5 YToo 高级  日本 06"
-  - "[SS] \U0001F1EF\U0001F1F5 YToo 高级  日本 07"
-  - "[SS] \U0001F1EF\U0001F1F5 YToo 高级  日本 08"
-  - "[SS] \U0001F1ED\U0001F1F0 YToo 标准  香港 01"
-  - "[SS] \U0001F1ED\U0001F1F0 YToo 标准  香港 02"
-  - "[SS] \U0001F1ED\U0001F1F0 YToo 标准  香港 03"
-  - "[SS] \U0001F1F8\U0001F1EC YToo 标准  狮城 01"
-  - "[SS] \U0001F1F8\U0001F1EC YToo 标准  狮城 02"
-  - "[SS] \U0001F1F8\U0001F1EC YToo 标准  狮城 03"
-  - "[SS] \U0001F1FA\U0001F1F8 YToo 标准  美国 01"
-  - "[SS] \U0001F1FA\U0001F1F8 YToo 标准  美国 02"
-  - "[SS] \U0001F1FA\U0001F1F8 YToo 标准  美国 03"
-  - "[SS] \U0001F1FA\U0001F1F8 YToo 标准  美国 04"
-  - "[SS] \U0001F1FA\U0001F1F8 YToo 标准  美国 05"
-  - "[SS] \U0001F1FA\U0001F1F8 YToo 标准  美国 06"
-  - "[SS] \U0001F1F0\U0001F1F7 YToo 标准  韩国 01"
-  - "[SS] \U0001F1EF\U0001F1F5 YToo 标准  日本 01"
-  - "[SS] \U0001F1EF\U0001F1F5 YToo 标准  日本 02"
-  - "[SS] \U0001F1EF\U0001F1F5 YToo 标准  日本 03"
-  - "[SS] \U0001F1EF\U0001F1F5 YToo 标准  日本 04"
-  - "[SS] \U0001F1E8\U0001F1F3 YToo 标准  台湾 01"
-  - "[SS] \U0001F1EC\U0001F1E7 YToo 特殊  伦敦 01"
-  - "[SS] \U0001F1EC\U0001F1E7 YToo 特殊  伦敦 02"
-  - "[SS] \U0001F1E9\U0001F1EA YToo 特殊  德国 01"
-  - "[SS] \U0001F1E9\U0001F1EA YToo 特殊  德国 02"
-  - "[SS] \U0001F1E7\U0001F1F7 YToo 特殊  巴西 01"
-  - "[SS] \U0001F1E8\U0001F1E6 YToo 特殊  加拿大 01"
-  - "[SS] \U0001F1E8\U0001F1E6 YToo 特殊  加拿大 02"
-  - "[SS] \U0001F1F9\U0001F1F7 YToo 特殊  土耳其 01"
-  - "[SS] \U0001F1F9\U0001F1F7 YToo 特殊  土耳其 02"
-  - "[SS] \U0001F1F9\U0001F1ED YToo 特殊  泰国"
-  - "[SS] \U0001F1FB\U0001F1F3 YToo 特殊  越南"
-  - "[SS] \U0001F1EE\U0001F1F3 YToo 特殊  印度"
-  - "[SS] \U0001F1E6\U0001F1FA YToo 特殊  悉尼"
-  - "[SS] \U0001F1E6\U0001F1EA YToo 特殊  迪拜"
-  - "[SS] \U0001F1EB\U0001F1F7 YToo 特殊  法国"
-  - "[SS] \U0001F1F3\U0001F1F1 YToo 特殊  荷兰"
-  - "[SS] \U0001F1EE\U0001F1E9 YToo 特殊  印尼"
-  - "[SS] \U0001F1FF\U0001F1E6 YToo 特殊  南非"
-  - "[SS] \U0001F1EA\U0001F1EC YToo 特殊  埃及"
-  - "[SS] \U0001F1F5\U0001F1ED YToo 特殊  菲律宾"
-  - "[SS] \U0001F1EE\U0001F1F9 YToo 特殊  意大利"
-  - "[SS] \U0001F1EA\U0001F1F8 YToo 特殊  西班牙"
-  - "[SS] \U0001F1ED\U0001F1FA YToo 特殊  匈牙利"
-  - "[SS] \U0001F1EE\U0001F1F1 YToo 特殊  以色列"
-  - "[SS] \U0001F1FA\U0001F1E6 YToo 特殊  乌克兰"
-  - "[SS] \U0001F1F7\U0001F1FA YToo 特殊  俄罗斯"
-  - "[SS] \U0001F1F2\U0001F1FE YToo 特殊  马来西亚"
-  - "[SS] \U0001F1F3\U0001F1EC YToo 特殊  尼日利亚"
-  - "[SS] \U0001F1F5\U0001F1F0 YToo 特殊  巴基斯坦"
-  - "[SS] \U0001F1F2\U0001F1E9 YToo 特殊  摩尔多瓦"
-  - "[SS] \U0001F1E6\U0001F1F7 YToo 购物  阿根廷"
+  - "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 日用  香港"
+  - "[SS] \U0001F1F8\U0001F1EC YToo \U0001F1F8\U0001F1EC 日用  狮城"
+  - "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 日用  日本"
+  - "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1FA\U0001F1F8 日用  美国"
+  - "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 高级  香港 01"
+  - "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 高级  香港 02"
+  - "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 高级  香港 03"
+  - "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 高级  香港 04"
+  - "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 高级  香港 05"
+  - "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 高级  香港 06"
+  - "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 高级  香港 07"
+  - "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 高级  香港 08"
+  - "[SS] \U0001F1F8\U0001F1EC YToo \U0001F1F8\U0001F1EC 高级  狮城 01"
+  - "[SS] \U0001F1F8\U0001F1EC YToo \U0001F1F8\U0001F1EC 高级  狮城 02"
+  - "[SS] \U0001F1F8\U0001F1EC YToo \U0001F1F8\U0001F1EC 高级  狮城 03"
+  - "[SS] \U0001F1F8\U0001F1EC YToo \U0001F1F8\U0001F1EC 高级  狮城 04"
+  - "[SS] \U0001F1F8\U0001F1EC YToo \U0001F1F8\U0001F1EC 高级  狮城 05"
+  - "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 高级  美国 01"
+  - "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 高级  美国 02"
+  - "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 高级  美国 03"
+  - "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 高级  美国 04"
+  - "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 高级  美国 05"
+  - "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 高级  美国 06"
+  - "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 高级  美国 07"
+  - "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 高级  美国 08"
+  - "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 高级  美国 09"
+  - "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 高级  美国 10"
+  - "[SS] \U0001F1F0\U0001F1F7 YToo \U0001F1F0\U0001F1F7 高级  韩国 01"
+  - "[SS] \U0001F1F0\U0001F1F7 YToo \U0001F1F0\U0001F1F7 高级  韩国 02"
+  - "[SS] \U0001F1E8\U0001F1F3 YToo \U0001F1E8\U0001F1F3 高级  台湾 01"
+  - "[SS] \U0001F1E8\U0001F1F3 YToo \U0001F1E8\U0001F1F3 高级  台湾 02"
+  - "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 高级  日本 01"
+  - "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 高级  日本 02"
+  - "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 高级  日本 03"
+  - "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 高级  日本 04"
+  - "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 高级  日本 05"
+  - "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 高级  日本 06"
+  - "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 高级  日本 07"
+  - "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 高级  日本 08"
+  - "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 标准  香港 01"
+  - "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 标准  香港 02"
+  - "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 标准  香港 03"
+  - "[SS] \U0001F1F8\U0001F1EC YToo \U0001F1F8\U0001F1EC 标准  狮城 01"
+  - "[SS] \U0001F1F8\U0001F1EC YToo \U0001F1F8\U0001F1EC 标准  狮城 02"
+  - "[SS] \U0001F1F8\U0001F1EC YToo \U0001F1F8\U0001F1EC 标准  狮城 03"
+  - "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 标准  美国 01"
+  - "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 标准  美国 02"
+  - "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 标准  美国 03"
+  - "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 标准  美国 04"
+  - "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 标准  美国 05"
+  - "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 标准  美国 06"
+  - "[SS] \U0001F1F0\U0001F1F7 YToo \U0001F1F0\U0001F1F7 标准  韩国 01"
+  - "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 标准  日本 01"
+  - "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 标准  日本 02"
+  - "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 标准  日本 03"
+  - "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 标准  日本 04"
+  - "[SS] \U0001F1E8\U0001F1F3 YToo \U0001F1E8\U0001F1F3 标准  台湾 01"
+  - "[SS] \U0001F1EC\U0001F1E7 YToo \U0001F1EC\U0001F1E7 特殊  伦敦 01"
+  - "[SS] \U0001F1EC\U0001F1E7 YToo \U0001F1EC\U0001F1E7 特殊  伦敦 02"
+  - "[SS] \U0001F1E9\U0001F1EA YToo \U0001F1E9\U0001F1EA 特殊  德国 01"
+  - "[SS] \U0001F1E9\U0001F1EA YToo \U0001F1E9\U0001F1EA 特殊  德国 02"
+  - "[SS] \U0001F1E7\U0001F1F7 YToo \U0001F1E7\U0001F1F7 特殊  巴西 01"
+  - "[SS] \U0001F1E8\U0001F1E6 YToo \U0001F1E8\U0001F1E6 特殊  加拿大 01"
+  - "[SS] \U0001F1E8\U0001F1E6 YToo \U0001F1E8\U0001F1E6 特殊  加拿大 02"
+  - "[SS] \U0001F1F9\U0001F1F7 YToo \U0001F1F9\U0001F1F7 特殊  土耳其 01"
+  - "[SS] \U0001F1F9\U0001F1F7 YToo \U0001F1F9\U0001F1F7 特殊  土耳其 02"
+  - "[SS] \U0001F1F9\U0001F1ED YToo \U0001F1F9\U0001F1ED 特殊  泰国"
+  - "[SS] \U0001F1FB\U0001F1F3 YToo \U0001F1FB\U0001F1F3 特殊  越南"
+  - "[SS] \U0001F1EE\U0001F1F3 YToo \U0001F1EE\U0001F1F3 特殊  印度"
+  - "[SS] \U0001F1E6\U0001F1FA YToo \U0001F1E6\U0001F1FA 特殊  悉尼"
+  - "[SS] \U0001F1E6\U0001F1EA YToo \U0001F1E6\U0001F1EA 特殊  迪拜"
+  - "[SS] \U0001F1EB\U0001F1F7 YToo \U0001F1EB\U0001F1F7 特殊  法国"
+  - "[SS] \U0001F1F3\U0001F1F1 YToo \U0001F1F3\U0001F1F1 特殊  荷兰"
+  - "[SS] \U0001F1EE\U0001F1E9 YToo \U0001F1EE\U0001F1E9 特殊  印尼"
+  - "[SS] \U0001F1FF\U0001F1E6 YToo \U0001F1FF\U0001F1E6 特殊  南非"
+  - "[SS] \U0001F1EA\U0001F1EC YToo \U0001F1EA\U0001F1EC 特殊  埃及"
+  - "[SS] \U0001F1F5\U0001F1ED YToo \U0001F1F5\U0001F1ED 特殊  菲律宾"
+  - "[SS] \U0001F1EE\U0001F1F9 YToo \U0001F1EE\U0001F1F9 特殊  意大利"
+  - "[SS] \U0001F1EA\U0001F1F8 YToo \U0001F1EA\U0001F1F8 特殊  西班牙"
+  - "[SS] \U0001F1ED\U0001F1FA YToo \U0001F1ED\U0001F1FA 特殊  匈牙利"
+  - "[SS] \U0001F1EE\U0001F1F1 YToo \U0001F1EE\U0001F1F1 特殊  以色列"
+  - "[SS] \U0001F1FA\U0001F1E6 YToo \U0001F1FA\U0001F1E6 特殊  乌克兰"
+  - "[SS] \U0001F1F7\U0001F1FA YToo \U0001F1F7\U0001F1FA 特殊  俄罗斯"
+  - "[SS] \U0001F1F2\U0001F1FE YToo \U0001F1F2\U0001F1FE 特殊  马来西亚"
+  - "[SS] \U0001F1F3\U0001F1EC YToo \U0001F1EF\U0001F1F5 特殊  尼日利亚"
+  - "[SS] \U0001F1F5\U0001F1F0 YToo \U0001F1F5\U0001F1F0 特殊  巴基斯坦"
+  - "[SS] \U0001F1F2\U0001F1E9 YToo \U0001F1F2\U0001F1E9 特殊  摩尔多瓦"
+  - "[SS] \U0001F1E6\U0001F1F7 YToo \U0001F1E6\U0001F1F7 购物  阿根廷"
   - "[VMess] \U0001F1ED\U0001F1F0 Panda 高级 01 香港"
   - "[VMess] \U0001F1ED\U0001F1F0 Panda 高级 02 香港"
   - "[VMess] \U0001F1ED\U0001F1F0 Panda 高级 03 香港"
@@ -2837,10 +2837,10 @@ proxy-groups:
 - name: 日用-手动
   type: select
   proxies:
-  - "[SS] \U0001F1ED\U0001F1F0 YToo 日用  香港"
-  - "[SS] \U0001F1F8\U0001F1EC YToo 日用  狮城"
-  - "[SS] \U0001F1EF\U0001F1F5 YToo 日用  日本"
-  - "[SS] \U0001F1EF\U0001F1F5 YToo 日用  美国"
+  - "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 日用  香港"
+  - "[SS] \U0001F1F8\U0001F1EC YToo \U0001F1F8\U0001F1EC 日用  狮城"
+  - "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 日用  日本"
+  - "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1FA\U0001F1F8 日用  美国"
   - "[VMess] \U0001F1E8\U0001F1F3 Panda 日用 23 台湾"
   - "[VMess] \U0001F1E8\U0001F1F3 Panda 日用 24 台湾"
   - "[VMess] \U0001F1ED\U0001F1F0 Panda 日用 CN2 21 香港"
@@ -2855,10 +2855,10 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: 180
   proxies:
-  - "[SS] \U0001F1ED\U0001F1F0 YToo 日用  香港"
-  - "[SS] \U0001F1F8\U0001F1EC YToo 日用  狮城"
-  - "[SS] \U0001F1EF\U0001F1F5 YToo 日用  日本"
-  - "[SS] \U0001F1EF\U0001F1F5 YToo 日用  美国"
+  - "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 日用  香港"
+  - "[SS] \U0001F1F8\U0001F1EC YToo \U0001F1F8\U0001F1EC 日用  狮城"
+  - "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 日用  日本"
+  - "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1FA\U0001F1F8 日用  美国"
   - "[VMess] \U0001F1E8\U0001F1F3 Panda 日用 23 台湾"
   - "[VMess] \U0001F1E8\U0001F1F3 Panda 日用 24 台湾"
   - "[VMess] \U0001F1ED\U0001F1F0 Panda 日用 CN2 21 香港"
@@ -2874,9 +2874,9 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: 180
   proxies:
-  - "[SS] \U0001F1ED\U0001F1F0 YToo 标准  香港 01"
-  - "[SS] \U0001F1ED\U0001F1F0 YToo 标准  香港 02"
-  - "[SS] \U0001F1ED\U0001F1F0 YToo 标准  香港 03"
+  - "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 标准  香港 01"
+  - "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 标准  香港 02"
+  - "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 标准  香港 03"
   tolerance: 100
 - name: Panda-标准-香港-自动
   type: url-test
@@ -2899,9 +2899,9 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: 180
   proxies:
-  - "[SS] \U0001F1F8\U0001F1EC YToo 标准  狮城 01"
-  - "[SS] \U0001F1F8\U0001F1EC YToo 标准  狮城 02"
-  - "[SS] \U0001F1F8\U0001F1EC YToo 标准  狮城 03"
+  - "[SS] \U0001F1F8\U0001F1EC YToo \U0001F1F8\U0001F1EC 标准  狮城 01"
+  - "[SS] \U0001F1F8\U0001F1EC YToo \U0001F1F8\U0001F1EC 标准  狮城 02"
+  - "[SS] \U0001F1F8\U0001F1EC YToo \U0001F1F8\U0001F1EC 标准  狮城 03"
   tolerance: 100
 - name: Panda-标准-狮城-自动
   type: url-test
@@ -2917,10 +2917,10 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: 180
   proxies:
-  - "[SS] \U0001F1EF\U0001F1F5 YToo 标准  日本 01"
-  - "[SS] \U0001F1EF\U0001F1F5 YToo 标准  日本 02"
-  - "[SS] \U0001F1EF\U0001F1F5 YToo 标准  日本 03"
-  - "[SS] \U0001F1EF\U0001F1F5 YToo 标准  日本 04"
+  - "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 标准  日本 01"
+  - "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 标准  日本 02"
+  - "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 标准  日本 03"
+  - "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 标准  日本 04"
   tolerance: 100
 - name: Panda-标准-日本-自动
   type: url-test
@@ -2934,12 +2934,12 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: 180
   proxies:
-  - "[SS] \U0001F1FA\U0001F1F8 YToo 标准  美国 01"
-  - "[SS] \U0001F1FA\U0001F1F8 YToo 标准  美国 02"
-  - "[SS] \U0001F1FA\U0001F1F8 YToo 标准  美国 03"
-  - "[SS] \U0001F1FA\U0001F1F8 YToo 标准  美国 04"
-  - "[SS] \U0001F1FA\U0001F1F8 YToo 标准  美国 05"
-  - "[SS] \U0001F1FA\U0001F1F8 YToo 标准  美国 06"
+  - "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 标准  美国 01"
+  - "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 标准  美国 02"
+  - "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 标准  美国 03"
+  - "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 标准  美国 04"
+  - "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 标准  美国 05"
+  - "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 标准  美国 06"
   tolerance: 100
 - name: Panda-标准-美国-自动
   type: url-test
@@ -2953,7 +2953,7 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: 180
   proxies:
-  - "[SS] \U0001F1F0\U0001F1F7 YToo 标准  韩国 01"
+  - "[SS] \U0001F1F0\U0001F1F7 YToo \U0001F1F0\U0001F1F7 标准  韩国 01"
   tolerance: 100
 - name: Panda-标准-韩国-自动
   type: url-test
@@ -2967,7 +2967,7 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: 180
   proxies:
-  - "[SS] \U0001F1E8\U0001F1F3 YToo 标准  台湾 01"
+  - "[SS] \U0001F1E8\U0001F1F3 YToo \U0001F1E8\U0001F1F3 标准  台湾 01"
   tolerance: 100
 - name: Panda-标准-台湾-自动
   type: url-test
@@ -2986,14 +2986,14 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: 180
   proxies:
-  - "[SS] \U0001F1ED\U0001F1F0 YToo 高级  香港 01"
-  - "[SS] \U0001F1ED\U0001F1F0 YToo 高级  香港 02"
-  - "[SS] \U0001F1ED\U0001F1F0 YToo 高级  香港 03"
-  - "[SS] \U0001F1ED\U0001F1F0 YToo 高级  香港 04"
-  - "[SS] \U0001F1ED\U0001F1F0 YToo 高级  香港 05"
-  - "[SS] \U0001F1ED\U0001F1F0 YToo 高级  香港 06"
-  - "[SS] \U0001F1ED\U0001F1F0 YToo 高级  香港 07"
-  - "[SS] \U0001F1ED\U0001F1F0 YToo 高级  香港 08"
+  - "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 高级  香港 01"
+  - "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 高级  香港 02"
+  - "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 高级  香港 03"
+  - "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 高级  香港 04"
+  - "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 高级  香港 05"
+  - "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 高级  香港 06"
+  - "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 高级  香港 07"
+  - "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 高级  香港 08"
   tolerance: 100
 - name: Panda-高级-香港-自动
   type: url-test
@@ -3015,11 +3015,11 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: 180
   proxies:
-  - "[SS] \U0001F1F8\U0001F1EC YToo 高级  狮城 01"
-  - "[SS] \U0001F1F8\U0001F1EC YToo 高级  狮城 02"
-  - "[SS] \U0001F1F8\U0001F1EC YToo 高级  狮城 03"
-  - "[SS] \U0001F1F8\U0001F1EC YToo 高级  狮城 04"
-  - "[SS] \U0001F1F8\U0001F1EC YToo 高级  狮城 05"
+  - "[SS] \U0001F1F8\U0001F1EC YToo \U0001F1F8\U0001F1EC 高级  狮城 01"
+  - "[SS] \U0001F1F8\U0001F1EC YToo \U0001F1F8\U0001F1EC 高级  狮城 02"
+  - "[SS] \U0001F1F8\U0001F1EC YToo \U0001F1F8\U0001F1EC 高级  狮城 03"
+  - "[SS] \U0001F1F8\U0001F1EC YToo \U0001F1F8\U0001F1EC 高级  狮城 04"
+  - "[SS] \U0001F1F8\U0001F1EC YToo \U0001F1F8\U0001F1EC 高级  狮城 05"
   tolerance: 100
 - name: Panda-高级-狮城-自动
   type: url-test
@@ -3036,14 +3036,14 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: 180
   proxies:
-  - "[SS] \U0001F1EF\U0001F1F5 YToo 高级  日本 01"
-  - "[SS] \U0001F1EF\U0001F1F5 YToo 高级  日本 02"
-  - "[SS] \U0001F1EF\U0001F1F5 YToo 高级  日本 03"
-  - "[SS] \U0001F1EF\U0001F1F5 YToo 高级  日本 04"
-  - "[SS] \U0001F1EF\U0001F1F5 YToo 高级  日本 05"
-  - "[SS] \U0001F1EF\U0001F1F5 YToo 高级  日本 06"
-  - "[SS] \U0001F1EF\U0001F1F5 YToo 高级  日本 07"
-  - "[SS] \U0001F1EF\U0001F1F5 YToo 高级  日本 08"
+  - "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 高级  日本 01"
+  - "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 高级  日本 02"
+  - "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 高级  日本 03"
+  - "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 高级  日本 04"
+  - "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 高级  日本 05"
+  - "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 高级  日本 06"
+  - "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 高级  日本 07"
+  - "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 高级  日本 08"
   tolerance: 100
 - name: Panda-高级-日本-自动
   type: url-test
@@ -3060,16 +3060,16 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: 180
   proxies:
-  - "[SS] \U0001F1FA\U0001F1F8 YToo 高级  美国 01"
-  - "[SS] \U0001F1FA\U0001F1F8 YToo 高级  美国 02"
-  - "[SS] \U0001F1FA\U0001F1F8 YToo 高级  美国 03"
-  - "[SS] \U0001F1FA\U0001F1F8 YToo 高级  美国 04"
-  - "[SS] \U0001F1FA\U0001F1F8 YToo 高级  美国 05"
-  - "[SS] \U0001F1FA\U0001F1F8 YToo 高级  美国 06"
-  - "[SS] \U0001F1FA\U0001F1F8 YToo 高级  美国 07"
-  - "[SS] \U0001F1FA\U0001F1F8 YToo 高级  美国 08"
-  - "[SS] \U0001F1FA\U0001F1F8 YToo 高级  美国 09"
-  - "[SS] \U0001F1FA\U0001F1F8 YToo 高级  美国 10"
+  - "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 高级  美国 01"
+  - "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 高级  美国 02"
+  - "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 高级  美国 03"
+  - "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 高级  美国 04"
+  - "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 高级  美国 05"
+  - "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 高级  美国 06"
+  - "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 高级  美国 07"
+  - "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 高级  美国 08"
+  - "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 高级  美国 09"
+  - "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 高级  美国 10"
   tolerance: 100
 - name: Panda-高级-美国-自动
   type: url-test
@@ -3086,8 +3086,8 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: 180
   proxies:
-  - "[SS] \U0001F1F0\U0001F1F7 YToo 高级  韩国 01"
-  - "[SS] \U0001F1F0\U0001F1F7 YToo 高级  韩国 02"
+  - "[SS] \U0001F1F0\U0001F1F7 YToo \U0001F1F0\U0001F1F7 高级  韩国 01"
+  - "[SS] \U0001F1F0\U0001F1F7 YToo \U0001F1F0\U0001F1F7 高级  韩国 02"
   tolerance: 100
 - name: Panda-高级-韩国-自动
   type: url-test
@@ -3101,8 +3101,8 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: 180
   proxies:
-  - "[SS] \U0001F1E8\U0001F1F3 YToo 高级  台湾 01"
-  - "[SS] \U0001F1E8\U0001F1F3 YToo 高级  台湾 02"
+  - "[SS] \U0001F1E8\U0001F1F3 YToo \U0001F1E8\U0001F1F3 高级  台湾 01"
+  - "[SS] \U0001F1E8\U0001F1F3 YToo \U0001F1E8\U0001F1F3 高级  台湾 02"
   tolerance: 100
 - name: Panda-高级-台湾-自动
   type: url-test
@@ -3126,36 +3126,36 @@ proxy-groups:
 - name: 特殊-手动
   type: select
   proxies:
-  - "[SS] \U0001F1EC\U0001F1E7 YToo 特殊  伦敦 01"
-  - "[SS] \U0001F1EC\U0001F1E7 YToo 特殊  伦敦 02"
-  - "[SS] \U0001F1E9\U0001F1EA YToo 特殊  德国 01"
-  - "[SS] \U0001F1E9\U0001F1EA YToo 特殊  德国 02"
-  - "[SS] \U0001F1E7\U0001F1F7 YToo 特殊  巴西 01"
-  - "[SS] \U0001F1E8\U0001F1E6 YToo 特殊  加拿大 01"
-  - "[SS] \U0001F1E8\U0001F1E6 YToo 特殊  加拿大 02"
-  - "[SS] \U0001F1F9\U0001F1F7 YToo 特殊  土耳其 01"
-  - "[SS] \U0001F1F9\U0001F1F7 YToo 特殊  土耳其 02"
-  - "[SS] \U0001F1F9\U0001F1ED YToo 特殊  泰国"
-  - "[SS] \U0001F1FB\U0001F1F3 YToo 特殊  越南"
-  - "[SS] \U0001F1EE\U0001F1F3 YToo 特殊  印度"
-  - "[SS] \U0001F1E6\U0001F1FA YToo 特殊  悉尼"
-  - "[SS] \U0001F1E6\U0001F1EA YToo 特殊  迪拜"
-  - "[SS] \U0001F1EB\U0001F1F7 YToo 特殊  法国"
-  - "[SS] \U0001F1F3\U0001F1F1 YToo 特殊  荷兰"
-  - "[SS] \U0001F1EE\U0001F1E9 YToo 特殊  印尼"
-  - "[SS] \U0001F1FF\U0001F1E6 YToo 特殊  南非"
-  - "[SS] \U0001F1EA\U0001F1EC YToo 特殊  埃及"
-  - "[SS] \U0001F1F5\U0001F1ED YToo 特殊  菲律宾"
-  - "[SS] \U0001F1EE\U0001F1F9 YToo 特殊  意大利"
-  - "[SS] \U0001F1EA\U0001F1F8 YToo 特殊  西班牙"
-  - "[SS] \U0001F1ED\U0001F1FA YToo 特殊  匈牙利"
-  - "[SS] \U0001F1EE\U0001F1F1 YToo 特殊  以色列"
-  - "[SS] \U0001F1FA\U0001F1E6 YToo 特殊  乌克兰"
-  - "[SS] \U0001F1F7\U0001F1FA YToo 特殊  俄罗斯"
-  - "[SS] \U0001F1F2\U0001F1FE YToo 特殊  马来西亚"
-  - "[SS] \U0001F1F3\U0001F1EC YToo 特殊  尼日利亚"
-  - "[SS] \U0001F1F5\U0001F1F0 YToo 特殊  巴基斯坦"
-  - "[SS] \U0001F1F2\U0001F1E9 YToo 特殊  摩尔多瓦"
+  - "[SS] \U0001F1EC\U0001F1E7 YToo \U0001F1EC\U0001F1E7 特殊  伦敦 01"
+  - "[SS] \U0001F1EC\U0001F1E7 YToo \U0001F1EC\U0001F1E7 特殊  伦敦 02"
+  - "[SS] \U0001F1E9\U0001F1EA YToo \U0001F1E9\U0001F1EA 特殊  德国 01"
+  - "[SS] \U0001F1E9\U0001F1EA YToo \U0001F1E9\U0001F1EA 特殊  德国 02"
+  - "[SS] \U0001F1E7\U0001F1F7 YToo \U0001F1E7\U0001F1F7 特殊  巴西 01"
+  - "[SS] \U0001F1E8\U0001F1E6 YToo \U0001F1E8\U0001F1E6 特殊  加拿大 01"
+  - "[SS] \U0001F1E8\U0001F1E6 YToo \U0001F1E8\U0001F1E6 特殊  加拿大 02"
+  - "[SS] \U0001F1F9\U0001F1F7 YToo \U0001F1F9\U0001F1F7 特殊  土耳其 01"
+  - "[SS] \U0001F1F9\U0001F1F7 YToo \U0001F1F9\U0001F1F7 特殊  土耳其 02"
+  - "[SS] \U0001F1F9\U0001F1ED YToo \U0001F1F9\U0001F1ED 特殊  泰国"
+  - "[SS] \U0001F1FB\U0001F1F3 YToo \U0001F1FB\U0001F1F3 特殊  越南"
+  - "[SS] \U0001F1EE\U0001F1F3 YToo \U0001F1EE\U0001F1F3 特殊  印度"
+  - "[SS] \U0001F1E6\U0001F1FA YToo \U0001F1E6\U0001F1FA 特殊  悉尼"
+  - "[SS] \U0001F1E6\U0001F1EA YToo \U0001F1E6\U0001F1EA 特殊  迪拜"
+  - "[SS] \U0001F1EB\U0001F1F7 YToo \U0001F1EB\U0001F1F7 特殊  法国"
+  - "[SS] \U0001F1F3\U0001F1F1 YToo \U0001F1F3\U0001F1F1 特殊  荷兰"
+  - "[SS] \U0001F1EE\U0001F1E9 YToo \U0001F1EE\U0001F1E9 特殊  印尼"
+  - "[SS] \U0001F1FF\U0001F1E6 YToo \U0001F1FF\U0001F1E6 特殊  南非"
+  - "[SS] \U0001F1EA\U0001F1EC YToo \U0001F1EA\U0001F1EC 特殊  埃及"
+  - "[SS] \U0001F1F5\U0001F1ED YToo \U0001F1F5\U0001F1ED 特殊  菲律宾"
+  - "[SS] \U0001F1EE\U0001F1F9 YToo \U0001F1EE\U0001F1F9 特殊  意大利"
+  - "[SS] \U0001F1EA\U0001F1F8 YToo \U0001F1EA\U0001F1F8 特殊  西班牙"
+  - "[SS] \U0001F1ED\U0001F1FA YToo \U0001F1ED\U0001F1FA 特殊  匈牙利"
+  - "[SS] \U0001F1EE\U0001F1F1 YToo \U0001F1EE\U0001F1F1 特殊  以色列"
+  - "[SS] \U0001F1FA\U0001F1E6 YToo \U0001F1FA\U0001F1E6 特殊  乌克兰"
+  - "[SS] \U0001F1F7\U0001F1FA YToo \U0001F1F7\U0001F1FA 特殊  俄罗斯"
+  - "[SS] \U0001F1F2\U0001F1FE YToo \U0001F1F2\U0001F1FE 特殊  马来西亚"
+  - "[SS] \U0001F1F3\U0001F1EC YToo \U0001F1EF\U0001F1F5 特殊  尼日利亚"
+  - "[SS] \U0001F1F5\U0001F1F0 YToo \U0001F1F5\U0001F1F0 特殊  巴基斯坦"
+  - "[SS] \U0001F1F2\U0001F1E9 YToo \U0001F1F2\U0001F1E9 特殊  摩尔多瓦"
   - "[VMess] \U0001F1F2\U0001F1FE Panda 特殊 39 马来西亚"
   - "[VMess] \U0001F1F2\U0001F1F4 Panda 特殊 49 澳门"
   - "[VMess] \U0001F1F5\U0001F1ED Panda 特殊 36 菲律宾"
@@ -5553,7 +5553,6 @@ rules:
 - "DOMAIN-SUFFIX,applepaysupplies.tv,\U0001F34E Apple"
 - "DOMAIN-SUFFIX,applewallet.com,\U0001F34E Apple"
 - "DOMAIN-SUFFIX,applewallet.tv,\U0001F34E Apple"
-- "DOMAIN-SUFFIX,appsto.re,\U0001F34E Apple"
 - "DOMAIN-SUFFIX,appstore.co.id,\U0001F34E Apple"
 - "DOMAIN-SUFFIX,appstore.com,\U0001F34E Apple"
 - "DOMAIN-SUFFIX,appstore.hk,\U0001F34E Apple"
@@ -5829,7 +5828,6 @@ rules:
 - "DOMAIN-SUFFIX,wwwipodlounge.com,\U0001F34E Apple"
 - "DOMAIN-SUFFIX,wwwmacbookair.com,\U0001F34E Apple"
 - "DOMAIN-SUFFIX,apple.comscoreresearch.com,\U0001F34E Apple"
-- "DOMAIN-SUFFIX,apple.news,\U0001F34E Apple"
 - "DOMAIN-SUFFIX,appleenews.com,\U0001F34E Apple"
 - "DOMAIN-SUFFIX,applemusic.berlin,\U0001F34E Apple"
 - "DOMAIN-SUFFIX,applemusic.co,\U0001F34E Apple"
@@ -5867,6 +5865,8 @@ rules:
 - "DOMAIN-SUFFIX,musickit.net,\U0001F34E Apple"
 - "DOMAIN-SUFFIX,wwwapplemusic.com,\U0001F34E Apple"
 - "DOMAIN-SUFFIX,apple-dns.net,\U0001F34E Apple"
+- "DOMAIN-SUFFIX,apple.news,\U0001F34E Apple"
+- "DOMAIN-SUFFIX,appsto.re,\U0001F34E Apple"
 - "DOMAIN-SUFFIX,digicert.com,\U0001F34E Apple"
 - "DOMAIN-SUFFIX,apple-cloudkit.com,\U0001F34E Apple"
 - "DOMAIN-SUFFIX,apple-icloud.cn,\U0001F34E Apple"
@@ -14425,6 +14425,22 @@ rules:
 - "DOMAIN-SUFFIX,cctv.com,\U0001F3AF 全球直连"
 - "DOMAIN-SUFFIX,cctvpic.com,\U0001F3AF 全球直连"
 - "DOMAIN-SUFFIX,livechina.com,\U0001F3AF 全球直连"
+- "DOMAIN,auth.wosms.cn,\U0001F3AF 全球直连"
+- "DOMAIN,config.cmpassport.com,\U0001F3AF 全球直连"
+- "DOMAIN,enrichgw.10010.com,\U0001F3AF 全球直连"
+- "DOMAIN,hmrz.wo.cn,\U0001F3AF 全球直连"
+- "DOMAIN,id.mail.wo.cn,\U0001F3AF 全球直连"
+- "DOMAIN,log.cmpassport.com,\U0001F3AF 全球直连"
+- "DOMAIN,log1.cmpassport.com,\U0001F3AF 全球直连"
+- "DOMAIN,mdn.open.wo.cn,\U0001F3AF 全球直连"
+- "DOMAIN,nishub1.10010.com,\U0001F3AF 全球直连"
+- "DOMAIN,opencloud.wostore.cn,\U0001F3AF 全球直连"
+- "DOMAIN,ye.dun.163yun.com,\U0001F3AF 全球直连"
+- "DOMAIN-SUFFIX,auth.wo.cn,\U0001F3AF 全球直连"
+- "DOMAIN-SUFFIX,cmpassport.com,\U0001F3AF 全球直连"
+- "DOMAIN-SUFFIX,id6.me,\U0001F3AF 全球直连"
+- "DOMAIN-SUFFIX,mob.com,\U0001F3AF 全球直连"
+- "DOMAIN-SUFFIX,open.e.189.cn,\U0001F3AF 全球直连"
 - "DOMAIN-SUFFIX,21cn.com,\U0001F3AF 全球直连"
 - "DOMAIN-SUFFIX,didialift.com,\U0001F3AF 全球直连"
 - "DOMAIN-SUFFIX,didiglobal.com,\U0001F3AF 全球直连"
@@ -14433,6 +14449,7 @@ rules:
 - "DOMAIN-SUFFIX,edgesrv.com,\U0001F3AF 全球直连"
 - "DOMAIN-SUFFIX,douyu.com,\U0001F3AF 全球直连"
 - "DOMAIN-SUFFIX,douyu.tv,\U0001F3AF 全球直连"
+- "DOMAIN-SUFFIX,douyucdn.cn,\U0001F3AF 全球直连"
 - "DOMAIN-SUFFIX,douyuscdn.com,\U0001F3AF 全球直连"
 - "DOMAIN-SUFFIX,douyutv.com,\U0001F3AF 全球直连"
 - "DOMAIN-SUFFIX,epicgames.com,\U0001F3AF 全球直连"
@@ -16636,7 +16653,6 @@ rules:
 - "DOMAIN-SUFFIX,hdcmct.org,\U0001F3AF 全球直连"
 - "DOMAIN-SUFFIX,hddolby.com,\U0001F3AF 全球直连"
 - "DOMAIN-SUFFIX,hdhome.org,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,hdsky.me,\U0001F3AF 全球直连"
 - "DOMAIN-SUFFIX,hdslb.com,\U0001F3AF 全球直连"
 - "DOMAIN-SUFFIX,hdslb.org,\U0001F3AF 全球直连"
 - "DOMAIN-SUFFIX,hdyxgame.com,\U0001F3AF 全球直连"
@@ -17479,7 +17495,6 @@ rules:
 - "DOMAIN-SUFFIX,mukewang.com,\U0001F3AF 全球直连"
 - "DOMAIN-SUFFIX,mumayi.com,\U0001F3AF 全球直连"
 - "DOMAIN-SUFFIX,muomou.com,\U0001F3AF 全球直连"
-- "DOMAIN-SUFFIX,musical.ly,\U0001F3AF 全球直连"
 - "DOMAIN-SUFFIX,muwai.com,\U0001F3AF 全球直连"
 - "DOMAIN-SUFFIX,muyewx.com,\U0001F3AF 全球直连"
 - "DOMAIN-SUFFIX,muzhiwan.com,\U0001F3AF 全球直连"
