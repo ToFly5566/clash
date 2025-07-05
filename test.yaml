@@ -1,7 +1,3 @@
-# Clash.Meta (mihomo) 高级规则完整版
-# 节点由 proxy-providers 动态加载，无需手工粘贴节点
-# 策略组、分流、规则一应俱全，适合多机场自动分组使用
-
 port: 7890
 socks-port: 7891
 mixed-port: 7892
@@ -10,241 +6,252 @@ mode: rule
 log-level: info
 external-controller: 127.0.0.1:9090
 
-# 节点订阅远程源
 proxy-providers:
-  ALL-IN-ONE:
+  all-in-one:
     type: http
-    url: "http://192.168.199.15:3001/CKg2abstVnOeRpm1aB4G/download/collection/ALL%20IN%20ONE?target=Stash"
+    url: "http://192.168.199.15:3001/CKg2abstVnOeRpm1aB4G/download/collection/ALL%20IN%20ONE?target=ClashMeta"
     interval: 3600
-    path: ./providers/ALL-IN-ONE.yaml
+    path: ./providers/all-in-one.yaml
     health-check:
       enable: true
       url: http://www.gstatic.com/generate_204
       interval: 600
 
-  reality-OP8:
-    type: http
-    url: "http://192.168.199.15:3001/CKg2abstVnOeRpm1aB4G/download/%E7%94%B2%E9%AA%A8%E6%96%87-reality-OP.8?target=ClashMeta"
-    interval: 3600
-    path: ./providers/reality-OP8.yaml
-    health-check:
-      enable: true
-      url: http://www.gstatic.com/generate_204
-      interval: 600
-
-  外部emby:
-    type: http
-    url: "http://192.168.199.15:3001/CKg2abstVnOeRpm1aB4G/download/%E5%A4%96%E9%83%A8emby?target=ClashMeta"
-    interval: 3600
-    path: ./providers/外部emby.yaml
-    health-check:
-      enable: true
-      url: http://www.gstatic.com/generate_204
-      interval: 600
-
-# 智能分组全 smart（lightgbm），其它按需 select
 proxy-groups:
   - name: 🎞️ panda-emby
     type: select
-    use: [ALL-IN-ONE, reality-OP8, 外部emby]
-    proxies:
-      - 福利-手动
+    use: [all-in-one]
+    proxies: [福利-手动]
   - name: 🎞️ panda-emby-2
     type: select
-    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    use: [all-in-one]
+    proxies: [外部Emby-手动]
+  - name: ✨ Claude
+    type: select
+    use: [all-in-one]
     proxies:
-      - 外部Emby-手动
+      - DIRECT
+      - 所有-手动
+      - 日用-智选
+      - 日用-手动
+      - 免费-智选
+      - YToo-标准-香港-智选
+      - Panda-标准-香港-智选
+      - YToo-标准-狮城-智选
+      - Panda-标准-狮城-智选
+      - YToo-标准-日本-智选
+      - Panda-标准-日本-智选
+      - YToo-标准-美国-智选
+      - Panda-标准-美国-智选
+      - YToo-标准-韩国-智选
+      - Panda-标准-韩国-智选
+      - YToo-标准-台湾-智选
+      - Panda-标准-台湾-智选
+      - YToo-高级-香港-智选
+      - Panda-高级-香港-智选
+      - YToo-高级-狮城-智选
+      - Panda-高级-狮城-智选
+      - YToo-高级-日本-智选
+      - Panda-高级-日本-智选
+      - YToo-高级-美国-智选
+      - Panda-高级-美国-智选
+      - YToo-高级-韩国-智选
+      - Panda-高级-韩国-智选
+      - YToo-高级-台湾-智选
+      - Panda-高级-台湾-智选
+      - 家宽-手动
+      - 特殊-手动
+      - REJECT
 
-  # 智选组全 smart
+  # 智选 smart
   - name: 免费-智选
     type: smart
-    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    use: [all-in-one]
     proxies: [免费]
     strategy: lightgbm
     url: http://www.gstatic.com/generate_204
     interval: 600
   - name: 日用-智选
     type: smart
-    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    use: [all-in-one]
     proxies: [日用]
     strategy: lightgbm
     url: http://www.gstatic.com/generate_204
     interval: 600
   - name: YToo-标准-香港-智选
     type: smart
-    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    use: [all-in-one]
     strategy: lightgbm
     url: http://www.gstatic.com/generate_204
     interval: 600
   - name: Panda-标准-香港-智选
     type: smart
-    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    use: [all-in-one]
     strategy: lightgbm
     url: http://www.gstatic.com/generate_204
     interval: 600
   - name: YToo-标准-狮城-智选
     type: smart
-    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    use: [all-in-one]
     strategy: lightgbm
     url: http://www.gstatic.com/generate_204
     interval: 600
   - name: Panda-标准-狮城-智选
     type: smart
-    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    use: [all-in-one]
     strategy: lightgbm
     url: http://www.gstatic.com/generate_204
     interval: 600
   - name: YToo-标准-日本-智选
     type: smart
-    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    use: [all-in-one]
     strategy: lightgbm
     url: http://www.gstatic.com/generate_204
     interval: 600
   - name: Panda-标准-日本-智选
     type: smart
-    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    use: [all-in-one]
     strategy: lightgbm
     url: http://www.gstatic.com/generate_204
     interval: 600
   - name: YToo-标准-美国-智选
     type: smart
-    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    use: [all-in-one]
     strategy: lightgbm
     url: http://www.gstatic.com/generate_204
     interval: 600
   - name: Panda-标准-美国-智选
     type: smart
-    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    use: [all-in-one]
     strategy: lightgbm
     url: http://www.gstatic.com/generate_204
     interval: 600
   - name: YToo-标准-韩国-智选
     type: smart
-    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    use: [all-in-one]
     strategy: lightgbm
     url: http://www.gstatic.com/generate_204
     interval: 600
   - name: Panda-标准-韩国-智选
     type: smart
-    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    use: [all-in-one]
     strategy: lightgbm
     url: http://www.gstatic.com/generate_204
     interval: 600
   - name: YToo-标准-台湾-智选
     type: smart
-    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    use: [all-in-one]
     strategy: lightgbm
     url: http://www.gstatic.com/generate_204
     interval: 600
   - name: Panda-标准-台湾-智选
     type: smart
-    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    use: [all-in-one]
     strategy: lightgbm
     url: http://www.gstatic.com/generate_204
     interval: 600
   - name: YToo-高级-香港-智选
     type: smart
-    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    use: [all-in-one]
     strategy: lightgbm
     url: http://www.gstatic.com/generate_204
     interval: 600
   - name: Panda-高级-香港-智选
     type: smart
-    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    use: [all-in-one]
     strategy: lightgbm
     url: http://www.gstatic.com/generate_204
     interval: 600
   - name: YToo-高级-狮城-智选
     type: smart
-    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    use: [all-in-one]
     strategy: lightgbm
     url: http://www.gstatic.com/generate_204
     interval: 600
   - name: Panda-高级-狮城-智选
     type: smart
-    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    use: [all-in-one]
     strategy: lightgbm
     url: http://www.gstatic.com/generate_204
     interval: 600
   - name: YToo-高级-日本-智选
     type: smart
-    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    use: [all-in-one]
     strategy: lightgbm
     url: http://www.gstatic.com/generate_204
     interval: 600
   - name: Panda-高级-日本-智选
     type: smart
-    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    use: [all-in-one]
     strategy: lightgbm
     url: http://www.gstatic.com/generate_204
     interval: 600
   - name: YToo-高级-美国-智选
     type: smart
-    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    use: [all-in-one]
     strategy: lightgbm
     url: http://www.gstatic.com/generate_204
     interval: 600
   - name: Panda-高级-美国-智选
     type: smart
-    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    use: [all-in-one]
     strategy: lightgbm
     url: http://www.gstatic.com/generate_204
     interval: 600
   - name: YToo-高级-韩国-智选
     type: smart
-    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    use: [all-in-one]
     strategy: lightgbm
     url: http://www.gstatic.com/generate_204
     interval: 600
   - name: Panda-高级-韩国-智选
     type: smart
-    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    use: [all-in-one]
     strategy: lightgbm
     url: http://www.gstatic.com/generate_204
     interval: 600
   - name: YToo-高级-台湾-智选
     type: smart
-    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    use: [all-in-one]
     strategy: lightgbm
     url: http://www.gstatic.com/generate_204
     interval: 600
   - name: Panda-高级-台湾-智选
     type: smart
-    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    use: [all-in-one]
     strategy: lightgbm
     url: http://www.gstatic.com/generate_204
     interval: 600
 
-  # 其他节点组
   - name: 所有-手动
     type: select
-    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    use: [all-in-one]
   - name: 福利-手动
     type: select
-    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    use: [all-in-one]
     proxies: [福利]
   - name: 外部Emby-手动
     type: select
-    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    use: [all-in-one]
     proxies: [外部Emby]
   - name: 日用-手动
     type: select
-    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    use: [all-in-one]
     proxies: [日用]
   - name: 家宽-手动
     type: select
-    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    use: [all-in-one]
     proxies: [家宽]
   - name: 特殊-手动
     type: select
-    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    use: [all-in-one]
     proxies: [特殊]
   - name: 🎯 全球直连
     type: select
     proxies: [DIRECT]
   - name: 🐟 漏网之鱼
     type: select
-    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    use: [all-in-one]
     proxies:
       - DIRECT
       - 所有-手动
@@ -252,7 +259,6 @@ proxy-groups:
       - 日用-手动
       - 免费-智选
 
-# 规则集（rule-providers）和分流
 rule-providers:
   🎞️ panda-emby:
     type: http
@@ -378,4 +384,27 @@ rule-providers:
 rules:
   - RULE-SET,🎞️ panda-emby,🎞️ panda-emby
   - RULE-SET,🎞️ panda-emby-2,🎞️ panda-emby-2
-  - RULE-SET,✨ Claude,
+  - RULE-SET,✨ Claude,✨ Claude
+  - RULE-SET,✨ ChatGPT,✨ Claude
+  - RULE-SET,✨ Gemini,✨ Claude
+  - RULE-SET,✨ Copilot,✨ Claude
+  - RULE-SET,✨ Perplexity,✨ Claude
+  - RULE-SET,📘 !JP,🎯 全球直连
+  - RULE-SET,👌 FCM,🎯 全球直连
+  - RULE-SET,👌 Google,🎯 全球直连
+  - RULE-SET,📘 GitHub,🎯 全球直连
+  - RULE-SET,🙋 Telegram,🎯 全球直连
+  - RULE-SET,🕊️ Twitter(X),🎯 全球直连
+  - RULE-SET,🌳 Amazon,🎯 全球直连
+  - RULE-SET,🍎 Apple,🎯 全球直连
+  - RULE-SET,Ⓜ️ Microsoft,🎯 全球直连
+  - RULE-SET,🎞️ YouTube,🎯 全球直连
+  - RULE-SET,📺 Disney,🎯 全球直连
+  - RULE-SET,🎥 Netflix,🎯 全球直连
+  - RULE-SET,🎬 HBO MAX,🎯 全球直连
+  - RULE-SET,🎬 其他媒体,🎯 全球直连
+  - RULE-SET,⏱️ 测速,🎯 全球直连
+  - RULE-SET,🚀 节点选择,🐟 漏网之鱼
+  - RULE-SET,🎯 全球直连,🎯 全球直连
+  - GEOIP,CN,🎯 全球直连
+  - MATCH,🐟 漏网之鱼
