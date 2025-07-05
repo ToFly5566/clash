@@ -1,0 +1,381 @@
+# Clash.Meta (mihomo) 高级规则完整版
+# 节点由 proxy-providers 动态加载，无需手工粘贴节点
+# 策略组、分流、规则一应俱全，适合多机场自动分组使用
+
+port: 7890
+socks-port: 7891
+mixed-port: 7892
+allow-lan: true
+mode: rule
+log-level: info
+external-controller: 127.0.0.1:9090
+
+# 节点订阅远程源
+proxy-providers:
+  ALL-IN-ONE:
+    type: http
+    url: "http://192.168.199.15:3001/CKg2abstVnOeRpm1aB4G/download/collection/ALL%20IN%20ONE?target=Stash"
+    interval: 3600
+    path: ./providers/ALL-IN-ONE.yaml
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 600
+
+  reality-OP8:
+    type: http
+    url: "http://192.168.199.15:3001/CKg2abstVnOeRpm1aB4G/download/%E7%94%B2%E9%AA%A8%E6%96%87-reality-OP.8?target=ClashMeta"
+    interval: 3600
+    path: ./providers/reality-OP8.yaml
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 600
+
+  外部emby:
+    type: http
+    url: "http://192.168.199.15:3001/CKg2abstVnOeRpm1aB4G/download/%E5%A4%96%E9%83%A8emby?target=ClashMeta"
+    interval: 3600
+    path: ./providers/外部emby.yaml
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 600
+
+# 智能分组全 smart（lightgbm），其它按需 select
+proxy-groups:
+  - name: 🎞️ panda-emby
+    type: select
+    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    proxies:
+      - 福利-手动
+  - name: 🎞️ panda-emby-2
+    type: select
+    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    proxies:
+      - 外部Emby-手动
+
+  # 智选组全 smart
+  - name: 免费-智选
+    type: smart
+    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    proxies: [免费]
+    strategy: lightgbm
+    url: http://www.gstatic.com/generate_204
+    interval: 600
+  - name: 日用-智选
+    type: smart
+    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    proxies: [日用]
+    strategy: lightgbm
+    url: http://www.gstatic.com/generate_204
+    interval: 600
+  - name: YToo-标准-香港-智选
+    type: smart
+    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    strategy: lightgbm
+    url: http://www.gstatic.com/generate_204
+    interval: 600
+  - name: Panda-标准-香港-智选
+    type: smart
+    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    strategy: lightgbm
+    url: http://www.gstatic.com/generate_204
+    interval: 600
+  - name: YToo-标准-狮城-智选
+    type: smart
+    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    strategy: lightgbm
+    url: http://www.gstatic.com/generate_204
+    interval: 600
+  - name: Panda-标准-狮城-智选
+    type: smart
+    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    strategy: lightgbm
+    url: http://www.gstatic.com/generate_204
+    interval: 600
+  - name: YToo-标准-日本-智选
+    type: smart
+    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    strategy: lightgbm
+    url: http://www.gstatic.com/generate_204
+    interval: 600
+  - name: Panda-标准-日本-智选
+    type: smart
+    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    strategy: lightgbm
+    url: http://www.gstatic.com/generate_204
+    interval: 600
+  - name: YToo-标准-美国-智选
+    type: smart
+    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    strategy: lightgbm
+    url: http://www.gstatic.com/generate_204
+    interval: 600
+  - name: Panda-标准-美国-智选
+    type: smart
+    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    strategy: lightgbm
+    url: http://www.gstatic.com/generate_204
+    interval: 600
+  - name: YToo-标准-韩国-智选
+    type: smart
+    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    strategy: lightgbm
+    url: http://www.gstatic.com/generate_204
+    interval: 600
+  - name: Panda-标准-韩国-智选
+    type: smart
+    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    strategy: lightgbm
+    url: http://www.gstatic.com/generate_204
+    interval: 600
+  - name: YToo-标准-台湾-智选
+    type: smart
+    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    strategy: lightgbm
+    url: http://www.gstatic.com/generate_204
+    interval: 600
+  - name: Panda-标准-台湾-智选
+    type: smart
+    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    strategy: lightgbm
+    url: http://www.gstatic.com/generate_204
+    interval: 600
+  - name: YToo-高级-香港-智选
+    type: smart
+    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    strategy: lightgbm
+    url: http://www.gstatic.com/generate_204
+    interval: 600
+  - name: Panda-高级-香港-智选
+    type: smart
+    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    strategy: lightgbm
+    url: http://www.gstatic.com/generate_204
+    interval: 600
+  - name: YToo-高级-狮城-智选
+    type: smart
+    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    strategy: lightgbm
+    url: http://www.gstatic.com/generate_204
+    interval: 600
+  - name: Panda-高级-狮城-智选
+    type: smart
+    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    strategy: lightgbm
+    url: http://www.gstatic.com/generate_204
+    interval: 600
+  - name: YToo-高级-日本-智选
+    type: smart
+    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    strategy: lightgbm
+    url: http://www.gstatic.com/generate_204
+    interval: 600
+  - name: Panda-高级-日本-智选
+    type: smart
+    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    strategy: lightgbm
+    url: http://www.gstatic.com/generate_204
+    interval: 600
+  - name: YToo-高级-美国-智选
+    type: smart
+    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    strategy: lightgbm
+    url: http://www.gstatic.com/generate_204
+    interval: 600
+  - name: Panda-高级-美国-智选
+    type: smart
+    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    strategy: lightgbm
+    url: http://www.gstatic.com/generate_204
+    interval: 600
+  - name: YToo-高级-韩国-智选
+    type: smart
+    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    strategy: lightgbm
+    url: http://www.gstatic.com/generate_204
+    interval: 600
+  - name: Panda-高级-韩国-智选
+    type: smart
+    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    strategy: lightgbm
+    url: http://www.gstatic.com/generate_204
+    interval: 600
+  - name: YToo-高级-台湾-智选
+    type: smart
+    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    strategy: lightgbm
+    url: http://www.gstatic.com/generate_204
+    interval: 600
+  - name: Panda-高级-台湾-智选
+    type: smart
+    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    strategy: lightgbm
+    url: http://www.gstatic.com/generate_204
+    interval: 600
+
+  # 其他节点组
+  - name: 所有-手动
+    type: select
+    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+  - name: 福利-手动
+    type: select
+    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    proxies: [福利]
+  - name: 外部Emby-手动
+    type: select
+    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    proxies: [外部Emby]
+  - name: 日用-手动
+    type: select
+    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    proxies: [日用]
+  - name: 家宽-手动
+    type: select
+    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    proxies: [家宽]
+  - name: 特殊-手动
+    type: select
+    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    proxies: [特殊]
+  - name: 🎯 全球直连
+    type: select
+    proxies: [DIRECT]
+  - name: 🐟 漏网之鱼
+    type: select
+    use: [ALL-IN-ONE, reality-OP8, 外部emby]
+    proxies:
+      - DIRECT
+      - 所有-手动
+      - 日用-智选
+      - 日用-手动
+      - 免费-智选
+
+# 规则集（rule-providers）和分流
+rule-providers:
+  🎞️ panda-emby:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/ToFly5566/clash/refs/heads/main/panda-emby.list"
+    interval: 86400
+  🎞️ panda-emby-2:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/ToFly5566/clash/refs/heads/main/panda-emby-2.list"
+    interval: 86400
+  ✨ Claude:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Claude/Claude.list"
+    interval: 86400
+  ✨ ChatGPT:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/OpenAI/OpenAI.list"
+    interval: 86400
+  ✨ Gemini:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Gemini/Gemini.list"
+    interval: 86400
+  ✨ Copilot:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Copilot/Copilot.list"
+    interval: 86400
+  ✨ Perplexity:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Ruleset/AI.list"
+    interval: 86400
+  📘 !JP:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/ToFly5566/clash/refs/heads/main/!JP.list"
+    interval: 86400
+  👌 FCM:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/GoogleFCM/GoogleFCM.list"
+    interval: 86400
+  👌 Google:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Google/Google.list"
+    interval: 86400
+  📘 GitHub:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/GitHub/GitHub.list"
+    interval: 86400
+  🙋 Telegram:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.list"
+    interval: 86400
+  🕊️ Twitter(X):
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Twitter/Twitter.list"
+    interval: 86400
+  🌳 Amazon:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Amazon/Amazon.list"
+    interval: 86400
+  🍎 Apple:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple.list"
+    interval: 86400
+  Ⓜ️ Microsoft:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Microsoft/Microsoft.list"
+    interval: 86400
+  🎞️ YouTube:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/YouTube/YouTube.list"
+    interval: 86400
+  📺 Disney:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Disney/Disney.list"
+    interval: 86400
+  🎥 Netflix:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Netflix/Netflix.list"
+    interval: 86400
+  🎬 HBO MAX:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/HBO/HBO.list"
+    interval: 86400
+  🎬 其他媒体:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list"
+    interval: 86400
+  ⏱️ 测速:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/liandu2024/clash/refs/heads/main/Check.list"
+    interval: 86400
+  🚀 节点选择:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/LoveMyself666/ACL4SSR/master/Clash/ProxyGFWlist.list"
+    interval: 86400
+  🎯 全球直连:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list"
+    interval: 86400
+
+rules:
+  - RULE-SET,🎞️ panda-emby,🎞️ panda-emby
+  - RULE-SET,🎞️ panda-emby-2,🎞️ panda-emby-2
+  - RULE-SET,✨ Claude,
