@@ -6,977 +6,17 @@ mode: rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-- name: "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 日用  香港"
+- name: "[Trojan] \U0001F1E6\U0001F1EA YToo 特殊  迪拜"
   server: bepgzbgp01.114837322.xyz
-  port: 14091
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1F8\U0001F1EC YToo \U0001F1F8\U0001F1EC 日用  狮城"
-  server: bepgzbgp01.114837322.xyz
-  port: 14092
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 日用  日本"
-  server: bepshbgp01.114837322.xyz
-  port: 14093
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1FA\U0001F1F8 日用  美国"
-  server: bepshbgp01.114837322.xyz
-  port: 14094
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 高级  香港 01"
-  server: bepgzbgp01.114837322.xyz
-  port: 14101
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 高级  香港 02"
-  server: bepgzbgp01.114837322.xyz
-  port: 14102
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 高级  香港 03"
-  server: bepgzbgp01.114837322.xyz
-  port: 14103
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 高级  香港 04"
-  server: bepgzbgp01.114837322.xyz
-  port: 14104
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 高级  香港 05"
-  server: bepgzbgp01.114837322.xyz
-  port: 14105
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 高级  香港 06"
-  server: bepgzbgp01.114837322.xyz
-  port: 14106
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 高级  香港 07"
-  server: bepgzbgp01.114837322.xyz
-  port: 14107
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 高级  香港 08"
-  server: bepgzbgp01.114837322.xyz
-  port: 14108
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1F8\U0001F1EC YToo \U0001F1F8\U0001F1EC 高级  狮城 01"
-  server: bepgzbgp01.114837322.xyz
-  port: 14111
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1F8\U0001F1EC YToo \U0001F1F8\U0001F1EC 高级  狮城 02"
-  server: bepgzbgp01.114837322.xyz
-  port: 14112
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1F8\U0001F1EC YToo \U0001F1F8\U0001F1EC 高级  狮城 03"
-  server: bepgzbgp01.114837322.xyz
-  port: 14113
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1F8\U0001F1EC YToo \U0001F1F8\U0001F1EC 高级  狮城 04"
-  server: bepgzbgp01.114837322.xyz
-  port: 14114
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1F8\U0001F1EC YToo \U0001F1F8\U0001F1EC 高级  狮城 05"
-  server: bepgzbgp01.114837322.xyz
-  port: 14115
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 高级  美国 01"
-  server: bepshbgp01.114837322.xyz
-  port: 14131
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 高级  美国 02"
-  server: bepshbgp01.114837322.xyz
-  port: 14132
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 高级  美国 03"
-  server: bepshbgp01.114837322.xyz
-  port: 14133
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 高级  美国 04"
-  server: bepshbgp01.114837322.xyz
-  port: 14134
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 高级  美国 05"
-  server: bepshbgp01.114837322.xyz
-  port: 14135
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 高级  美国 06"
-  server: bepshbgp01.114837322.xyz
-  port: 14136
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 高级  美国 07"
-  server: bepshbgp01.114837322.xyz
-  port: 14137
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 高级  美国 08"
-  server: bepshbgp01.114837322.xyz
-  port: 14138
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 高级  美国 09"
-  server: bepshbgp01.114837322.xyz
-  port: 14139
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 高级  美国 10"
-  server: bepshbgp01.114837322.xyz
-  port: 14140
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1F0\U0001F1F7 YToo \U0001F1F0\U0001F1F7 高级  韩国 01"
-  server: bepshbgp01.114837322.xyz
-  port: 14141
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1F0\U0001F1F7 YToo \U0001F1F0\U0001F1F7 高级  韩国 02"
-  server: bepshbgp01.114837322.xyz
-  port: 14142
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1E8\U0001F1F3 YToo \U0001F1E8\U0001F1F3 高级  台湾 01"
-  server: bepgzbgp01.114837322.xyz
-  port: 14151
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1E8\U0001F1F3 YToo \U0001F1E8\U0001F1F3 高级  台湾 02"
-  server: bepgzbgp01.114837322.xyz
-  port: 14152
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 高级  日本 01"
-  server: bepshbgp01.114837322.xyz
-  port: 14121
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 高级  日本 02"
-  server: bepshbgp01.114837322.xyz
-  port: 14122
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 高级  日本 03"
-  server: bepshbgp01.114837322.xyz
-  port: 14123
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 高级  日本 04"
-  server: bepshbgp01.114837322.xyz
-  port: 14124
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 高级  日本 05"
-  server: bepshbgp01.114837322.xyz
-  port: 14125
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 高级  日本 06"
-  server: bepshbgp01.114837322.xyz
-  port: 14126
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 高级  日本 07"
-  server: bepshbgp01.114837322.xyz
-  port: 14127
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 高级  日本 08"
-  server: bepshbgp01.114837322.xyz
-  port: 14128
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 标准  香港 01"
-  server: bepgzbgp01.114837322.xyz
-  port: 14001
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 标准  香港 02"
-  server: bepgzbgp01.114837322.xyz
-  port: 14002
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 标准  香港 03"
-  server: bepgzbgp01.114837322.xyz
-  port: 14003
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1F8\U0001F1EC YToo \U0001F1F8\U0001F1EC 标准  狮城 01"
-  server: bepgzbgp01.114837322.xyz
-  port: 14011
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1F8\U0001F1EC YToo \U0001F1F8\U0001F1EC 标准  狮城 02"
-  server: bepgzbgp01.114837322.xyz
-  port: 14012
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1F8\U0001F1EC YToo \U0001F1F8\U0001F1EC 标准  狮城 03"
-  server: bepgzbgp01.114837322.xyz
-  port: 14013
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 标准  美国 01"
-  server: bepshbgp01.114837322.xyz
-  port: 14031
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 标准  美国 02"
-  server: bepshbgp01.114837322.xyz
-  port: 14032
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 标准  美国 03"
-  server: bepshbgp01.114837322.xyz
-  port: 14033
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 标准  美国 04"
-  server: bepshbgp01.114837322.xyz
-  port: 14034
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 标准  美国 05"
-  server: bepshbgp01.114837322.xyz
-  port: 14035
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 标准  美国 06"
-  server: bepshbgp01.114837322.xyz
-  port: 14036
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1F0\U0001F1F7 YToo \U0001F1F0\U0001F1F7 标准  韩国 01"
-  server: bepshbgp01.114837322.xyz
-  port: 14041
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 标准  日本 01"
-  server: bepshbgp01.114837322.xyz
-  port: 14021
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 标准  日本 02"
-  server: bepshbgp01.114837322.xyz
-  port: 14022
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 标准  日本 03"
-  server: bepshbgp01.114837322.xyz
-  port: 14023
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 标准  日本 04"
-  server: bepshbgp01.114837322.xyz
-  port: 14024
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1E8\U0001F1F3 YToo \U0001F1E8\U0001F1F3 标准  台湾 01"
-  server: bepgzbgp01.114837322.xyz
-  port: 14051
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1EC\U0001F1E7 YToo \U0001F1EC\U0001F1E7 特殊  伦敦 01"
-  server: bepbjbgp01.114837322.xyz
-  port: 14201
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1EC\U0001F1E7 YToo \U0001F1EC\U0001F1E7 特殊  伦敦 02"
-  server: bepbjbgp01.114837322.xyz
-  port: 14202
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1E9\U0001F1EA YToo \U0001F1E9\U0001F1EA 特殊  德国 01"
-  server: bepbjbgp01.114837322.xyz
-  port: 14200
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1E9\U0001F1EA YToo \U0001F1E9\U0001F1EA 特殊  德国 02"
-  server: bepbjbgp01.114837322.xyz
-  port: 14207
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1E7\U0001F1F7 YToo \U0001F1E7\U0001F1F7 特殊  巴西 01"
-  server: bepshbgp01.114837322.xyz
-  port: 14205
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1E8\U0001F1E6 YToo \U0001F1E8\U0001F1E6 特殊  加拿大 01"
-  server: bepshbgp01.114837322.xyz
-  port: 14206
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1E8\U0001F1E6 YToo \U0001F1E8\U0001F1E6 特殊  加拿大 02"
-  server: bepshbgp01.114837322.xyz
-  port: 14208
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1F9\U0001F1F7 YToo \U0001F1F9\U0001F1F7 特殊  土耳其 01"
-  server: bepbjbgp01.114837322.xyz
-  port: 14198
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1F9\U0001F1F7 YToo \U0001F1F9\U0001F1F7 特殊  土耳其 02"
-  server: bepbjbgp01.114837322.xyz
-  port: 14218
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1F9\U0001F1ED YToo \U0001F1F9\U0001F1ED 特殊  泰国"
-  server: bepgzbgp01.114837322.xyz
-  port: 14161
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1FB\U0001F1F3 YToo \U0001F1FB\U0001F1F3 特殊  越南"
-  server: bepgzbgp01.114837322.xyz
-  port: 14162
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1EE\U0001F1F3 YToo \U0001F1EE\U0001F1F3 特殊  印度"
-  server: bepgzbgp01.114837322.xyz
-  port: 14194
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1E6\U0001F1FA YToo \U0001F1E6\U0001F1FA 特殊  悉尼"
-  server: bepgzbgp01.114837322.xyz
-  port: 14199
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1E6\U0001F1EA YToo \U0001F1E6\U0001F1EA 特殊  迪拜"
-  server: bepgzbgp01.114837322.xyz
-  port: 14203
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1EB\U0001F1F7 YToo \U0001F1EB\U0001F1F7 特殊  法国"
-  server: bepbjbgp01.114837322.xyz
-  port: 14204
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1F3\U0001F1F1 YToo \U0001F1F3\U0001F1F1 特殊  荷兰"
-  server: bepbjbgp01.114837322.xyz
-  port: 14213
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1EE\U0001F1E9 YToo \U0001F1EE\U0001F1E9 特殊  印尼"
-  server: bepgzbgp01.114837322.xyz
-  port: 14214
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1FF\U0001F1E6 YToo \U0001F1FF\U0001F1E6 特殊  南非"
-  server: bepgzbgp01.114837322.xyz
-  port: 14215
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1EA\U0001F1EC YToo \U0001F1EA\U0001F1EC 特殊  埃及"
-  server: bepbjbgp01.114837322.xyz
-  port: 14220
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1F5\U0001F1ED YToo \U0001F1F5\U0001F1ED 特殊  菲律宾"
-  server: bepgzbgp01.114837322.xyz
-  port: 14191
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1EE\U0001F1F9 YToo \U0001F1EE\U0001F1F9 特殊  意大利"
-  server: bepbjbgp01.114837322.xyz
-  port: 14193
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1EA\U0001F1F8 YToo \U0001F1EA\U0001F1F8 特殊  西班牙"
-  server: bepbjbgp01.114837322.xyz
-  port: 14192
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1ED\U0001F1FA YToo \U0001F1ED\U0001F1FA 特殊  匈牙利"
-  server: bepbjbgp01.114837322.xyz
-  port: 14196
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1EE\U0001F1F1 YToo \U0001F1EE\U0001F1F1 特殊  以色列"
-  server: bepbjbgp01.114837322.xyz
-  port: 14209
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1FA\U0001F1E6 YToo \U0001F1FA\U0001F1E6 特殊  乌克兰"
-  server: bepbjbgp01.114837322.xyz
-  port: 14211
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1F7\U0001F1FA YToo \U0001F1F7\U0001F1FA 特殊  俄罗斯"
-  server: bepbjbgp01.114837322.xyz
-  port: 14195
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1F2\U0001F1FE YToo \U0001F1F2\U0001F1FE 特殊  马来西亚"
-  server: bepgzbgp01.114837322.xyz
-  port: 14219
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1F3\U0001F1EC YToo \U0001F1F3\U0001F1EC 特殊  尼日利亚"
-  server: bepgzbgp01.114837322.xyz
-  port: 14210
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1F5\U0001F1F0 YToo \U0001F1F5\U0001F1F0 特殊  巴基斯坦"
-  server: bepgzbgp01.114837322.xyz
-  port: 14216
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1F2\U0001F1E9 YToo \U0001F1F2\U0001F1E9 特殊  摩尔多瓦"
-  server: bepbjbgp01.114837322.xyz
-  port: 14217
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[SS] \U0001F1E6\U0001F1F7 YToo \U0001F1E6\U0001F1F7 购物  阿根廷"
-  server: bepshbgp01.114837322.xyz
-  port: 14197
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: lE9uL5fR3yR9
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 2ed7162c05.iqiyi.com
-  udp: true
-- name: "[VMess] \U0001F1ED\U0001F1F0 Panda 高级 01 香港"
-  server: dcumoz.cijhgvbm.xyz
-  port: 10030
+  port: 14503
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[VMess] \U0001F1E6\U0001F1F7 Panda 特殊 33 阿根廷"
+  server: vcijwt.cscsgsg.xyz
+  port: 12012
   type: vmess
   uuid: d11c9d64-ef67-3b25-8022-2f748365386c
   alterId: 0
@@ -984,9 +24,9 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: "[VMess] \U0001F1ED\U0001F1F0 Panda 高级 02 香港"
-  server: dcumoz.cijhgvbm.xyz
-  port: 10032
+- name: "[VMess] \U0001F1E6\U0001F1F7 Panda 特殊 34 阿根廷"
+  server: wduzpt.gxcvbmj.xyz
+  port: 26000
   type: vmess
   uuid: d11c9d64-ef67-3b25-8022-2f748365386c
   alterId: 0
@@ -994,9 +34,17 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: "[VMess] \U0001F1ED\U0001F1F0 Panda 高级 03 香港"
-  server: dcumoz.cijhgvbm.xyz
-  port: 10033
+- name: "[Trojan] \U0001F1E6\U0001F1F7 YToo 购物  阿根廷"
+  server: bepshbgp01.114837322.xyz
+  port: 14497
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[VMess] \U0001F1E6\U0001F1FA Panda 特殊 38 澳大利亚"
+  server: fdksxn.kghkjasfh.xyz
+  port: 12232
   type: vmess
   uuid: d11c9d64-ef67-3b25-8022-2f748365386c
   alterId: 0
@@ -1004,9 +52,17 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: "[VMess] \U0001F1ED\U0001F1F0 Panda 高级 04 香港"
-  server: dcumoz.cijhgvbm.xyz
-  port: 10034
+- name: "[Trojan] \U0001F1E6\U0001F1FA YToo 特殊  悉尼"
+  server: bepgzbgp01.114837322.xyz
+  port: 14499
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[VMess] \U0001F1E7\U0001F1F7 Panda 特殊 44 巴西"
+  server: wduzpt.gxcvbmj.xyz
+  port: 22233
   type: vmess
   uuid: d11c9d64-ef67-3b25-8022-2f748365386c
   alterId: 0
@@ -1014,29 +70,17 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: "[VMess] \U0001F1ED\U0001F1F0 Panda 高级 05 香港"
-  server: dcumoz.cijhgvbm.xyz
-  port: 10031
-  type: vmess
-  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
-  alterId: 0
-  cipher: auto
-  tls: false
+- name: "[Trojan] \U0001F1E7\U0001F1F7 YToo 特殊  巴西 01"
+  server: bepshbgp01.114837322.xyz
+  port: 14505
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
   skip-cert-verify: true
   udp: true
-- name: "[VMess] \U0001F1ED\U0001F1F0 Panda 高级 06 香港"
-  server: dcumoz.cijhgvbm.xyz
-  port: 10036
-  type: vmess
-  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: "[VMess] \U0001F1ED\U0001F1F0 Panda 高级 07 香港"
+- name: "[VMess] \U0001F1E8\U0001F1E6 Panda 家宽 63 加拿大家宽 4x"
   server: deyfcb.cinmvmb.xyz
-  port: 40100
+  port: 10047
   type: vmess
   uuid: d11c9d64-ef67-3b25-8022-2f748365386c
   alterId: 0
@@ -1044,9 +88,19 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: "[VMess] \U0001F1ED\U0001F1F0 Panda 高级 08 香港"
+- name: "[VMess] \U0001F1E8\U0001F1E6 Panda 特殊 37 加拿大"
+  server: pfxwhz.cscsgsg.xyz
+  port: 12010
+  type: vmess
+  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: "[VMess] \U0001F1E8\U0001F1E6 Panda 特殊 63 加拿大家宽 4x"
   server: deyfcb.cinmvmb.xyz
-  port: 10038
+  port: 10047
   type: vmess
   uuid: d11c9d64-ef67-3b25-8022-2f748365386c
   alterId: 0
@@ -1054,9 +108,315 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: "[VMess] \U0001F1ED\U0001F1F0 Panda 高级 09 香港"
-  server: azagna.cinmvb.xyz
-  port: 11255
+- name: "[Trojan] \U0001F1E8\U0001F1E6 YToo 特殊  加拿大 01"
+  server: bepshbgp01.114837322.xyz
+  port: 14506
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[Trojan] \U0001F1E8\U0001F1E6 YToo 特殊  加拿大 02"
+  server: bepshbgp01.114837322.xyz
+  port: 14508
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[VMess] \U0001F1E8\U0001F1F3 Panda 日用 23 台湾"
+  server: wnptw.thecxfcsp.top
+  port: 20009
+  type: vmess
+  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: "[VMess] \U0001F1E8\U0001F1F3 Panda 日用 24 台湾"
+  server: wnptw.thecxfcsp.top
+  port: 20010
+  type: vmess
+  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: "[VMess] \U0001F1E8\U0001F1F3 Panda 标准 21 台湾"
+  server: wnptw.thecxfcsp.top
+  port: 58844
+  type: vmess
+  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: "[VMess] \U0001F1E8\U0001F1F3 Panda 标准 22 台湾"
+  server: wnptw.thecxfcsp.top
+  port: 20002
+  type: vmess
+  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: "[VMess] \U0001F1E8\U0001F1F3 Panda 标准 23 台湾"
+  server: wnptw.thecxfcsp.top
+  port: 20003
+  type: vmess
+  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: "[VMess] \U0001F1E8\U0001F1F3 Panda 标准 24 台湾"
+  server: wnptw.thecxfcsp.top
+  port: 20004
+  type: vmess
+  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: "[VMess] \U0001F1E8\U0001F1F3 Panda 标准 25 台湾"
+  server: wnptw.thecxfcsp.top
+  port: 20007
+  type: vmess
+  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: "[VMess] \U0001F1E8\U0001F1F3 Panda 标准 26 台湾"
+  server: wnptw.thecxfcsp.top
+  port: 20008
+  type: vmess
+  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: "[VMess] \U0001F1E8\U0001F1F3 Panda 高级 10 台湾"
+  server: xwogpb.cjjvmm.xyz
+  port: 10546
+  type: vmess
+  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: "[VMess] \U0001F1E8\U0001F1F3 Panda 高级 11 台湾"
+  server: xwogpb.cjjvmm.xyz
+  port: 10547
+  type: vmess
+  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: "[VMess] \U0001F1E8\U0001F1F3 Panda 高级 12 台湾"
+  server: xwogpb.cjjvmm.xyz
+  port: 10548
+  type: vmess
+  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: "[VMess] \U0001F1E8\U0001F1F3 Panda 高级 13 台湾"
+  server: xwogpb.cjjvmm.xyz
+  port: 10549
+  type: vmess
+  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: "[VMess] \U0001F1E8\U0001F1F3 Panda 高级 14 台湾"
+  server: xwogpb.cjjvmm.xyz
+  port: 10565
+  type: vmess
+  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: "[Trojan] \U0001F1E8\U0001F1F3 YToo 标准  台湾 01"
+  server: bepgzbgp01.114837322.xyz
+  port: 14351
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[Trojan] \U0001F1E8\U0001F1F3 YToo 高级  台湾 01"
+  server: bepgzbgp01.114837322.xyz
+  port: 14451
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[Trojan] \U0001F1E8\U0001F1F3 YToo 高级  台湾 02"
+  server: bepgzbgp01.114837322.xyz
+  port: 14452
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[VMess] \U0001F1E9\U0001F1EA Panda 特殊 32 德国"
+  server: risyue.cscsgsg.xyz
+  port: 16008
+  type: vmess
+  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: "[Trojan] \U0001F1E9\U0001F1EA YToo 特殊  德国 01"
+  server: bepbjbgp01.114837322.xyz
+  port: 14500
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[Trojan] \U0001F1E9\U0001F1EA YToo 特殊  德国 02"
+  server: bepbjbgp01.114837322.xyz
+  port: 14507
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[VMess] \U0001F1EA\U0001F1EC Panda 特殊 57 埃及"
+  server: wduzpt.gxcvbmj.xyz
+  port: 22236
+  type: vmess
+  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: "[Trojan] \U0001F1EA\U0001F1EC YToo 特殊  埃及"
+  server: bepbjbgp01.114837322.xyz
+  port: 14520
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[Trojan] \U0001F1EA\U0001F1F8 YToo 特殊  西班牙"
+  server: bepbjbgp01.114837322.xyz
+  port: 14492
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[VMess] \U0001F1EB\U0001F1F7 Panda 特殊 75 法国"
+  server: wduzpt.gxcvbmj.xyz
+  port: 22239
+  type: vmess
+  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: "[Trojan] \U0001F1EB\U0001F1F7 YToo 特殊  法国"
+  server: bepbjbgp01.114837322.xyz
+  port: 14504
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[VMess] \U0001F1EC\U0001F1E7 Panda 特殊 29 英国"
+  server: epueyo.gxcvbmj.xyz
+  port: 58559
+  type: vmess
+  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: "[VMess] \U0001F1EC\U0001F1E7 Panda 特殊 31 英国"
+  server: vcijwt.cscsgsg.xyz
+  port: 20023
+  type: vmess
+  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: "[Trojan] \U0001F1EC\U0001F1E7 YToo 特殊  伦敦 01"
+  server: bepshbgp01.114837322.xyz
+  port: 14501
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[Trojan] \U0001F1EC\U0001F1E7 YToo 特殊  伦敦 02"
+  server: bepshbgp01.114837322.xyz
+  port: 14502
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[VMess] \U0001F1ED\U0001F1F0 Panda 日用 CN2 21 香港"
+  server: cxlsfsvii.omjkgl.xyz
+  port: 16002
+  type: vmess
+  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: "[VMess] \U0001F1ED\U0001F1F0 Panda 日用 CN2 22 香港"
+  server: cxlsfsvii.omjkgl.xyz
+  port: 16003
+  type: vmess
+  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: "[VMess] \U0001F1ED\U0001F1F0 Panda 日用 CN2 25 香港"
+  server: cyjsnl.ghskgvb.xyz
+  port: 31658
+  type: vmess
+  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: "[VMess] \U0001F1ED\U0001F1F0 Panda 日用 CN2 46 香港"
+  server: cyjsnl.ghskgvb.xyz
+  port: 12020
   type: vmess
   uuid: d11c9d64-ef67-3b25-8022-2f748365386c
   alterId: 0
@@ -1164,9 +524,9 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: "[VMess] \U0001F1E8\U0001F1F3 Panda 高级 10 台湾"
-  server: xwogpb.cjjvmm.xyz
-  port: 10546
+- name: "[VMess] \U0001F1ED\U0001F1F0 Panda 高级 01 香港"
+  server: dcumoz.cijhgvbm.xyz
+  port: 10030
   type: vmess
   uuid: d11c9d64-ef67-3b25-8022-2f748365386c
   alterId: 0
@@ -1174,9 +534,9 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: "[VMess] \U0001F1E8\U0001F1F3 Panda 高级 11 台湾"
-  server: xwogpb.cjjvmm.xyz
-  port: 10547
+- name: "[VMess] \U0001F1ED\U0001F1F0 Panda 高级 02 香港"
+  server: dcumoz.cijhgvbm.xyz
+  port: 10032
   type: vmess
   uuid: d11c9d64-ef67-3b25-8022-2f748365386c
   alterId: 0
@@ -1184,9 +544,9 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: "[VMess] \U0001F1E8\U0001F1F3 Panda 高级 12 台湾"
-  server: xwogpb.cjjvmm.xyz
-  port: 10548
+- name: "[VMess] \U0001F1ED\U0001F1F0 Panda 高级 03 香港"
+  server: dcumoz.cijhgvbm.xyz
+  port: 10033
   type: vmess
   uuid: d11c9d64-ef67-3b25-8022-2f748365386c
   alterId: 0
@@ -1194,9 +554,9 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: "[VMess] \U0001F1E8\U0001F1F3 Panda 高级 13 台湾"
-  server: xwogpb.cjjvmm.xyz
-  port: 10549
+- name: "[VMess] \U0001F1ED\U0001F1F0 Panda 高级 04 香港"
+  server: dcumoz.cijhgvbm.xyz
+  port: 10034
   type: vmess
   uuid: d11c9d64-ef67-3b25-8022-2f748365386c
   alterId: 0
@@ -1204,9 +564,9 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: "[VMess] \U0001F1E8\U0001F1F3 Panda 高级 14 台湾"
-  server: xwogpb.cjjvmm.xyz
-  port: 10565
+- name: "[VMess] \U0001F1ED\U0001F1F0 Panda 高级 05 香港"
+  server: dcumoz.cijhgvbm.xyz
+  port: 10031
   type: vmess
   uuid: d11c9d64-ef67-3b25-8022-2f748365386c
   alterId: 0
@@ -1214,9 +574,9 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: "[VMess] \U0001F1E8\U0001F1F3 Panda 标准 21 台湾"
-  server: wnptw.thecxfcsp.top
-  port: 58844
+- name: "[VMess] \U0001F1ED\U0001F1F0 Panda 高级 06 香港"
+  server: dcumoz.cijhgvbm.xyz
+  port: 10036
   type: vmess
   uuid: d11c9d64-ef67-3b25-8022-2f748365386c
   alterId: 0
@@ -1224,9 +584,9 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: "[VMess] \U0001F1E8\U0001F1F3 Panda 标准 22 台湾"
-  server: wnptw.thecxfcsp.top
-  port: 20002
+- name: "[VMess] \U0001F1ED\U0001F1F0 Panda 高级 07 香港"
+  server: deyfcb.cinmvmb.xyz
+  port: 40100
   type: vmess
   uuid: d11c9d64-ef67-3b25-8022-2f748365386c
   alterId: 0
@@ -1234,9 +594,9 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: "[VMess] \U0001F1E8\U0001F1F3 Panda 标准 23 台湾"
-  server: wnptw.thecxfcsp.top
-  port: 20003
+- name: "[VMess] \U0001F1ED\U0001F1F0 Panda 高级 08 香港"
+  server: deyfcb.cinmvmb.xyz
+  port: 10038
   type: vmess
   uuid: d11c9d64-ef67-3b25-8022-2f748365386c
   alterId: 0
@@ -1244,9 +604,9 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: "[VMess] \U0001F1E8\U0001F1F3 Panda 标准 24 台湾"
-  server: wnptw.thecxfcsp.top
-  port: 20004
+- name: "[VMess] \U0001F1ED\U0001F1F0 Panda 高级 09 香港"
+  server: azagna.cinmvb.xyz
+  port: 11255
   type: vmess
   uuid: d11c9d64-ef67-3b25-8022-2f748365386c
   alterId: 0
@@ -1254,9 +614,105 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: "[VMess] \U0001F1E8\U0001F1F3 Panda 标准 25 台湾"
-  server: wnptw.thecxfcsp.top
-  port: 20007
+- name: "[Trojan] \U0001F1ED\U0001F1F0 YToo 日用  香港"
+  server: bepgzbgp01.114837322.xyz
+  port: 14391
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[Trojan] \U0001F1ED\U0001F1F0 YToo 标准  香港 01"
+  server: bepgzbgp01.114837322.xyz
+  port: 14301
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[Trojan] \U0001F1ED\U0001F1F0 YToo 标准  香港 02"
+  server: bepgzbgp01.114837322.xyz
+  port: 14302
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[Trojan] \U0001F1ED\U0001F1F0 YToo 标准  香港 03"
+  server: bepgzbgp01.114837322.xyz
+  port: 14303
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[Trojan] \U0001F1ED\U0001F1F0 YToo 高级  香港 01"
+  server: bepgzbgp01.114837322.xyz
+  port: 14401
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[Trojan] \U0001F1ED\U0001F1F0 YToo 高级  香港 02"
+  server: bepgzbgp01.114837322.xyz
+  port: 14402
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[Trojan] \U0001F1ED\U0001F1F0 YToo 高级  香港 03"
+  server: bepgzbgp01.114837322.xyz
+  port: 14403
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[Trojan] \U0001F1ED\U0001F1F0 YToo 高级  香港 04"
+  server: bepgzbgp01.114837322.xyz
+  port: 14404
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[Trojan] \U0001F1ED\U0001F1F0 YToo 高级  香港 05"
+  server: bepgzbgp01.114837322.xyz
+  port: 14405
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[Trojan] \U0001F1ED\U0001F1F0 YToo 高级  香港 06"
+  server: bepgzbgp01.114837322.xyz
+  port: 14406
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[Trojan] \U0001F1ED\U0001F1F0 YToo 高级  香港 07"
+  server: bepgzbgp01.114837322.xyz
+  port: 14407
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[Trojan] \U0001F1ED\U0001F1F0 YToo 高级  香港 08"
+  server: bepgzbgp01.114837322.xyz
+  port: 14408
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[VMess] \U0001F1ED\U0001F1F0 福利-V114-香港-0.1x-仅限emby"
+  server: vdiogsnf.kghkjasfh.xyz
+  port: 12545
   type: vmess
   uuid: d11c9d64-ef67-3b25-8022-2f748365386c
   alterId: 0
@@ -1264,9 +720,9 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: "[VMess] \U0001F1E8\U0001F1F3 Panda 标准 26 台湾"
-  server: wnptw.thecxfcsp.top
-  port: 20008
+- name: "[VMess] \U0001F1ED\U0001F1F0 福利-V234-香港-0.1x-15M-NF"
+  server: vdiogsnf.kghkjasfh.xyz
+  port: 12544
   type: vmess
   uuid: d11c9d64-ef67-3b25-8022-2f748365386c
   alterId: 0
@@ -1274,9 +730,17 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: "[VMess] \U0001F1F8\U0001F1EC Panda 高级 17 狮城"
-  server: wonrmkp.ggddfc.xyz
-  port: 11321
+- name: "[Trojan] \U0001F1ED\U0001F1FA YToo 特殊  匈牙利"
+  server: bepbjbgp01.114837322.xyz
+  port: 14496
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[VMess] \U0001F1EE\U0001F1E9 Panda 特殊 43 印尼"
+  server: cxlsfs.omjkgl.xyz
+  port: 16010
   type: vmess
   uuid: d11c9d64-ef67-3b25-8022-2f748365386c
   alterId: 0
@@ -1284,9 +748,25 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: "[VMess] \U0001F1F8\U0001F1EC Panda 高级 19 狮城"
-  server: wonrmkp.ggddfc.xyz
-  port: 20036
+- name: "[Trojan] \U0001F1EE\U0001F1E9 YToo 特殊  印尼"
+  server: bepgzbgp01.114837322.xyz
+  port: 14514
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[Trojan] \U0001F1EE\U0001F1F1 YToo 特殊  以色列"
+  server: bepbjbgp01.114837322.xyz
+  port: 14509
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[VMess] \U0001F1EE\U0001F1F3 Panda 特殊 37 印度"
+  server: wduzpt.gxcvbmj.xyz
+  port: 22350
   type: vmess
   uuid: d11c9d64-ef67-3b25-8022-2f748365386c
   alterId: 0
@@ -1294,9 +774,25 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: "[VMess] \U0001F1F8\U0001F1EC Panda 高级 61 狮城"
-  server: wonrmkp.ggddfc.xyz
-  port: 11325
+- name: "[Trojan] \U0001F1EE\U0001F1F3 YToo 特殊  印度"
+  server: bepgzbgp01.114837322.xyz
+  port: 14494
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[Trojan] \U0001F1EE\U0001F1F9 YToo 特殊  意大利"
+  server: bepbjbgp01.114837322.xyz
+  port: 14493
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[VMess] \U0001F1EF\U0001F1F5 Panda 家宽 56 日本 4x&Disney"
+  server: wonrmkpjp.ggddfc.xyz
+  port: 11401
   type: vmess
   uuid: d11c9d64-ef67-3b25-8022-2f748365386c
   alterId: 0
@@ -1304,9 +800,419 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: "[VMess] \U0001F1F8\U0001F1EC Panda 高级 60 狮城"
-  server: wonrmkp.ggddfc.xyz
-  port: 11324
+- name: "[VMess] \U0001F1EF\U0001F1F5 Panda 日用 CN2 28 日本&Disney"
+  server: pfxwhz.cscsgsg.xyz
+  port: 16006
+  type: vmess
+  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: "[VMess] \U0001F1EF\U0001F1F5 Panda 日用 CN2 29 日本"
+  server: pfxwhz.cscsgsg.xyz
+  port: 16007
+  type: vmess
+  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: "[VMess] \U0001F1EF\U0001F1F5 Panda 标准 40 日本  &Disney"
+  server: risyue.cscsgsg.xyz
+  port: 21565
+  type: vmess
+  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: "[VMess] \U0001F1EF\U0001F1F5 Panda 高级 15 日本  &Disney"
+  server: wonrmkpjp.ggddfc.xyz
+  port: 11398
+  type: vmess
+  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: "[VMess] \U0001F1EF\U0001F1F5 Panda 高级 53 日本  &Disney"
+  server: wonrmkpjp.ggddfc.xyz
+  port: 11400
+  type: vmess
+  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: "[VMess] \U0001F1EF\U0001F1F5 Panda 高级 65 日本  &Disney"
+  server: wonrmkpjp.ggddfc.xyz
+  port: 11403
+  type: vmess
+  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: "[VMess] \U0001F1EF\U0001F1F5 Panda 高级 66 日本  &Disney"
+  server: wonrmkpjp.ggddfc.xyz
+  port: 11404
+  type: vmess
+  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: "[Trojan] \U0001F1EF\U0001F1F5 YToo 日用  日本"
+  server: bepshbgp01.114837322.xyz
+  port: 14393
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[Trojan] \U0001F1EF\U0001F1F5 YToo 日用  美国"
+  server: bepshbgp01.114837322.xyz
+  port: 14394
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[Trojan] \U0001F1EF\U0001F1F5 YToo 标准  日本 01"
+  server: bepshbgp01.114837322.xyz
+  port: 14321
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[Trojan] \U0001F1EF\U0001F1F5 YToo 标准  日本 02"
+  server: bepshbgp01.114837322.xyz
+  port: 14322
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[Trojan] \U0001F1EF\U0001F1F5 YToo 标准  日本 03"
+  server: bepshbgp01.114837322.xyz
+  port: 14323
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[Trojan] \U0001F1EF\U0001F1F5 YToo 标准  日本 04"
+  server: bepshbgp01.114837322.xyz
+  port: 14324
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[Trojan] \U0001F1EF\U0001F1F5 YToo 高级  日本 01"
+  server: bepshbgp01.114837322.xyz
+  port: 14421
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[Trojan] \U0001F1EF\U0001F1F5 YToo 高级  日本 02"
+  server: bepshbgp01.114837322.xyz
+  port: 14422
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[Trojan] \U0001F1EF\U0001F1F5 YToo 高级  日本 03"
+  server: bepshbgp01.114837322.xyz
+  port: 14423
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[Trojan] \U0001F1EF\U0001F1F5 YToo 高级  日本 04"
+  server: bepshbgp01.114837322.xyz
+  port: 14424
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[Trojan] \U0001F1EF\U0001F1F5 YToo 高级  日本 05"
+  server: bepshbgp01.114837322.xyz
+  port: 14425
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[Trojan] \U0001F1EF\U0001F1F5 YToo 高级  日本 06"
+  server: bepshbgp01.114837322.xyz
+  port: 14426
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[Trojan] \U0001F1EF\U0001F1F5 YToo 高级  日本 07"
+  server: bepshbgp01.114837322.xyz
+  port: 14427
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[Trojan] \U0001F1EF\U0001F1F5 YToo 高级  日本 08"
+  server: bepshbgp01.114837322.xyz
+  port: 14428
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[VLESS] \U0001F1EF\U0001F1F5 免费-甲骨文-日本-1-reality-199.2-orc-1"
+  server: 168.138.41.4
+  port: 80
+  type: vless
+  tls: true
+  packet-encoding: xudp
+  uuid: 05dfa946-19c9-4aa5-984e-0984fbab007d
+  servername: yahoo.com
+  reality-opts:
+    public-key: kaVwOdOxuHHsQSvRTBR0gpTq1V2nM5fnkHyI9J3Mk1s
+    short-id: "e2c953097844"
+  client-fingerprint: random
+  skip-cert-verify: true
+  udp: true
+- name: "[VLESS] \U0001F1EF\U0001F1F5 免费-甲骨文-日本-2-reality-199.2-orc-2"
+  server: 141.147.145.26
+  port: 443
+  type: vless
+  tls: true
+  packet-encoding: xudp
+  uuid: c6dc3385-bced-427b-ad17-129ac120ed7b
+  servername: yahoo.com
+  reality-opts:
+    public-key: V0KmKYiyA0sJgSye9ad2j6cfZms293BF877TGXFWIFM
+    short-id: "062ea7cf"
+  client-fingerprint: random
+  skip-cert-verify: true
+  udp: true
+- name: "[VMess] \U0001F1F0\U0001F1F7 Panda 家宽 30 韩国 家宽 1x&Disney"
+  server: aeqmmj.thecxfcsp.top
+  port: 12009
+  type: vmess
+  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: "[VMess] \U0001F1F0\U0001F1F7 Panda 高级 20 韩国"
+  server: deyfcb.cinmvmb.xyz
+  port: 10051
+  type: vmess
+  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: "[Trojan] \U0001F1F0\U0001F1F7 YToo 标准  韩国 01"
+  server: bepshbgp01.114837322.xyz
+  port: 14341
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[Trojan] \U0001F1F0\U0001F1F7 YToo 高级  韩国 01"
+  server: bepshbgp01.114837322.xyz
+  port: 14441
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[Trojan] \U0001F1F0\U0001F1F7 YToo 高级  韩国 02"
+  server: bepshbgp01.114837322.xyz
+  port: 14442
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[Trojan] \U0001F1F2\U0001F1E9 YToo 特殊  摩尔多瓦"
+  server: bepbjbgp01.114837322.xyz
+  port: 14517
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[VMess] \U0001F1F2\U0001F1F4 Panda 特殊 49 澳门"
+  server: deyfcb.cinmvmb.xyz
+  port: 10039
+  type: vmess
+  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: "[VMess] \U0001F1F2\U0001F1FD Panda 特殊 52 墨西哥"
+  server: wduzpt.gxcvbmj.xyz
+  port: 22234
+  type: vmess
+  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: "[VMess] \U0001F1F2\U0001F1FE Panda 特殊 39 马来西亚"
+  server: ngzhzer.kkmbnbg.xyz
+  port: 46227
+  type: vmess
+  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: "[Trojan] \U0001F1F2\U0001F1FE YToo 特殊  马来西亚"
+  server: bepgzbgp01.114837322.xyz
+  port: 14519
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[VMess] \U0001F1F3\U0001F1EC Panda 特殊 70 尼日利亚"
+  server: wduzpt.gxcvbmj.xyz
+  port: 22238
+  type: vmess
+  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: "[Trojan] \U0001F1F3\U0001F1EC YToo 特殊  尼日利亚"
+  server: bepgzbgp01.114837322.xyz
+  port: 14510
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[VMess] \U0001F1F3\U0001F1F1 Panda 特殊 38 荷兰"
+  server: cyjsnl.ghskgvb.xyz
+  port: 20020
+  type: vmess
+  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: "[Trojan] \U0001F1F3\U0001F1F1 YToo 特殊  荷兰"
+  server: bepbjbgp01.114837322.xyz
+  port: 14513
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[VMess] \U0001F1F5\U0001F1ED Panda 特殊 36 菲律宾"
+  server: wduzpt.gxcvbmj.xyz
+  port: 22232
+  type: vmess
+  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: "[Trojan] \U0001F1F5\U0001F1ED YToo 特殊  菲律宾"
+  server: bepgzbgp01.114837322.xyz
+  port: 14491
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[VMess] \U0001F1F5\U0001F1F0 Panda 特殊 58 巴基斯坦"
+  server: wduzpt.gxcvbmj.xyz
+  port: 22237
+  type: vmess
+  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: "[Trojan] \U0001F1F5\U0001F1F0 YToo 特殊  巴基斯坦"
+  server: bepgzbgp01.114837322.xyz
+  port: 14516
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[VMess] \U0001F1F7\U0001F1FA Panda 特殊 09 俄罗斯"
+  server: dlgdc.thecxfcsp.top
+  port: 21564
+  type: vmess
+  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: "[VMess] \U0001F1F7\U0001F1FA Panda 特殊 31 俄罗斯"
+  server: risyue.cscsgsg.xyz
+  port: 20022
+  type: vmess
+  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: "[Trojan] \U0001F1F7\U0001F1FA YToo 特殊  俄罗斯"
+  server: bepbjbgp01.114837322.xyz
+  port: 14495
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[VMess] \U0001F1F8\U0001F1E6 Panda 特殊 32 沙特阿拉伯"
+  server: vcijwt.cscsgsg.xyz
+  port: 58560
+  type: vmess
+  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: "[VMess] \U0001F1F8\U0001F1EC Panda 日用 CN2 47 新加坡"
+  server: cyjsnl.ghskgvb.xyz
+  port: 12018
   type: vmess
   uuid: d11c9d64-ef67-3b25-8022-2f748365386c
   alterId: 0
@@ -1344,9 +1250,243 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: "[VMess] \U0001F1F0\U0001F1F7 Panda 高级 20 韩国"
+- name: "[VMess] \U0001F1F8\U0001F1EC Panda 特殊 39 新西兰"
+  server: fdksxn.kghkjasfh.xyz
+  port: 12233
+  type: vmess
+  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: "[VMess] \U0001F1F8\U0001F1EC Panda 高级 17 狮城"
+  server: wonrmkp.ggddfc.xyz
+  port: 11321
+  type: vmess
+  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: "[VMess] \U0001F1F8\U0001F1EC Panda 高级 19 狮城"
+  server: wonrmkp.ggddfc.xyz
+  port: 20036
+  type: vmess
+  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: "[VMess] \U0001F1F8\U0001F1EC Panda 高级 60 狮城"
+  server: wonrmkp.ggddfc.xyz
+  port: 11324
+  type: vmess
+  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: "[VMess] \U0001F1F8\U0001F1EC Panda 高级 61 狮城"
+  server: wonrmkp.ggddfc.xyz
+  port: 11325
+  type: vmess
+  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: "[Trojan] \U0001F1F8\U0001F1EC YToo 日用  狮城"
+  server: bepgzbgp01.114837322.xyz
+  port: 14392
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[Trojan] \U0001F1F8\U0001F1EC YToo 标准  狮城 01"
+  server: bepgzbgp01.114837322.xyz
+  port: 14311
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[Trojan] \U0001F1F8\U0001F1EC YToo 标准  狮城 02"
+  server: bepgzbgp01.114837322.xyz
+  port: 14312
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[Trojan] \U0001F1F8\U0001F1EC YToo 标准  狮城 03"
+  server: bepgzbgp01.114837322.xyz
+  port: 14313
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[Trojan] \U0001F1F8\U0001F1EC YToo 高级  狮城 01"
+  server: bepgzbgp01.114837322.xyz
+  port: 14411
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[Trojan] \U0001F1F8\U0001F1EC YToo 高级  狮城 02"
+  server: bepgzbgp01.114837322.xyz
+  port: 14412
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[Trojan] \U0001F1F8\U0001F1EC YToo 高级  狮城 03"
+  server: bepgzbgp01.114837322.xyz
+  port: 14413
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[Trojan] \U0001F1F8\U0001F1EC YToo 高级  狮城 04"
+  server: bepgzbgp01.114837322.xyz
+  port: 14414
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[Trojan] \U0001F1F8\U0001F1EC YToo 高级  狮城 05"
+  server: bepgzbgp01.114837322.xyz
+  port: 14415
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[VMess] \U0001F1F8\U0001F1EC 外部Emby新用户请先购买免费/付费套餐"
+  server: mxwljsq.xyz
+  port: 10086
+  type: vmess
+  uuid: 512ae8fd-39fb-4fa9-aecd-7f6558cde945
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: "[VMess] \U0001F1F8\U0001F1EC 外部Emby新用户请先购买免费/付费套餐 2"
+  server: mxwljsq.xyz
+  port: 10086
+  type: vmess
+  uuid: 512ae8fd-39fb-4fa9-aecd-7f6558cde945
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: "[VMess] \U0001F1F8\U0001F1EC 福利-V345-新加坡-0.1x-15M-NF"
+  server: vdiogsnf.kghkjasfh.xyz
+  port: 12543
+  type: vmess
+  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: "[VMess] \U0001F1F9\U0001F1ED Panda 特殊 42 泰国"
+  server: risyue.cscsgsg.xyz
+  port: 16009
+  type: vmess
+  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: "[Trojan] \U0001F1F9\U0001F1ED YToo 特殊  泰国"
+  server: bepgzbgp01.114837322.xyz
+  port: 14461
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[VMess] \U0001F1F9\U0001F1F7 Panda 特殊 35 土耳其"
+  server: cxlsfs.omjkgl.xyz
+  port: 16001
+  type: vmess
+  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: "[Trojan] \U0001F1F9\U0001F1F7 YToo 特殊  土耳其 01"
+  server: bepbjbgp01.114837322.xyz
+  port: 14498
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[Trojan] \U0001F1F9\U0001F1F7 YToo 特殊  土耳其 02"
+  server: bepbjbgp01.114837322.xyz
+  port: 14518
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[VMess] \U0001F1FA\U0001F1E6 Panda 特殊 54 乌克兰"
+  server: wduzpt.gxcvbmj.xyz
+  port: 22235
+  type: vmess
+  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: "[Trojan] \U0001F1FA\U0001F1E6 YToo 特殊  乌克兰"
+  server: bepbjbgp01.114837322.xyz
+  port: 14511
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
+  skip-cert-verify: true
+  udp: true
+- name: "[VMess] \U0001F1FA\U0001F1F8 Panda 家宽 55 美国 4x 家宽"
+  server: wonrmku.ggddfc.xyz
+  port: 10042
+  type: vmess
+  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: "[VMess] \U0001F1FA\U0001F1F8 Panda 家宽 74 美国 家宽 4x"
   server: deyfcb.cinmvmb.xyz
-  port: 10051
+  port: 10046
+  type: vmess
+  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: "[VMess] \U0001F1FA\U0001F1F8 Panda 标准 14 美国"
+  server: aeqmmj.thecxfcsp.top
+  port: 12001
   type: vmess
   uuid: d11c9d64-ef67-3b25-8022-2f748365386c
   alterId: 0
@@ -1394,274 +1534,132 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: "[VMess] \U0001F1FA\U0001F1F8 Panda 标准 14 美国"
-  server: aeqmmj.thecxfcsp.top
-  port: 12001
-  type: vmess
-  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
-  alterId: 0
-  cipher: auto
-  tls: false
+- name: "[Trojan] \U0001F1FA\U0001F1F8 YToo 标准  美国 01"
+  server: bepshbgp01.114837322.xyz
+  port: 14331
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
   skip-cert-verify: true
   udp: true
-- name: "[VMess] \U0001F1EF\U0001F1F5 Panda 高级 15 日本"
-  server: wonrmkpjp.ggddfc.xyz
-  port: 11398
-  type: vmess
-  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
-  alterId: 0
-  cipher: auto
-  tls: false
+- name: "[Trojan] \U0001F1FA\U0001F1F8 YToo 标准  美国 02"
+  server: bepshbgp01.114837322.xyz
+  port: 14332
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
   skip-cert-verify: true
   udp: true
-- name: "[VMess] \U0001F1EF\U0001F1F5 Panda 高级 53 日本"
-  server: wonrmkpjp.ggddfc.xyz
-  port: 11400
-  type: vmess
-  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
-  alterId: 0
-  cipher: auto
-  tls: false
+- name: "[Trojan] \U0001F1FA\U0001F1F8 YToo 标准  美国 03"
+  server: bepshbgp01.114837322.xyz
+  port: 14333
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
   skip-cert-verify: true
   udp: true
-- name: "[VMess] \U0001F1EF\U0001F1F5 Panda 高级 65 日本"
-  server: wonrmkpjp.ggddfc.xyz
-  port: 11403
-  type: vmess
-  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
-  alterId: 0
-  cipher: auto
-  tls: false
+- name: "[Trojan] \U0001F1FA\U0001F1F8 YToo 标准  美国 04"
+  server: bepshbgp01.114837322.xyz
+  port: 14334
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
   skip-cert-verify: true
   udp: true
-- name: "[VMess] \U0001F1EF\U0001F1F5 Panda 高级 66 日本"
-  server: wonrmkpjp.ggddfc.xyz
-  port: 11404
-  type: vmess
-  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
-  alterId: 0
-  cipher: auto
-  tls: false
+- name: "[Trojan] \U0001F1FA\U0001F1F8 YToo 标准  美国 05"
+  server: bepshbgp01.114837322.xyz
+  port: 14335
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
   skip-cert-verify: true
   udp: true
-- name: "[VMess] \U0001F1EF\U0001F1F5 Panda 标准 40 日本"
-  server: risyue.cscsgsg.xyz
-  port: 21565
-  type: vmess
-  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
-  alterId: 0
-  cipher: auto
-  tls: false
+- name: "[Trojan] \U0001F1FA\U0001F1F8 YToo 标准  美国 06"
+  server: bepshbgp01.114837322.xyz
+  port: 14336
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
   skip-cert-verify: true
   udp: true
-- name: "[VMess] \U0001F1F0\U0001F1F7 Panda 家宽 30 韩国 家宽 1x"
-  server: aeqmmj.thecxfcsp.top
-  port: 12009
-  type: vmess
-  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
-  alterId: 0
-  cipher: auto
-  tls: false
+- name: "[Trojan] \U0001F1FA\U0001F1F8 YToo 高级  美国 01"
+  server: bepshbgp01.114837322.xyz
+  port: 14431
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
   skip-cert-verify: true
   udp: true
-- name: "[VMess] \U0001F1FA\U0001F1F8 Panda 家宽 55 美国 4x 家宽"
-  server: wonrmku.ggddfc.xyz
-  port: 10042
-  type: vmess
-  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
-  alterId: 0
-  cipher: auto
-  tls: false
+- name: "[Trojan] \U0001F1FA\U0001F1F8 YToo 高级  美国 02"
+  server: bepshbgp01.114837322.xyz
+  port: 14432
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
   skip-cert-verify: true
   udp: true
-- name: "[VMess] \U0001F1FA\U0001F1F8 Panda 家宽 74 美国 家宽 4x"
-  server: deyfcb.cinmvmb.xyz
-  port: 10046
-  type: vmess
-  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
-  alterId: 0
-  cipher: auto
-  tls: false
+- name: "[Trojan] \U0001F1FA\U0001F1F8 YToo 高级  美国 03"
+  server: bepshbgp01.114837322.xyz
+  port: 14433
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
   skip-cert-verify: true
   udp: true
-- name: "[VMess] \U0001F1E8\U0001F1E6 Panda 家宽 63 加拿大家宽 4x"
-  server: deyfcb.cinmvmb.xyz
-  port: 10047
-  type: vmess
-  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
-  alterId: 0
-  cipher: auto
-  tls: false
+- name: "[Trojan] \U0001F1FA\U0001F1F8 YToo 高级  美国 04"
+  server: bepshbgp01.114837322.xyz
+  port: 14434
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
   skip-cert-verify: true
   udp: true
-- name: "[VMess] \U0001F1EF\U0001F1F5 Panda 家宽 56 日本 4x"
-  server: wonrmkpjp.ggddfc.xyz
-  port: 11401
-  type: vmess
-  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
-  alterId: 0
-  cipher: auto
-  tls: false
+- name: "[Trojan] \U0001F1FA\U0001F1F8 YToo 高级  美国 05"
+  server: bepshbgp01.114837322.xyz
+  port: 14435
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
   skip-cert-verify: true
   udp: true
-- name: "[VMess] \U0001F1E8\U0001F1F3 Panda 日用 23 台湾"
-  server: wnptw.thecxfcsp.top
-  port: 20009
-  type: vmess
-  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
-  alterId: 0
-  cipher: auto
-  tls: false
+- name: "[Trojan] \U0001F1FA\U0001F1F8 YToo 高级  美国 06"
+  server: bepshbgp01.114837322.xyz
+  port: 14436
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
   skip-cert-verify: true
   udp: true
-- name: "[VMess] \U0001F1E8\U0001F1F3 Panda 日用 24 台湾"
-  server: wnptw.thecxfcsp.top
-  port: 20010
-  type: vmess
-  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
-  alterId: 0
-  cipher: auto
-  tls: false
+- name: "[Trojan] \U0001F1FA\U0001F1F8 YToo 高级  美国 07"
+  server: bepshbgp01.114837322.xyz
+  port: 14437
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
   skip-cert-verify: true
   udp: true
-- name: "[VMess] \U0001F1ED\U0001F1F0 Panda 日用 CN2 21 香港"
-  server: cxlsfsvii.omjkgl.xyz
-  port: 16002
-  type: vmess
-  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
-  alterId: 0
-  cipher: auto
-  tls: false
+- name: "[Trojan] \U0001F1FA\U0001F1F8 YToo 高级  美国 08"
+  server: bepshbgp01.114837322.xyz
+  port: 14438
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
   skip-cert-verify: true
   udp: true
-- name: "[VMess] \U0001F1ED\U0001F1F0 Panda 日用 CN2 22 香港"
-  server: cxlsfsvii.omjkgl.xyz
-  port: 16003
-  type: vmess
-  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
-  alterId: 0
-  cipher: auto
-  tls: false
+- name: "[Trojan] \U0001F1FA\U0001F1F8 YToo 高级  美国 09"
+  server: bepshbgp01.114837322.xyz
+  port: 14439
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
   skip-cert-verify: true
   udp: true
-- name: "[VMess] \U0001F1ED\U0001F1F0 Panda 日用 CN2 25 香港"
-  server: cyjsnl.ghskgvb.xyz
-  port: 31658
-  type: vmess
-  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: "[VMess] \U0001F1ED\U0001F1F0 Panda 日用 CN2 46 香港"
-  server: cyjsnl.ghskgvb.xyz
-  port: 12020
-  type: vmess
-  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: "[VMess] \U0001F1F8\U0001F1EC Panda 日用 CN2 47 新加坡"
-  server: cyjsnl.ghskgvb.xyz
-  port: 12018
-  type: vmess
-  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: "[VMess] \U0001F1EF\U0001F1F5 Panda 日用 CN2 28 日本"
-  server: pfxwhz.cscsgsg.xyz
-  port: 16006
-  type: vmess
-  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: "[VMess] \U0001F1EF\U0001F1F5 Panda 日用 CN2 29 日本"
-  server: pfxwhz.cscsgsg.xyz
-  port: 16007
-  type: vmess
-  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: "[VMess] \U0001F1E8\U0001F1E6 Panda 特殊 63 加拿大家宽 4x"
-  server: deyfcb.cinmvmb.xyz
-  port: 10047
-  type: vmess
-  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: "[VMess] \U0001F1F2\U0001F1FE Panda 特殊 39 马来西亚"
-  server: ngzhzer.kkmbnbg.xyz
-  port: 46227
-  type: vmess
-  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: "[VMess] \U0001F1F2\U0001F1F4 Panda 特殊 49 澳门"
-  server: deyfcb.cinmvmb.xyz
-  port: 10039
-  type: vmess
-  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: "[VMess] \U0001F1F5\U0001F1ED Panda 特殊 36 菲律宾"
-  server: wduzpt.gxcvbmj.xyz
-  port: 22232
-  type: vmess
-  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: "[VMess] \U0001F1EE\U0001F1F3 Panda 特殊 37 印度"
-  server: wduzpt.gxcvbmj.xyz
-  port: 22350
-  type: vmess
-  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: "[VMess] \U0001F1F9\U0001F1ED Panda 特殊 42 泰国"
-  server: risyue.cscsgsg.xyz
-  port: 16009
-  type: vmess
-  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: "[VMess] \U0001F1EE\U0001F1E9 Panda 特殊 43 印尼"
-  server: cxlsfs.omjkgl.xyz
-  port: 16010
-  type: vmess
-  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
-  alterId: 0
-  cipher: auto
-  tls: false
+- name: "[Trojan] \U0001F1FA\U0001F1F8 YToo 高级  美国 10"
+  server: bepshbgp01.114837322.xyz
+  port: 14440
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
   skip-cert-verify: true
   udp: true
 - name: "[VMess] \U0001F1FB\U0001F1F3 Panda 特殊 48 越南"
@@ -1674,305 +1672,36 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: "[VMess] \U0001F1EC\U0001F1E7 Panda 特殊 31 英国"
-  server: vcijwt.cscsgsg.xyz
-  port: 20023
-  type: vmess
-  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
-  alterId: 0
-  cipher: auto
-  tls: false
+- name: "[Trojan] \U0001F1FB\U0001F1F3 YToo 特殊  越南"
+  server: bepgzbgp01.114837322.xyz
+  port: 14462
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
   skip-cert-verify: true
   udp: true
-- name: "[VMess] \U0001F1FA\U0001F1E6 Panda 特殊 54 乌克兰"
-  server: wduzpt.gxcvbmj.xyz
-  port: 22235
-  type: vmess
-  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
-  alterId: 0
-  cipher: auto
-  tls: false
+- name: "[Trojan] \U0001F1FF\U0001F1E6 YToo 特殊  南非"
+  server: bepgzbgp01.114837322.xyz
+  port: 14515
+  type: trojan
+  password: AEADCC86-C5B7-F0B9-D360-313C0941C821
+  sni: teambition-file.oss-cn-zhangjiakou.aliyuncs.com
   skip-cert-verify: true
-  udp: true
-- name: "[VMess] \U0001F1EB\U0001F1F7 Panda 特殊 75 法国"
-  server: wduzpt.gxcvbmj.xyz
-  port: 22239
-  type: vmess
-  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: "[VMess] \U0001F1F9\U0001F1F7 Panda 特殊 35 土耳其"
-  server: cxlsfs.omjkgl.xyz
-  port: 16001
-  type: vmess
-  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: "[VMess] \U0001F1E9\U0001F1EA Panda 特殊 32 德国"
-  server: risyue.cscsgsg.xyz
-  port: 16008
-  type: vmess
-  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: "[VMess] \U0001F1F7\U0001F1FA Panda 特殊 31 俄罗斯"
-  server: risyue.cscsgsg.xyz
-  port: 20022
-  type: vmess
-  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: "[VMess] \U0001F1F7\U0001F1FA Panda 特殊 09 俄罗斯"
-  server: dlgdc.thecxfcsp.top
-  port: 21564
-  type: vmess
-  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: "[VMess] \U0001F1F5\U0001F1F0 Panda 特殊 58 巴基斯坦"
-  server: wduzpt.gxcvbmj.xyz
-  port: 22237
-  type: vmess
-  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: "[VMess] \U0001F1F8\U0001F1E6 Panda 特殊 32 沙特阿拉伯"
-  server: vcijwt.cscsgsg.xyz
-  port: 58560
-  type: vmess
-  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: "[VMess] \U0001F1F3\U0001F1EC Panda 特殊 70 尼日利亚"
-  server: wduzpt.gxcvbmj.xyz
-  port: 22238
-  type: vmess
-  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: "[VMess] \U0001F1EA\U0001F1EC Panda 特殊 57 埃及"
-  server: wduzpt.gxcvbmj.xyz
-  port: 22236
-  type: vmess
-  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: "[VMess] \U0001F1F2\U0001F1FD Panda 特殊 52 墨西哥"
-  server: wduzpt.gxcvbmj.xyz
-  port: 22234
-  type: vmess
-  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: "[VMess] \U0001F1E7\U0001F1F7 Panda 特殊 44 巴西"
-  server: wduzpt.gxcvbmj.xyz
-  port: 22233
-  type: vmess
-  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: "[VMess] \U0001F1E6\U0001F1F7 Panda 特殊 33 阿根廷"
-  server: vcijwt.cscsgsg.xyz
-  port: 12012
-  type: vmess
-  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: "[VMess] \U0001F1E6\U0001F1F7 Panda 特殊 34 阿根廷"
-  server: wduzpt.gxcvbmj.xyz
-  port: 26000
-  type: vmess
-  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: "[VMess] \U0001F1EC\U0001F1E7 Panda 特殊 29 英国"
-  server: epueyo.gxcvbmj.xyz
-  port: 58559
-  type: vmess
-  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: "[VMess] \U0001F1F3\U0001F1F1 Panda 特殊 38 荷兰"
-  server: cyjsnl.ghskgvb.xyz
-  port: 20020
-  type: vmess
-  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: "[VMess] \U0001F1E8\U0001F1E6 Panda 特殊 37 加拿大"
-  server: pfxwhz.cscsgsg.xyz
-  port: 12010
-  type: vmess
-  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: "[VMess] \U0001F1E6\U0001F1FA Panda 特殊 38 澳大利亚"
-  server: fdksxn.kghkjasfh.xyz
-  port: 12232
-  type: vmess
-  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: "[VMess] \U0001F1F8\U0001F1EC Panda 特殊 39 新西兰"
-  server: fdksxn.kghkjasfh.xyz
-  port: 12233
-  type: vmess
-  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: "[VMess] \U0001F1F8\U0001F1EC 福利-V345-新加坡-0.1x-15M-NF"
-  server: vdiogsnf.kghkjasfh.xyz
-  port: 12543
-  type: vmess
-  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: "[VMess] \U0001F1ED\U0001F1F0 福利-V234-香港-0.1x-15M-NF"
-  server: vdiogsnf.kghkjasfh.xyz
-  port: 12544
-  type: vmess
-  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: "[VMess] \U0001F1ED\U0001F1F0 福利-V114-香港-0.1x-仅限emby"
-  server: vdiogsnf.kghkjasfh.xyz
-  port: 12545
-  type: vmess
-  uuid: d11c9d64-ef67-3b25-8022-2f748365386c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: "[Vless] \U0001F1EF\U0001F1F5 免费-甲骨文-日本-2-reality-199.2-orc-2"
-  server: 141.147.145.26
-  port: 443
-  type: vless
-  uuid: c6dc3385-bced-427b-ad17-129ac120ed7b
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: V0KmKYiyA0sJgSye9ad2j6cfZms293BF877TGXFWIFM
-    short-id: 062ea7cf
-  servername: yahoo.com
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
-- name: "[Vless] \U0001F1EF\U0001F1F5 免费-甲骨文-日本-1-reality-199.2-orc-1"
-  server: 168.138.41.4
-  port: 80
-  type: vless
-  uuid: 05dfa946-19c9-4aa5-984e-0984fbab007d
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: kaVwOdOxuHHsQSvRTBR0gpTq1V2nM5fnkHyI9J3Mk1s
-    short-id: e2c953097844
-  servername: yahoo.com
-  client-fingerprint: chrome
-  network: tcp
   udp: true
 proxy-groups:
 - name: "\U0001F39E️ panda-emby"
   type: select
   proxies:
   - 福利-手动
-- name: "✨ Claude"
+  - Panda-标准-香港-自动
+  - Panda-高级-香港-自动
+- name: "\U0001F39E️ panda-emby-2"
   type: select
   proxies:
-  - DIRECT
-  - 所有-手动
-  - 日用-自动
-  - 日用-手动
-  - 免费-自动
-  - YToo-标准-香港-自动
+  - 外部Emby-手动
   - Panda-标准-香港-自动
-  - YToo-标准-狮城-自动
-  - Panda-标准-狮城-自动
-  - YToo-标准-日本-自动
-  - Panda-标准-日本-自动
-  - YToo-标准-美国-自动
-  - Panda-标准-美国-自动
-  - YToo-标准-韩国-自动
-  - Panda-标准-韩国-自动
-  - YToo-标准-台湾-自动
-  - Panda-标准-台湾-自动
-  - YToo-高级-香港-自动
   - Panda-高级-香港-自动
-  - YToo-高级-狮城-自动
-  - Panda-高级-狮城-自动
-  - YToo-高级-日本-自动
-  - Panda-高级-日本-自动
-  - YToo-高级-美国-自动
-  - Panda-高级-美国-自动
-  - YToo-高级-韩国-自动
-  - Panda-高级-韩国-自动
-  - YToo-高级-台湾-自动
-  - Panda-高级-台湾-自动
-  - 家宽-手动
-  - 特殊-手动
-  - REJECT
-- name: "✨ Perplexity"
+- name: "✨ Claude"
   type: select
   proxies:
   - DIRECT
@@ -2077,7 +1806,77 @@ proxy-groups:
   - 家宽-手动
   - 特殊-手动
   - REJECT
+- name: "✨ Grok"
+  type: select
+  proxies:
+  - DIRECT
+  - 所有-手动
+  - 日用-自动
+  - 日用-手动
+  - 免费-自动
+  - YToo-标准-香港-自动
+  - Panda-标准-香港-自动
+  - YToo-标准-狮城-自动
+  - Panda-标准-狮城-自动
+  - YToo-标准-日本-自动
+  - Panda-标准-日本-自动
+  - YToo-标准-美国-自动
+  - Panda-标准-美国-自动
+  - YToo-标准-韩国-自动
+  - Panda-标准-韩国-自动
+  - YToo-标准-台湾-自动
+  - Panda-标准-台湾-自动
+  - YToo-高级-香港-自动
+  - Panda-高级-香港-自动
+  - YToo-高级-狮城-自动
+  - Panda-高级-狮城-自动
+  - YToo-高级-日本-自动
+  - Panda-高级-日本-自动
+  - YToo-高级-美国-自动
+  - Panda-高级-美国-自动
+  - YToo-高级-韩国-自动
+  - Panda-高级-韩国-自动
+  - YToo-高级-台湾-自动
+  - Panda-高级-台湾-自动
+  - 家宽-手动
+  - 特殊-手动
+  - REJECT
 - name: "✨ Copilot"
+  type: select
+  proxies:
+  - DIRECT
+  - 所有-手动
+  - 日用-自动
+  - 日用-手动
+  - 免费-自动
+  - YToo-标准-香港-自动
+  - Panda-标准-香港-自动
+  - YToo-标准-狮城-自动
+  - Panda-标准-狮城-自动
+  - YToo-标准-日本-自动
+  - Panda-标准-日本-自动
+  - YToo-标准-美国-自动
+  - Panda-标准-美国-自动
+  - YToo-标准-韩国-自动
+  - Panda-标准-韩国-自动
+  - YToo-标准-台湾-自动
+  - Panda-标准-台湾-自动
+  - YToo-高级-香港-自动
+  - Panda-高级-香港-自动
+  - YToo-高级-狮城-自动
+  - Panda-高级-狮城-自动
+  - YToo-高级-日本-自动
+  - Panda-高级-日本-自动
+  - YToo-高级-美国-自动
+  - Panda-高级-美国-自动
+  - YToo-高级-韩国-自动
+  - Panda-高级-韩国-自动
+  - YToo-高级-台湾-自动
+  - Panda-高级-台湾-自动
+  - 家宽-手动
+  - 特殊-手动
+  - REJECT
+- name: "✨ Perplexity"
   type: select
   proxies:
   - DIRECT
@@ -2714,103 +2513,51 @@ proxy-groups:
 - name: 所有-手动
   type: select
   proxies:
-  - "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 日用  香港"
-  - "[SS] \U0001F1F8\U0001F1EC YToo \U0001F1F8\U0001F1EC 日用  狮城"
-  - "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 日用  日本"
-  - "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1FA\U0001F1F8 日用  美国"
-  - "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 高级  香港 01"
-  - "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 高级  香港 02"
-  - "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 高级  香港 03"
-  - "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 高级  香港 04"
-  - "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 高级  香港 05"
-  - "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 高级  香港 06"
-  - "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 高级  香港 07"
-  - "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 高级  香港 08"
-  - "[SS] \U0001F1F8\U0001F1EC YToo \U0001F1F8\U0001F1EC 高级  狮城 01"
-  - "[SS] \U0001F1F8\U0001F1EC YToo \U0001F1F8\U0001F1EC 高级  狮城 02"
-  - "[SS] \U0001F1F8\U0001F1EC YToo \U0001F1F8\U0001F1EC 高级  狮城 03"
-  - "[SS] \U0001F1F8\U0001F1EC YToo \U0001F1F8\U0001F1EC 高级  狮城 04"
-  - "[SS] \U0001F1F8\U0001F1EC YToo \U0001F1F8\U0001F1EC 高级  狮城 05"
-  - "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 高级  美国 01"
-  - "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 高级  美国 02"
-  - "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 高级  美国 03"
-  - "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 高级  美国 04"
-  - "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 高级  美国 05"
-  - "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 高级  美国 06"
-  - "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 高级  美国 07"
-  - "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 高级  美国 08"
-  - "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 高级  美国 09"
-  - "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 高级  美国 10"
-  - "[SS] \U0001F1F0\U0001F1F7 YToo \U0001F1F0\U0001F1F7 高级  韩国 01"
-  - "[SS] \U0001F1F0\U0001F1F7 YToo \U0001F1F0\U0001F1F7 高级  韩国 02"
-  - "[SS] \U0001F1E8\U0001F1F3 YToo \U0001F1E8\U0001F1F3 高级  台湾 01"
-  - "[SS] \U0001F1E8\U0001F1F3 YToo \U0001F1E8\U0001F1F3 高级  台湾 02"
-  - "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 高级  日本 01"
-  - "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 高级  日本 02"
-  - "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 高级  日本 03"
-  - "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 高级  日本 04"
-  - "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 高级  日本 05"
-  - "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 高级  日本 06"
-  - "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 高级  日本 07"
-  - "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 高级  日本 08"
-  - "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 标准  香港 01"
-  - "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 标准  香港 02"
-  - "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 标准  香港 03"
-  - "[SS] \U0001F1F8\U0001F1EC YToo \U0001F1F8\U0001F1EC 标准  狮城 01"
-  - "[SS] \U0001F1F8\U0001F1EC YToo \U0001F1F8\U0001F1EC 标准  狮城 02"
-  - "[SS] \U0001F1F8\U0001F1EC YToo \U0001F1F8\U0001F1EC 标准  狮城 03"
-  - "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 标准  美国 01"
-  - "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 标准  美国 02"
-  - "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 标准  美国 03"
-  - "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 标准  美国 04"
-  - "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 标准  美国 05"
-  - "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 标准  美国 06"
-  - "[SS] \U0001F1F0\U0001F1F7 YToo \U0001F1F0\U0001F1F7 标准  韩国 01"
-  - "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 标准  日本 01"
-  - "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 标准  日本 02"
-  - "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 标准  日本 03"
-  - "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 标准  日本 04"
-  - "[SS] \U0001F1E8\U0001F1F3 YToo \U0001F1E8\U0001F1F3 标准  台湾 01"
-  - "[SS] \U0001F1EC\U0001F1E7 YToo \U0001F1EC\U0001F1E7 特殊  伦敦 01"
-  - "[SS] \U0001F1EC\U0001F1E7 YToo \U0001F1EC\U0001F1E7 特殊  伦敦 02"
-  - "[SS] \U0001F1E9\U0001F1EA YToo \U0001F1E9\U0001F1EA 特殊  德国 01"
-  - "[SS] \U0001F1E9\U0001F1EA YToo \U0001F1E9\U0001F1EA 特殊  德国 02"
-  - "[SS] \U0001F1E7\U0001F1F7 YToo \U0001F1E7\U0001F1F7 特殊  巴西 01"
-  - "[SS] \U0001F1E8\U0001F1E6 YToo \U0001F1E8\U0001F1E6 特殊  加拿大 01"
-  - "[SS] \U0001F1E8\U0001F1E6 YToo \U0001F1E8\U0001F1E6 特殊  加拿大 02"
-  - "[SS] \U0001F1F9\U0001F1F7 YToo \U0001F1F9\U0001F1F7 特殊  土耳其 01"
-  - "[SS] \U0001F1F9\U0001F1F7 YToo \U0001F1F9\U0001F1F7 特殊  土耳其 02"
-  - "[SS] \U0001F1F9\U0001F1ED YToo \U0001F1F9\U0001F1ED 特殊  泰国"
-  - "[SS] \U0001F1FB\U0001F1F3 YToo \U0001F1FB\U0001F1F3 特殊  越南"
-  - "[SS] \U0001F1EE\U0001F1F3 YToo \U0001F1EE\U0001F1F3 特殊  印度"
-  - "[SS] \U0001F1E6\U0001F1FA YToo \U0001F1E6\U0001F1FA 特殊  悉尼"
-  - "[SS] \U0001F1E6\U0001F1EA YToo \U0001F1E6\U0001F1EA 特殊  迪拜"
-  - "[SS] \U0001F1EB\U0001F1F7 YToo \U0001F1EB\U0001F1F7 特殊  法国"
-  - "[SS] \U0001F1F3\U0001F1F1 YToo \U0001F1F3\U0001F1F1 特殊  荷兰"
-  - "[SS] \U0001F1EE\U0001F1E9 YToo \U0001F1EE\U0001F1E9 特殊  印尼"
-  - "[SS] \U0001F1FF\U0001F1E6 YToo \U0001F1FF\U0001F1E6 特殊  南非"
-  - "[SS] \U0001F1EA\U0001F1EC YToo \U0001F1EA\U0001F1EC 特殊  埃及"
-  - "[SS] \U0001F1F5\U0001F1ED YToo \U0001F1F5\U0001F1ED 特殊  菲律宾"
-  - "[SS] \U0001F1EE\U0001F1F9 YToo \U0001F1EE\U0001F1F9 特殊  意大利"
-  - "[SS] \U0001F1EA\U0001F1F8 YToo \U0001F1EA\U0001F1F8 特殊  西班牙"
-  - "[SS] \U0001F1ED\U0001F1FA YToo \U0001F1ED\U0001F1FA 特殊  匈牙利"
-  - "[SS] \U0001F1EE\U0001F1F1 YToo \U0001F1EE\U0001F1F1 特殊  以色列"
-  - "[SS] \U0001F1FA\U0001F1E6 YToo \U0001F1FA\U0001F1E6 特殊  乌克兰"
-  - "[SS] \U0001F1F7\U0001F1FA YToo \U0001F1F7\U0001F1FA 特殊  俄罗斯"
-  - "[SS] \U0001F1F2\U0001F1FE YToo \U0001F1F2\U0001F1FE 特殊  马来西亚"
-  - "[SS] \U0001F1F3\U0001F1EC YToo \U0001F1F3\U0001F1EC 特殊  尼日利亚"
-  - "[SS] \U0001F1F5\U0001F1F0 YToo \U0001F1F5\U0001F1F0 特殊  巴基斯坦"
-  - "[SS] \U0001F1F2\U0001F1E9 YToo \U0001F1F2\U0001F1E9 特殊  摩尔多瓦"
-  - "[SS] \U0001F1E6\U0001F1F7 YToo \U0001F1E6\U0001F1F7 购物  阿根廷"
-  - "[VMess] \U0001F1ED\U0001F1F0 Panda 高级 01 香港"
-  - "[VMess] \U0001F1ED\U0001F1F0 Panda 高级 02 香港"
-  - "[VMess] \U0001F1ED\U0001F1F0 Panda 高级 03 香港"
-  - "[VMess] \U0001F1ED\U0001F1F0 Panda 高级 04 香港"
-  - "[VMess] \U0001F1ED\U0001F1F0 Panda 高级 05 香港"
-  - "[VMess] \U0001F1ED\U0001F1F0 Panda 高级 06 香港"
-  - "[VMess] \U0001F1ED\U0001F1F0 Panda 高级 07 香港"
-  - "[VMess] \U0001F1ED\U0001F1F0 Panda 高级 08 香港"
-  - "[VMess] \U0001F1ED\U0001F1F0 Panda 高级 09 香港"
+  - "[Trojan] \U0001F1E6\U0001F1EA YToo 特殊  迪拜"
+  - "[VMess] \U0001F1E6\U0001F1F7 Panda 特殊 33 阿根廷"
+  - "[VMess] \U0001F1E6\U0001F1F7 Panda 特殊 34 阿根廷"
+  - "[Trojan] \U0001F1E6\U0001F1F7 YToo 购物  阿根廷"
+  - "[VMess] \U0001F1E6\U0001F1FA Panda 特殊 38 澳大利亚"
+  - "[Trojan] \U0001F1E6\U0001F1FA YToo 特殊  悉尼"
+  - "[VMess] \U0001F1E7\U0001F1F7 Panda 特殊 44 巴西"
+  - "[Trojan] \U0001F1E7\U0001F1F7 YToo 特殊  巴西 01"
+  - "[VMess] \U0001F1E8\U0001F1E6 Panda 家宽 63 加拿大家宽 4x"
+  - "[VMess] \U0001F1E8\U0001F1E6 Panda 特殊 37 加拿大"
+  - "[VMess] \U0001F1E8\U0001F1E6 Panda 特殊 63 加拿大家宽 4x"
+  - "[Trojan] \U0001F1E8\U0001F1E6 YToo 特殊  加拿大 01"
+  - "[Trojan] \U0001F1E8\U0001F1E6 YToo 特殊  加拿大 02"
+  - "[VMess] \U0001F1E8\U0001F1F3 Panda 日用 23 台湾"
+  - "[VMess] \U0001F1E8\U0001F1F3 Panda 日用 24 台湾"
+  - "[VMess] \U0001F1E8\U0001F1F3 Panda 标准 21 台湾"
+  - "[VMess] \U0001F1E8\U0001F1F3 Panda 标准 22 台湾"
+  - "[VMess] \U0001F1E8\U0001F1F3 Panda 标准 23 台湾"
+  - "[VMess] \U0001F1E8\U0001F1F3 Panda 标准 24 台湾"
+  - "[VMess] \U0001F1E8\U0001F1F3 Panda 标准 25 台湾"
+  - "[VMess] \U0001F1E8\U0001F1F3 Panda 标准 26 台湾"
+  - "[VMess] \U0001F1E8\U0001F1F3 Panda 高级 10 台湾"
+  - "[VMess] \U0001F1E8\U0001F1F3 Panda 高级 11 台湾"
+  - "[VMess] \U0001F1E8\U0001F1F3 Panda 高级 12 台湾"
+  - "[VMess] \U0001F1E8\U0001F1F3 Panda 高级 13 台湾"
+  - "[VMess] \U0001F1E8\U0001F1F3 Panda 高级 14 台湾"
+  - "[Trojan] \U0001F1E8\U0001F1F3 YToo 标准  台湾 01"
+  - "[Trojan] \U0001F1E8\U0001F1F3 YToo 高级  台湾 01"
+  - "[Trojan] \U0001F1E8\U0001F1F3 YToo 高级  台湾 02"
+  - "[VMess] \U0001F1E9\U0001F1EA Panda 特殊 32 德国"
+  - "[Trojan] \U0001F1E9\U0001F1EA YToo 特殊  德国 01"
+  - "[Trojan] \U0001F1E9\U0001F1EA YToo 特殊  德国 02"
+  - "[VMess] \U0001F1EA\U0001F1EC Panda 特殊 57 埃及"
+  - "[Trojan] \U0001F1EA\U0001F1EC YToo 特殊  埃及"
+  - "[Trojan] \U0001F1EA\U0001F1F8 YToo 特殊  西班牙"
+  - "[VMess] \U0001F1EB\U0001F1F7 Panda 特殊 75 法国"
+  - "[Trojan] \U0001F1EB\U0001F1F7 YToo 特殊  法国"
+  - "[VMess] \U0001F1EC\U0001F1E7 Panda 特殊 29 英国"
+  - "[VMess] \U0001F1EC\U0001F1E7 Panda 特殊 31 英国"
+  - "[Trojan] \U0001F1EC\U0001F1E7 YToo 特殊  伦敦 01"
+  - "[Trojan] \U0001F1EC\U0001F1E7 YToo 特殊  伦敦 02"
+  - "[VMess] \U0001F1ED\U0001F1F0 Panda 日用 CN2 21 香港"
+  - "[VMess] \U0001F1ED\U0001F1F0 Panda 日用 CN2 22 香港"
+  - "[VMess] \U0001F1ED\U0001F1F0 Panda 日用 CN2 25 香港"
+  - "[VMess] \U0001F1ED\U0001F1F0 Panda 日用 CN2 46 香港"
   - "[VMess] \U0001F1ED\U0001F1F0 Panda 标准 01 香港"
   - "[VMess] \U0001F1ED\U0001F1F0 Panda 标准 02 香港"
   - "[VMess] \U0001F1ED\U0001F1F0 Panda 标准 03 香港"
@@ -2821,139 +2568,200 @@ proxy-groups:
   - "[VMess] \U0001F1ED\U0001F1F0 Panda 标准 08 香港"
   - "[VMess] \U0001F1ED\U0001F1F0 Panda 标准 09 香港"
   - "[VMess] \U0001F1ED\U0001F1F0 Panda 标准 10 香港"
-  - "[VMess] \U0001F1E8\U0001F1F3 Panda 高级 10 台湾"
-  - "[VMess] \U0001F1E8\U0001F1F3 Panda 高级 11 台湾"
-  - "[VMess] \U0001F1E8\U0001F1F3 Panda 高级 12 台湾"
-  - "[VMess] \U0001F1E8\U0001F1F3 Panda 高级 13 台湾"
-  - "[VMess] \U0001F1E8\U0001F1F3 Panda 高级 14 台湾"
-  - "[VMess] \U0001F1E8\U0001F1F3 Panda 标准 21 台湾"
-  - "[VMess] \U0001F1E8\U0001F1F3 Panda 标准 22 台湾"
-  - "[VMess] \U0001F1E8\U0001F1F3 Panda 标准 23 台湾"
-  - "[VMess] \U0001F1E8\U0001F1F3 Panda 标准 24 台湾"
-  - "[VMess] \U0001F1E8\U0001F1F3 Panda 标准 25 台湾"
-  - "[VMess] \U0001F1E8\U0001F1F3 Panda 标准 26 台湾"
-  - "[VMess] \U0001F1F8\U0001F1EC Panda 高级 17 狮城"
-  - "[VMess] \U0001F1F8\U0001F1EC Panda 高级 19 狮城"
-  - "[VMess] \U0001F1F8\U0001F1EC Panda 高级 61 狮城"
-  - "[VMess] \U0001F1F8\U0001F1EC Panda 高级 60 狮城"
+  - "[VMess] \U0001F1ED\U0001F1F0 Panda 高级 01 香港"
+  - "[VMess] \U0001F1ED\U0001F1F0 Panda 高级 02 香港"
+  - "[VMess] \U0001F1ED\U0001F1F0 Panda 高级 03 香港"
+  - "[VMess] \U0001F1ED\U0001F1F0 Panda 高级 04 香港"
+  - "[VMess] \U0001F1ED\U0001F1F0 Panda 高级 05 香港"
+  - "[VMess] \U0001F1ED\U0001F1F0 Panda 高级 06 香港"
+  - "[VMess] \U0001F1ED\U0001F1F0 Panda 高级 07 香港"
+  - "[VMess] \U0001F1ED\U0001F1F0 Panda 高级 08 香港"
+  - "[VMess] \U0001F1ED\U0001F1F0 Panda 高级 09 香港"
+  - "[Trojan] \U0001F1ED\U0001F1F0 YToo 日用  香港"
+  - "[Trojan] \U0001F1ED\U0001F1F0 YToo 标准  香港 01"
+  - "[Trojan] \U0001F1ED\U0001F1F0 YToo 标准  香港 02"
+  - "[Trojan] \U0001F1ED\U0001F1F0 YToo 标准  香港 03"
+  - "[Trojan] \U0001F1ED\U0001F1F0 YToo 高级  香港 01"
+  - "[Trojan] \U0001F1ED\U0001F1F0 YToo 高级  香港 02"
+  - "[Trojan] \U0001F1ED\U0001F1F0 YToo 高级  香港 03"
+  - "[Trojan] \U0001F1ED\U0001F1F0 YToo 高级  香港 04"
+  - "[Trojan] \U0001F1ED\U0001F1F0 YToo 高级  香港 05"
+  - "[Trojan] \U0001F1ED\U0001F1F0 YToo 高级  香港 06"
+  - "[Trojan] \U0001F1ED\U0001F1F0 YToo 高级  香港 07"
+  - "[Trojan] \U0001F1ED\U0001F1F0 YToo 高级  香港 08"
+  - "[VMess] \U0001F1ED\U0001F1F0 福利-V114-香港-0.1x-仅限emby"
+  - "[VMess] \U0001F1ED\U0001F1F0 福利-V234-香港-0.1x-15M-NF"
+  - "[Trojan] \U0001F1ED\U0001F1FA YToo 特殊  匈牙利"
+  - "[VMess] \U0001F1EE\U0001F1E9 Panda 特殊 43 印尼"
+  - "[Trojan] \U0001F1EE\U0001F1E9 YToo 特殊  印尼"
+  - "[Trojan] \U0001F1EE\U0001F1F1 YToo 特殊  以色列"
+  - "[VMess] \U0001F1EE\U0001F1F3 Panda 特殊 37 印度"
+  - "[Trojan] \U0001F1EE\U0001F1F3 YToo 特殊  印度"
+  - "[Trojan] \U0001F1EE\U0001F1F9 YToo 特殊  意大利"
+  - "[VMess] \U0001F1EF\U0001F1F5 Panda 家宽 56 日本 4x&Disney"
+  - "[VMess] \U0001F1EF\U0001F1F5 Panda 日用 CN2 28 日本&Disney"
+  - "[VMess] \U0001F1EF\U0001F1F5 Panda 日用 CN2 29 日本"
+  - "[VMess] \U0001F1EF\U0001F1F5 Panda 标准 40 日本  &Disney"
+  - "[VMess] \U0001F1EF\U0001F1F5 Panda 高级 15 日本  &Disney"
+  - "[VMess] \U0001F1EF\U0001F1F5 Panda 高级 53 日本  &Disney"
+  - "[VMess] \U0001F1EF\U0001F1F5 Panda 高级 65 日本  &Disney"
+  - "[VMess] \U0001F1EF\U0001F1F5 Panda 高级 66 日本  &Disney"
+  - "[Trojan] \U0001F1EF\U0001F1F5 YToo 日用  日本"
+  - "[Trojan] \U0001F1EF\U0001F1F5 YToo 日用  美国"
+  - "[Trojan] \U0001F1EF\U0001F1F5 YToo 标准  日本 01"
+  - "[Trojan] \U0001F1EF\U0001F1F5 YToo 标准  日本 02"
+  - "[Trojan] \U0001F1EF\U0001F1F5 YToo 标准  日本 03"
+  - "[Trojan] \U0001F1EF\U0001F1F5 YToo 标准  日本 04"
+  - "[Trojan] \U0001F1EF\U0001F1F5 YToo 高级  日本 01"
+  - "[Trojan] \U0001F1EF\U0001F1F5 YToo 高级  日本 02"
+  - "[Trojan] \U0001F1EF\U0001F1F5 YToo 高级  日本 03"
+  - "[Trojan] \U0001F1EF\U0001F1F5 YToo 高级  日本 04"
+  - "[Trojan] \U0001F1EF\U0001F1F5 YToo 高级  日本 05"
+  - "[Trojan] \U0001F1EF\U0001F1F5 YToo 高级  日本 06"
+  - "[Trojan] \U0001F1EF\U0001F1F5 YToo 高级  日本 07"
+  - "[Trojan] \U0001F1EF\U0001F1F5 YToo 高级  日本 08"
+  - "[VLESS] \U0001F1EF\U0001F1F5 免费-甲骨文-日本-1-reality-199.2-orc-1"
+  - "[VLESS] \U0001F1EF\U0001F1F5 免费-甲骨文-日本-2-reality-199.2-orc-2"
+  - "[VMess] \U0001F1F0\U0001F1F7 Panda 家宽 30 韩国 家宽 1x&Disney"
+  - "[VMess] \U0001F1F0\U0001F1F7 Panda 高级 20 韩国"
+  - "[Trojan] \U0001F1F0\U0001F1F7 YToo 标准  韩国 01"
+  - "[Trojan] \U0001F1F0\U0001F1F7 YToo 高级  韩国 01"
+  - "[Trojan] \U0001F1F0\U0001F1F7 YToo 高级  韩国 02"
+  - "[Trojan] \U0001F1F2\U0001F1E9 YToo 特殊  摩尔多瓦"
+  - "[VMess] \U0001F1F2\U0001F1F4 Panda 特殊 49 澳门"
+  - "[VMess] \U0001F1F2\U0001F1FD Panda 特殊 52 墨西哥"
+  - "[VMess] \U0001F1F2\U0001F1FE Panda 特殊 39 马来西亚"
+  - "[Trojan] \U0001F1F2\U0001F1FE YToo 特殊  马来西亚"
+  - "[VMess] \U0001F1F3\U0001F1EC Panda 特殊 70 尼日利亚"
+  - "[Trojan] \U0001F1F3\U0001F1EC YToo 特殊  尼日利亚"
+  - "[VMess] \U0001F1F3\U0001F1F1 Panda 特殊 38 荷兰"
+  - "[Trojan] \U0001F1F3\U0001F1F1 YToo 特殊  荷兰"
+  - "[VMess] \U0001F1F5\U0001F1ED Panda 特殊 36 菲律宾"
+  - "[Trojan] \U0001F1F5\U0001F1ED YToo 特殊  菲律宾"
+  - "[VMess] \U0001F1F5\U0001F1F0 Panda 特殊 58 巴基斯坦"
+  - "[Trojan] \U0001F1F5\U0001F1F0 YToo 特殊  巴基斯坦"
+  - "[VMess] \U0001F1F7\U0001F1FA Panda 特殊 09 俄罗斯"
+  - "[VMess] \U0001F1F7\U0001F1FA Panda 特殊 31 俄罗斯"
+  - "[Trojan] \U0001F1F7\U0001F1FA YToo 特殊  俄罗斯"
+  - "[VMess] \U0001F1F8\U0001F1E6 Panda 特殊 32 沙特阿拉伯"
+  - "[VMess] \U0001F1F8\U0001F1EC Panda 日用 CN2 47 新加坡"
   - "[VMess] \U0001F1F8\U0001F1EC Panda 标准 18 狮城"
   - "[VMess] \U0001F1F8\U0001F1EC Panda 标准 19 狮城"
   - "[VMess] \U0001F1F8\U0001F1EC Panda 标准 20 狮城"
-  - "[VMess] \U0001F1F0\U0001F1F7 Panda 高级 20 韩国"
+  - "[VMess] \U0001F1F8\U0001F1EC Panda 特殊 39 新西兰"
+  - "[VMess] \U0001F1F8\U0001F1EC Panda 高级 17 狮城"
+  - "[VMess] \U0001F1F8\U0001F1EC Panda 高级 19 狮城"
+  - "[VMess] \U0001F1F8\U0001F1EC Panda 高级 60 狮城"
+  - "[VMess] \U0001F1F8\U0001F1EC Panda 高级 61 狮城"
+  - "[Trojan] \U0001F1F8\U0001F1EC YToo 日用  狮城"
+  - "[Trojan] \U0001F1F8\U0001F1EC YToo 标准  狮城 01"
+  - "[Trojan] \U0001F1F8\U0001F1EC YToo 标准  狮城 02"
+  - "[Trojan] \U0001F1F8\U0001F1EC YToo 标准  狮城 03"
+  - "[Trojan] \U0001F1F8\U0001F1EC YToo 高级  狮城 01"
+  - "[Trojan] \U0001F1F8\U0001F1EC YToo 高级  狮城 02"
+  - "[Trojan] \U0001F1F8\U0001F1EC YToo 高级  狮城 03"
+  - "[Trojan] \U0001F1F8\U0001F1EC YToo 高级  狮城 04"
+  - "[Trojan] \U0001F1F8\U0001F1EC YToo 高级  狮城 05"
+  - "[VMess] \U0001F1F8\U0001F1EC 外部Emby新用户请先购买免费/付费套餐"
+  - "[VMess] \U0001F1F8\U0001F1EC 外部Emby新用户请先购买免费/付费套餐 2"
+  - "[VMess] \U0001F1F8\U0001F1EC 福利-V345-新加坡-0.1x-15M-NF"
+  - "[VMess] \U0001F1F9\U0001F1ED Panda 特殊 42 泰国"
+  - "[Trojan] \U0001F1F9\U0001F1ED YToo 特殊  泰国"
+  - "[VMess] \U0001F1F9\U0001F1F7 Panda 特殊 35 土耳其"
+  - "[Trojan] \U0001F1F9\U0001F1F7 YToo 特殊  土耳其 01"
+  - "[Trojan] \U0001F1F9\U0001F1F7 YToo 特殊  土耳其 02"
+  - "[VMess] \U0001F1FA\U0001F1E6 Panda 特殊 54 乌克兰"
+  - "[Trojan] \U0001F1FA\U0001F1E6 YToo 特殊  乌克兰"
+  - "[VMess] \U0001F1FA\U0001F1F8 Panda 家宽 55 美国 4x 家宽"
+  - "[VMess] \U0001F1FA\U0001F1F8 Panda 家宽 74 美国 家宽 4x"
+  - "[VMess] \U0001F1FA\U0001F1F8 Panda 标准 14 美国"
   - "[VMess] \U0001F1FA\U0001F1F8 Panda 高级 50 美国"
   - "[VMess] \U0001F1FA\U0001F1F8 Panda 高级 51 美国 2x 夏威夷"
   - "[VMess] \U0001F1FA\U0001F1F8 Panda 高级 71 美国"
   - "[VMess] \U0001F1FA\U0001F1F8 Panda 高级 72 美国"
-  - "[VMess] \U0001F1FA\U0001F1F8 Panda 标准 14 美国"
-  - "[VMess] \U0001F1EF\U0001F1F5 Panda 高级 15 日本"
-  - "[VMess] \U0001F1EF\U0001F1F5 Panda 高级 53 日本"
-  - "[VMess] \U0001F1EF\U0001F1F5 Panda 高级 65 日本"
-  - "[VMess] \U0001F1EF\U0001F1F5 Panda 高级 66 日本"
-  - "[VMess] \U0001F1EF\U0001F1F5 Panda 标准 40 日本"
-  - "[VMess] \U0001F1F0\U0001F1F7 Panda 家宽 30 韩国 家宽 1x"
-  - "[VMess] \U0001F1FA\U0001F1F8 Panda 家宽 55 美国 4x 家宽"
-  - "[VMess] \U0001F1FA\U0001F1F8 Panda 家宽 74 美国 家宽 4x"
-  - "[VMess] \U0001F1E8\U0001F1E6 Panda 家宽 63 加拿大家宽 4x"
-  - "[VMess] \U0001F1EF\U0001F1F5 Panda 家宽 56 日本 4x"
-  - "[VMess] \U0001F1E8\U0001F1F3 Panda 日用 23 台湾"
-  - "[VMess] \U0001F1E8\U0001F1F3 Panda 日用 24 台湾"
-  - "[VMess] \U0001F1ED\U0001F1F0 Panda 日用 CN2 21 香港"
-  - "[VMess] \U0001F1ED\U0001F1F0 Panda 日用 CN2 22 香港"
-  - "[VMess] \U0001F1ED\U0001F1F0 Panda 日用 CN2 25 香港"
-  - "[VMess] \U0001F1ED\U0001F1F0 Panda 日用 CN2 46 香港"
-  - "[VMess] \U0001F1F8\U0001F1EC Panda 日用 CN2 47 新加坡"
-  - "[VMess] \U0001F1EF\U0001F1F5 Panda 日用 CN2 28 日本"
-  - "[VMess] \U0001F1EF\U0001F1F5 Panda 日用 CN2 29 日本"
-  - "[VMess] \U0001F1E8\U0001F1E6 Panda 特殊 63 加拿大家宽 4x"
-  - "[VMess] \U0001F1F2\U0001F1FE Panda 特殊 39 马来西亚"
-  - "[VMess] \U0001F1F2\U0001F1F4 Panda 特殊 49 澳门"
-  - "[VMess] \U0001F1F5\U0001F1ED Panda 特殊 36 菲律宾"
-  - "[VMess] \U0001F1EE\U0001F1F3 Panda 特殊 37 印度"
-  - "[VMess] \U0001F1F9\U0001F1ED Panda 特殊 42 泰国"
-  - "[VMess] \U0001F1EE\U0001F1E9 Panda 特殊 43 印尼"
+  - "[Trojan] \U0001F1FA\U0001F1F8 YToo 标准  美国 01"
+  - "[Trojan] \U0001F1FA\U0001F1F8 YToo 标准  美国 02"
+  - "[Trojan] \U0001F1FA\U0001F1F8 YToo 标准  美国 03"
+  - "[Trojan] \U0001F1FA\U0001F1F8 YToo 标准  美国 04"
+  - "[Trojan] \U0001F1FA\U0001F1F8 YToo 标准  美国 05"
+  - "[Trojan] \U0001F1FA\U0001F1F8 YToo 标准  美国 06"
+  - "[Trojan] \U0001F1FA\U0001F1F8 YToo 高级  美国 01"
+  - "[Trojan] \U0001F1FA\U0001F1F8 YToo 高级  美国 02"
+  - "[Trojan] \U0001F1FA\U0001F1F8 YToo 高级  美国 03"
+  - "[Trojan] \U0001F1FA\U0001F1F8 YToo 高级  美国 04"
+  - "[Trojan] \U0001F1FA\U0001F1F8 YToo 高级  美国 05"
+  - "[Trojan] \U0001F1FA\U0001F1F8 YToo 高级  美国 06"
+  - "[Trojan] \U0001F1FA\U0001F1F8 YToo 高级  美国 07"
+  - "[Trojan] \U0001F1FA\U0001F1F8 YToo 高级  美国 08"
+  - "[Trojan] \U0001F1FA\U0001F1F8 YToo 高级  美国 09"
+  - "[Trojan] \U0001F1FA\U0001F1F8 YToo 高级  美国 10"
   - "[VMess] \U0001F1FB\U0001F1F3 Panda 特殊 48 越南"
-  - "[VMess] \U0001F1EC\U0001F1E7 Panda 特殊 31 英国"
-  - "[VMess] \U0001F1FA\U0001F1E6 Panda 特殊 54 乌克兰"
-  - "[VMess] \U0001F1EB\U0001F1F7 Panda 特殊 75 法国"
-  - "[VMess] \U0001F1F9\U0001F1F7 Panda 特殊 35 土耳其"
-  - "[VMess] \U0001F1E9\U0001F1EA Panda 特殊 32 德国"
-  - "[VMess] \U0001F1F7\U0001F1FA Panda 特殊 31 俄罗斯"
-  - "[VMess] \U0001F1F7\U0001F1FA Panda 特殊 09 俄罗斯"
-  - "[VMess] \U0001F1F5\U0001F1F0 Panda 特殊 58 巴基斯坦"
-  - "[VMess] \U0001F1F8\U0001F1E6 Panda 特殊 32 沙特阿拉伯"
-  - "[VMess] \U0001F1F3\U0001F1EC Panda 特殊 70 尼日利亚"
-  - "[VMess] \U0001F1EA\U0001F1EC Panda 特殊 57 埃及"
-  - "[VMess] \U0001F1F2\U0001F1FD Panda 特殊 52 墨西哥"
-  - "[VMess] \U0001F1E7\U0001F1F7 Panda 特殊 44 巴西"
-  - "[VMess] \U0001F1E6\U0001F1F7 Panda 特殊 33 阿根廷"
-  - "[VMess] \U0001F1E6\U0001F1F7 Panda 特殊 34 阿根廷"
-  - "[VMess] \U0001F1EC\U0001F1E7 Panda 特殊 29 英国"
-  - "[VMess] \U0001F1F3\U0001F1F1 Panda 特殊 38 荷兰"
-  - "[VMess] \U0001F1E8\U0001F1E6 Panda 特殊 37 加拿大"
-  - "[VMess] \U0001F1E6\U0001F1FA Panda 特殊 38 澳大利亚"
-  - "[VMess] \U0001F1F8\U0001F1EC Panda 特殊 39 新西兰"
-  - "[VMess] \U0001F1F8\U0001F1EC 福利-V345-新加坡-0.1x-15M-NF"
-  - "[VMess] \U0001F1ED\U0001F1F0 福利-V234-香港-0.1x-15M-NF"
-  - "[VMess] \U0001F1ED\U0001F1F0 福利-V114-香港-0.1x-仅限emby"
-  - "[Vless] \U0001F1EF\U0001F1F5 免费-甲骨文-日本-2-reality-199.2-orc-2"
-  - "[Vless] \U0001F1EF\U0001F1F5 免费-甲骨文-日本-1-reality-199.2-orc-1"
+  - "[Trojan] \U0001F1FB\U0001F1F3 YToo 特殊  越南"
+  - "[Trojan] \U0001F1FF\U0001F1E6 YToo 特殊  南非"
 - name: 福利-手动
   type: select
   proxies:
-  - "[VMess] \U0001F1F8\U0001F1EC 福利-V345-新加坡-0.1x-15M-NF"
-  - "[VMess] \U0001F1ED\U0001F1F0 福利-V234-香港-0.1x-15M-NF"
   - "[VMess] \U0001F1ED\U0001F1F0 福利-V114-香港-0.1x-仅限emby"
+  - "[VMess] \U0001F1ED\U0001F1F0 福利-V234-香港-0.1x-15M-NF"
+  - "[VMess] \U0001F1F8\U0001F1EC 福利-V345-新加坡-0.1x-15M-NF"
+- name: 外部Emby-手动
+  type: select
+  proxies:
+  - "[VMess] \U0001F1F8\U0001F1EC 外部Emby新用户请先购买免费/付费套餐"
+  - "[VMess] \U0001F1F8\U0001F1EC 外部Emby新用户请先购买免费/付费套餐 2"
 - name: 免费-自动
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 180
   proxies:
-  - "[Vless] \U0001F1EF\U0001F1F5 免费-甲骨文-日本-2-reality-199.2-orc-2"
-  - "[Vless] \U0001F1EF\U0001F1F5 免费-甲骨文-日本-1-reality-199.2-orc-1"
+  - "[VLESS] \U0001F1EF\U0001F1F5 免费-甲骨文-日本-1-reality-199.2-orc-1"
+  - "[VLESS] \U0001F1EF\U0001F1F5 免费-甲骨文-日本-2-reality-199.2-orc-2"
+  - "[VMess] \U0001F1F8\U0001F1EC 外部Emby新用户请先购买免费/付费套餐"
+  - "[VMess] \U0001F1F8\U0001F1EC 外部Emby新用户请先购买免费/付费套餐 2"
   tolerance: 150
 - name: 日用-手动
   type: select
   proxies:
-  - "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 日用  香港"
-  - "[SS] \U0001F1F8\U0001F1EC YToo \U0001F1F8\U0001F1EC 日用  狮城"
-  - "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 日用  日本"
-  - "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1FA\U0001F1F8 日用  美国"
   - "[VMess] \U0001F1E8\U0001F1F3 Panda 日用 23 台湾"
   - "[VMess] \U0001F1E8\U0001F1F3 Panda 日用 24 台湾"
   - "[VMess] \U0001F1ED\U0001F1F0 Panda 日用 CN2 21 香港"
   - "[VMess] \U0001F1ED\U0001F1F0 Panda 日用 CN2 22 香港"
   - "[VMess] \U0001F1ED\U0001F1F0 Panda 日用 CN2 25 香港"
   - "[VMess] \U0001F1ED\U0001F1F0 Panda 日用 CN2 46 香港"
-  - "[VMess] \U0001F1F8\U0001F1EC Panda 日用 CN2 47 新加坡"
-  - "[VMess] \U0001F1EF\U0001F1F5 Panda 日用 CN2 28 日本"
+  - "[Trojan] \U0001F1ED\U0001F1F0 YToo 日用  香港"
+  - "[VMess] \U0001F1EF\U0001F1F5 Panda 日用 CN2 28 日本&Disney"
   - "[VMess] \U0001F1EF\U0001F1F5 Panda 日用 CN2 29 日本"
+  - "[Trojan] \U0001F1EF\U0001F1F5 YToo 日用  日本"
+  - "[Trojan] \U0001F1EF\U0001F1F5 YToo 日用  美国"
+  - "[VMess] \U0001F1F8\U0001F1EC Panda 日用 CN2 47 新加坡"
+  - "[Trojan] \U0001F1F8\U0001F1EC YToo 日用  狮城"
 - name: 日用-自动
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 180
   proxies:
-  - "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 日用  香港"
-  - "[SS] \U0001F1F8\U0001F1EC YToo \U0001F1F8\U0001F1EC 日用  狮城"
-  - "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 日用  日本"
-  - "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1FA\U0001F1F8 日用  美国"
   - "[VMess] \U0001F1E8\U0001F1F3 Panda 日用 23 台湾"
   - "[VMess] \U0001F1E8\U0001F1F3 Panda 日用 24 台湾"
   - "[VMess] \U0001F1ED\U0001F1F0 Panda 日用 CN2 21 香港"
   - "[VMess] \U0001F1ED\U0001F1F0 Panda 日用 CN2 22 香港"
   - "[VMess] \U0001F1ED\U0001F1F0 Panda 日用 CN2 25 香港"
   - "[VMess] \U0001F1ED\U0001F1F0 Panda 日用 CN2 46 香港"
-  - "[VMess] \U0001F1F8\U0001F1EC Panda 日用 CN2 47 新加坡"
-  - "[VMess] \U0001F1EF\U0001F1F5 Panda 日用 CN2 28 日本"
+  - "[Trojan] \U0001F1ED\U0001F1F0 YToo 日用  香港"
+  - "[VMess] \U0001F1EF\U0001F1F5 Panda 日用 CN2 28 日本&Disney"
   - "[VMess] \U0001F1EF\U0001F1F5 Panda 日用 CN2 29 日本"
+  - "[Trojan] \U0001F1EF\U0001F1F5 YToo 日用  日本"
+  - "[Trojan] \U0001F1EF\U0001F1F5 YToo 日用  美国"
+  - "[VMess] \U0001F1F8\U0001F1EC Panda 日用 CN2 47 新加坡"
+  - "[Trojan] \U0001F1F8\U0001F1EC YToo 日用  狮城"
   tolerance: 150
 - name: YToo-标准-香港-自动
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 180
   proxies:
-  - "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 标准  香港 01"
-  - "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 标准  香港 02"
-  - "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 标准  香港 03"
+  - "[Trojan] \U0001F1ED\U0001F1F0 YToo 标准  香港 01"
+  - "[Trojan] \U0001F1ED\U0001F1F0 YToo 标准  香港 02"
+  - "[Trojan] \U0001F1ED\U0001F1F0 YToo 标准  香港 03"
   tolerance: 150
 - name: Panda-标准-香港-自动
   type: url-test
@@ -2976,9 +2784,9 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: 180
   proxies:
-  - "[SS] \U0001F1F8\U0001F1EC YToo \U0001F1F8\U0001F1EC 标准  狮城 01"
-  - "[SS] \U0001F1F8\U0001F1EC YToo \U0001F1F8\U0001F1EC 标准  狮城 02"
-  - "[SS] \U0001F1F8\U0001F1EC YToo \U0001F1F8\U0001F1EC 标准  狮城 03"
+  - "[Trojan] \U0001F1F8\U0001F1EC YToo 标准  狮城 01"
+  - "[Trojan] \U0001F1F8\U0001F1EC YToo 标准  狮城 02"
+  - "[Trojan] \U0001F1F8\U0001F1EC YToo 标准  狮城 03"
   tolerance: 150
 - name: Panda-标准-狮城-自动
   type: url-test
@@ -2994,29 +2802,29 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: 180
   proxies:
-  - "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 标准  日本 01"
-  - "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 标准  日本 02"
-  - "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 标准  日本 03"
-  - "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 标准  日本 04"
+  - "[Trojan] \U0001F1EF\U0001F1F5 YToo 标准  日本 01"
+  - "[Trojan] \U0001F1EF\U0001F1F5 YToo 标准  日本 02"
+  - "[Trojan] \U0001F1EF\U0001F1F5 YToo 标准  日本 03"
+  - "[Trojan] \U0001F1EF\U0001F1F5 YToo 标准  日本 04"
   tolerance: 150
 - name: Panda-标准-日本-自动
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 180
   proxies:
-  - "[VMess] \U0001F1EF\U0001F1F5 Panda 标准 40 日本"
+  - "[VMess] \U0001F1EF\U0001F1F5 Panda 标准 40 日本  &Disney"
   tolerance: 150
 - name: YToo-标准-美国-自动
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 180
   proxies:
-  - "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 标准  美国 01"
-  - "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 标准  美国 02"
-  - "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 标准  美国 03"
-  - "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 标准  美国 04"
-  - "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 标准  美国 05"
-  - "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 标准  美国 06"
+  - "[Trojan] \U0001F1FA\U0001F1F8 YToo 标准  美国 01"
+  - "[Trojan] \U0001F1FA\U0001F1F8 YToo 标准  美国 02"
+  - "[Trojan] \U0001F1FA\U0001F1F8 YToo 标准  美国 03"
+  - "[Trojan] \U0001F1FA\U0001F1F8 YToo 标准  美国 04"
+  - "[Trojan] \U0001F1FA\U0001F1F8 YToo 标准  美国 05"
+  - "[Trojan] \U0001F1FA\U0001F1F8 YToo 标准  美国 06"
   tolerance: 150
 - name: Panda-标准-美国-自动
   type: url-test
@@ -3030,7 +2838,7 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: 180
   proxies:
-  - "[SS] \U0001F1F0\U0001F1F7 YToo \U0001F1F0\U0001F1F7 标准  韩国 01"
+  - "[Trojan] \U0001F1F0\U0001F1F7 YToo 标准  韩国 01"
   tolerance: 150
 - name: Panda-标准-韩国-自动
   type: url-test
@@ -3044,7 +2852,7 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: 180
   proxies:
-  - "[SS] \U0001F1E8\U0001F1F3 YToo \U0001F1E8\U0001F1F3 标准  台湾 01"
+  - "[Trojan] \U0001F1E8\U0001F1F3 YToo 标准  台湾 01"
   tolerance: 150
 - name: Panda-标准-台湾-自动
   type: url-test
@@ -3063,14 +2871,14 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: 180
   proxies:
-  - "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 高级  香港 01"
-  - "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 高级  香港 02"
-  - "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 高级  香港 03"
-  - "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 高级  香港 04"
-  - "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 高级  香港 05"
-  - "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 高级  香港 06"
-  - "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 高级  香港 07"
-  - "[SS] \U0001F1ED\U0001F1F0 YToo \U0001F1ED\U0001F1F0 高级  香港 08"
+  - "[Trojan] \U0001F1ED\U0001F1F0 YToo 高级  香港 01"
+  - "[Trojan] \U0001F1ED\U0001F1F0 YToo 高级  香港 02"
+  - "[Trojan] \U0001F1ED\U0001F1F0 YToo 高级  香港 03"
+  - "[Trojan] \U0001F1ED\U0001F1F0 YToo 高级  香港 04"
+  - "[Trojan] \U0001F1ED\U0001F1F0 YToo 高级  香港 05"
+  - "[Trojan] \U0001F1ED\U0001F1F0 YToo 高级  香港 06"
+  - "[Trojan] \U0001F1ED\U0001F1F0 YToo 高级  香港 07"
+  - "[Trojan] \U0001F1ED\U0001F1F0 YToo 高级  香港 08"
   tolerance: 150
 - name: Panda-高级-香港-自动
   type: url-test
@@ -3092,11 +2900,11 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: 180
   proxies:
-  - "[SS] \U0001F1F8\U0001F1EC YToo \U0001F1F8\U0001F1EC 高级  狮城 01"
-  - "[SS] \U0001F1F8\U0001F1EC YToo \U0001F1F8\U0001F1EC 高级  狮城 02"
-  - "[SS] \U0001F1F8\U0001F1EC YToo \U0001F1F8\U0001F1EC 高级  狮城 03"
-  - "[SS] \U0001F1F8\U0001F1EC YToo \U0001F1F8\U0001F1EC 高级  狮城 04"
-  - "[SS] \U0001F1F8\U0001F1EC YToo \U0001F1F8\U0001F1EC 高级  狮城 05"
+  - "[Trojan] \U0001F1F8\U0001F1EC YToo 高级  狮城 01"
+  - "[Trojan] \U0001F1F8\U0001F1EC YToo 高级  狮城 02"
+  - "[Trojan] \U0001F1F8\U0001F1EC YToo 高级  狮城 03"
+  - "[Trojan] \U0001F1F8\U0001F1EC YToo 高级  狮城 04"
+  - "[Trojan] \U0001F1F8\U0001F1EC YToo 高级  狮城 05"
   tolerance: 150
 - name: Panda-高级-狮城-自动
   type: url-test
@@ -3105,48 +2913,48 @@ proxy-groups:
   proxies:
   - "[VMess] \U0001F1F8\U0001F1EC Panda 高级 17 狮城"
   - "[VMess] \U0001F1F8\U0001F1EC Panda 高级 19 狮城"
-  - "[VMess] \U0001F1F8\U0001F1EC Panda 高级 61 狮城"
   - "[VMess] \U0001F1F8\U0001F1EC Panda 高级 60 狮城"
+  - "[VMess] \U0001F1F8\U0001F1EC Panda 高级 61 狮城"
   tolerance: 150
 - name: YToo-高级-日本-自动
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 180
   proxies:
-  - "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 高级  日本 01"
-  - "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 高级  日本 02"
-  - "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 高级  日本 03"
-  - "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 高级  日本 04"
-  - "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 高级  日本 05"
-  - "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 高级  日本 06"
-  - "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 高级  日本 07"
-  - "[SS] \U0001F1EF\U0001F1F5 YToo \U0001F1EF\U0001F1F5 高级  日本 08"
+  - "[Trojan] \U0001F1EF\U0001F1F5 YToo 高级  日本 01"
+  - "[Trojan] \U0001F1EF\U0001F1F5 YToo 高级  日本 02"
+  - "[Trojan] \U0001F1EF\U0001F1F5 YToo 高级  日本 03"
+  - "[Trojan] \U0001F1EF\U0001F1F5 YToo 高级  日本 04"
+  - "[Trojan] \U0001F1EF\U0001F1F5 YToo 高级  日本 05"
+  - "[Trojan] \U0001F1EF\U0001F1F5 YToo 高级  日本 06"
+  - "[Trojan] \U0001F1EF\U0001F1F5 YToo 高级  日本 07"
+  - "[Trojan] \U0001F1EF\U0001F1F5 YToo 高级  日本 08"
   tolerance: 150
 - name: Panda-高级-日本-自动
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 180
   proxies:
-  - "[VMess] \U0001F1EF\U0001F1F5 Panda 高级 15 日本"
-  - "[VMess] \U0001F1EF\U0001F1F5 Panda 高级 53 日本"
-  - "[VMess] \U0001F1EF\U0001F1F5 Panda 高级 65 日本"
-  - "[VMess] \U0001F1EF\U0001F1F5 Panda 高级 66 日本"
+  - "[VMess] \U0001F1EF\U0001F1F5 Panda 高级 15 日本  &Disney"
+  - "[VMess] \U0001F1EF\U0001F1F5 Panda 高级 53 日本  &Disney"
+  - "[VMess] \U0001F1EF\U0001F1F5 Panda 高级 65 日本  &Disney"
+  - "[VMess] \U0001F1EF\U0001F1F5 Panda 高级 66 日本  &Disney"
   tolerance: 150
 - name: YToo-高级-美国-自动
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 180
   proxies:
-  - "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 高级  美国 01"
-  - "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 高级  美国 02"
-  - "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 高级  美国 03"
-  - "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 高级  美国 04"
-  - "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 高级  美国 05"
-  - "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 高级  美国 06"
-  - "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 高级  美国 07"
-  - "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 高级  美国 08"
-  - "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 高级  美国 09"
-  - "[SS] \U0001F1FA\U0001F1F8 YToo \U0001F1FA\U0001F1F8 高级  美国 10"
+  - "[Trojan] \U0001F1FA\U0001F1F8 YToo 高级  美国 01"
+  - "[Trojan] \U0001F1FA\U0001F1F8 YToo 高级  美国 02"
+  - "[Trojan] \U0001F1FA\U0001F1F8 YToo 高级  美国 03"
+  - "[Trojan] \U0001F1FA\U0001F1F8 YToo 高级  美国 04"
+  - "[Trojan] \U0001F1FA\U0001F1F8 YToo 高级  美国 05"
+  - "[Trojan] \U0001F1FA\U0001F1F8 YToo 高级  美国 06"
+  - "[Trojan] \U0001F1FA\U0001F1F8 YToo 高级  美国 07"
+  - "[Trojan] \U0001F1FA\U0001F1F8 YToo 高级  美国 08"
+  - "[Trojan] \U0001F1FA\U0001F1F8 YToo 高级  美国 09"
+  - "[Trojan] \U0001F1FA\U0001F1F8 YToo 高级  美国 10"
   tolerance: 150
 - name: Panda-高级-美国-自动
   type: url-test
@@ -3163,8 +2971,8 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: 180
   proxies:
-  - "[SS] \U0001F1F0\U0001F1F7 YToo \U0001F1F0\U0001F1F7 高级  韩国 01"
-  - "[SS] \U0001F1F0\U0001F1F7 YToo \U0001F1F0\U0001F1F7 高级  韩国 02"
+  - "[Trojan] \U0001F1F0\U0001F1F7 YToo 高级  韩国 01"
+  - "[Trojan] \U0001F1F0\U0001F1F7 YToo 高级  韩国 02"
   tolerance: 150
 - name: Panda-高级-韩国-自动
   type: url-test
@@ -3178,8 +2986,8 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: 180
   proxies:
-  - "[SS] \U0001F1E8\U0001F1F3 YToo \U0001F1E8\U0001F1F3 高级  台湾 01"
-  - "[SS] \U0001F1E8\U0001F1F3 YToo \U0001F1E8\U0001F1F3 高级  台湾 02"
+  - "[Trojan] \U0001F1E8\U0001F1F3 YToo 高级  台湾 01"
+  - "[Trojan] \U0001F1E8\U0001F1F3 YToo 高级  台湾 02"
   tolerance: 150
 - name: Panda-高级-台湾-自动
   type: url-test
@@ -3195,80 +3003,115 @@ proxy-groups:
 - name: 家宽-手动
   type: select
   proxies:
-  - "[VMess] \U0001F1F0\U0001F1F7 Panda 家宽 30 韩国 家宽 1x"
+  - "[VMess] \U0001F1E8\U0001F1E6 Panda 家宽 63 加拿大家宽 4x"
+  - "[VMess] \U0001F1E8\U0001F1E6 Panda 特殊 63 加拿大家宽 4x"
+  - "[VMess] \U0001F1EF\U0001F1F5 Panda 家宽 56 日本 4x&Disney"
+  - "[VMess] \U0001F1F0\U0001F1F7 Panda 家宽 30 韩国 家宽 1x&Disney"
   - "[VMess] \U0001F1FA\U0001F1F8 Panda 家宽 55 美国 4x 家宽"
   - "[VMess] \U0001F1FA\U0001F1F8 Panda 家宽 74 美国 家宽 4x"
-  - "[VMess] \U0001F1E8\U0001F1E6 Panda 家宽 63 加拿大家宽 4x"
-  - "[VMess] \U0001F1EF\U0001F1F5 Panda 家宽 56 日本 4x"
-  - "[VMess] \U0001F1E8\U0001F1E6 Panda 特殊 63 加拿大家宽 4x"
 - name: 特殊-手动
   type: select
   proxies:
-  - "[SS] \U0001F1EC\U0001F1E7 YToo \U0001F1EC\U0001F1E7 特殊  伦敦 01"
-  - "[SS] \U0001F1EC\U0001F1E7 YToo \U0001F1EC\U0001F1E7 特殊  伦敦 02"
-  - "[SS] \U0001F1E9\U0001F1EA YToo \U0001F1E9\U0001F1EA 特殊  德国 01"
-  - "[SS] \U0001F1E9\U0001F1EA YToo \U0001F1E9\U0001F1EA 特殊  德国 02"
-  - "[SS] \U0001F1E7\U0001F1F7 YToo \U0001F1E7\U0001F1F7 特殊  巴西 01"
-  - "[SS] \U0001F1E8\U0001F1E6 YToo \U0001F1E8\U0001F1E6 特殊  加拿大 01"
-  - "[SS] \U0001F1E8\U0001F1E6 YToo \U0001F1E8\U0001F1E6 特殊  加拿大 02"
-  - "[SS] \U0001F1F9\U0001F1F7 YToo \U0001F1F9\U0001F1F7 特殊  土耳其 01"
-  - "[SS] \U0001F1F9\U0001F1F7 YToo \U0001F1F9\U0001F1F7 特殊  土耳其 02"
-  - "[SS] \U0001F1F9\U0001F1ED YToo \U0001F1F9\U0001F1ED 特殊  泰国"
-  - "[SS] \U0001F1FB\U0001F1F3 YToo \U0001F1FB\U0001F1F3 特殊  越南"
-  - "[SS] \U0001F1EE\U0001F1F3 YToo \U0001F1EE\U0001F1F3 特殊  印度"
-  - "[SS] \U0001F1E6\U0001F1FA YToo \U0001F1E6\U0001F1FA 特殊  悉尼"
-  - "[SS] \U0001F1E6\U0001F1EA YToo \U0001F1E6\U0001F1EA 特殊  迪拜"
-  - "[SS] \U0001F1EB\U0001F1F7 YToo \U0001F1EB\U0001F1F7 特殊  法国"
-  - "[SS] \U0001F1F3\U0001F1F1 YToo \U0001F1F3\U0001F1F1 特殊  荷兰"
-  - "[SS] \U0001F1EE\U0001F1E9 YToo \U0001F1EE\U0001F1E9 特殊  印尼"
-  - "[SS] \U0001F1FF\U0001F1E6 YToo \U0001F1FF\U0001F1E6 特殊  南非"
-  - "[SS] \U0001F1EA\U0001F1EC YToo \U0001F1EA\U0001F1EC 特殊  埃及"
-  - "[SS] \U0001F1F5\U0001F1ED YToo \U0001F1F5\U0001F1ED 特殊  菲律宾"
-  - "[SS] \U0001F1EE\U0001F1F9 YToo \U0001F1EE\U0001F1F9 特殊  意大利"
-  - "[SS] \U0001F1EA\U0001F1F8 YToo \U0001F1EA\U0001F1F8 特殊  西班牙"
-  - "[SS] \U0001F1ED\U0001F1FA YToo \U0001F1ED\U0001F1FA 特殊  匈牙利"
-  - "[SS] \U0001F1EE\U0001F1F1 YToo \U0001F1EE\U0001F1F1 特殊  以色列"
-  - "[SS] \U0001F1FA\U0001F1E6 YToo \U0001F1FA\U0001F1E6 特殊  乌克兰"
-  - "[SS] \U0001F1F7\U0001F1FA YToo \U0001F1F7\U0001F1FA 特殊  俄罗斯"
-  - "[SS] \U0001F1F2\U0001F1FE YToo \U0001F1F2\U0001F1FE 特殊  马来西亚"
-  - "[SS] \U0001F1F3\U0001F1EC YToo \U0001F1F3\U0001F1EC 特殊  尼日利亚"
-  - "[SS] \U0001F1F5\U0001F1F0 YToo \U0001F1F5\U0001F1F0 特殊  巴基斯坦"
-  - "[SS] \U0001F1F2\U0001F1E9 YToo \U0001F1F2\U0001F1E9 特殊  摩尔多瓦"
-  - "[VMess] \U0001F1E8\U0001F1E6 Panda 特殊 63 加拿大家宽 4x"
-  - "[VMess] \U0001F1F2\U0001F1FE Panda 特殊 39 马来西亚"
-  - "[VMess] \U0001F1F2\U0001F1F4 Panda 特殊 49 澳门"
-  - "[VMess] \U0001F1F5\U0001F1ED Panda 特殊 36 菲律宾"
-  - "[VMess] \U0001F1EE\U0001F1F3 Panda 特殊 37 印度"
-  - "[VMess] \U0001F1F9\U0001F1ED Panda 特殊 42 泰国"
-  - "[VMess] \U0001F1EE\U0001F1E9 Panda 特殊 43 印尼"
-  - "[VMess] \U0001F1FB\U0001F1F3 Panda 特殊 48 越南"
-  - "[VMess] \U0001F1EC\U0001F1E7 Panda 特殊 31 英国"
-  - "[VMess] \U0001F1FA\U0001F1E6 Panda 特殊 54 乌克兰"
-  - "[VMess] \U0001F1EB\U0001F1F7 Panda 特殊 75 法国"
-  - "[VMess] \U0001F1F9\U0001F1F7 Panda 特殊 35 土耳其"
-  - "[VMess] \U0001F1E9\U0001F1EA Panda 特殊 32 德国"
-  - "[VMess] \U0001F1F7\U0001F1FA Panda 特殊 31 俄罗斯"
-  - "[VMess] \U0001F1F7\U0001F1FA Panda 特殊 09 俄罗斯"
-  - "[VMess] \U0001F1F5\U0001F1F0 Panda 特殊 58 巴基斯坦"
-  - "[VMess] \U0001F1F8\U0001F1E6 Panda 特殊 32 沙特阿拉伯"
-  - "[VMess] \U0001F1F3\U0001F1EC Panda 特殊 70 尼日利亚"
-  - "[VMess] \U0001F1EA\U0001F1EC Panda 特殊 57 埃及"
-  - "[VMess] \U0001F1F2\U0001F1FD Panda 特殊 52 墨西哥"
-  - "[VMess] \U0001F1E7\U0001F1F7 Panda 特殊 44 巴西"
+  - "[Trojan] \U0001F1E6\U0001F1EA YToo 特殊  迪拜"
   - "[VMess] \U0001F1E6\U0001F1F7 Panda 特殊 33 阿根廷"
   - "[VMess] \U0001F1E6\U0001F1F7 Panda 特殊 34 阿根廷"
-  - "[VMess] \U0001F1EC\U0001F1E7 Panda 特殊 29 英国"
-  - "[VMess] \U0001F1F3\U0001F1F1 Panda 特殊 38 荷兰"
-  - "[VMess] \U0001F1E8\U0001F1E6 Panda 特殊 37 加拿大"
   - "[VMess] \U0001F1E6\U0001F1FA Panda 特殊 38 澳大利亚"
+  - "[Trojan] \U0001F1E6\U0001F1FA YToo 特殊  悉尼"
+  - "[VMess] \U0001F1E7\U0001F1F7 Panda 特殊 44 巴西"
+  - "[Trojan] \U0001F1E7\U0001F1F7 YToo 特殊  巴西 01"
+  - "[VMess] \U0001F1E8\U0001F1E6 Panda 特殊 37 加拿大"
+  - "[VMess] \U0001F1E8\U0001F1E6 Panda 特殊 63 加拿大家宽 4x"
+  - "[Trojan] \U0001F1E8\U0001F1E6 YToo 特殊  加拿大 01"
+  - "[Trojan] \U0001F1E8\U0001F1E6 YToo 特殊  加拿大 02"
+  - "[VMess] \U0001F1E9\U0001F1EA Panda 特殊 32 德国"
+  - "[Trojan] \U0001F1E9\U0001F1EA YToo 特殊  德国 01"
+  - "[Trojan] \U0001F1E9\U0001F1EA YToo 特殊  德国 02"
+  - "[VMess] \U0001F1EA\U0001F1EC Panda 特殊 57 埃及"
+  - "[Trojan] \U0001F1EA\U0001F1EC YToo 特殊  埃及"
+  - "[Trojan] \U0001F1EA\U0001F1F8 YToo 特殊  西班牙"
+  - "[VMess] \U0001F1EB\U0001F1F7 Panda 特殊 75 法国"
+  - "[Trojan] \U0001F1EB\U0001F1F7 YToo 特殊  法国"
+  - "[VMess] \U0001F1EC\U0001F1E7 Panda 特殊 29 英国"
+  - "[VMess] \U0001F1EC\U0001F1E7 Panda 特殊 31 英国"
+  - "[Trojan] \U0001F1EC\U0001F1E7 YToo 特殊  伦敦 01"
+  - "[Trojan] \U0001F1EC\U0001F1E7 YToo 特殊  伦敦 02"
+  - "[Trojan] \U0001F1ED\U0001F1FA YToo 特殊  匈牙利"
+  - "[VMess] \U0001F1EE\U0001F1E9 Panda 特殊 43 印尼"
+  - "[Trojan] \U0001F1EE\U0001F1E9 YToo 特殊  印尼"
+  - "[Trojan] \U0001F1EE\U0001F1F1 YToo 特殊  以色列"
+  - "[VMess] \U0001F1EE\U0001F1F3 Panda 特殊 37 印度"
+  - "[Trojan] \U0001F1EE\U0001F1F3 YToo 特殊  印度"
+  - "[Trojan] \U0001F1EE\U0001F1F9 YToo 特殊  意大利"
+  - "[Trojan] \U0001F1F2\U0001F1E9 YToo 特殊  摩尔多瓦"
+  - "[VMess] \U0001F1F2\U0001F1F4 Panda 特殊 49 澳门"
+  - "[VMess] \U0001F1F2\U0001F1FD Panda 特殊 52 墨西哥"
+  - "[VMess] \U0001F1F2\U0001F1FE Panda 特殊 39 马来西亚"
+  - "[Trojan] \U0001F1F2\U0001F1FE YToo 特殊  马来西亚"
+  - "[VMess] \U0001F1F3\U0001F1EC Panda 特殊 70 尼日利亚"
+  - "[Trojan] \U0001F1F3\U0001F1EC YToo 特殊  尼日利亚"
+  - "[VMess] \U0001F1F3\U0001F1F1 Panda 特殊 38 荷兰"
+  - "[Trojan] \U0001F1F3\U0001F1F1 YToo 特殊  荷兰"
+  - "[VMess] \U0001F1F5\U0001F1ED Panda 特殊 36 菲律宾"
+  - "[Trojan] \U0001F1F5\U0001F1ED YToo 特殊  菲律宾"
+  - "[VMess] \U0001F1F5\U0001F1F0 Panda 特殊 58 巴基斯坦"
+  - "[Trojan] \U0001F1F5\U0001F1F0 YToo 特殊  巴基斯坦"
+  - "[VMess] \U0001F1F7\U0001F1FA Panda 特殊 09 俄罗斯"
+  - "[VMess] \U0001F1F7\U0001F1FA Panda 特殊 31 俄罗斯"
+  - "[Trojan] \U0001F1F7\U0001F1FA YToo 特殊  俄罗斯"
+  - "[VMess] \U0001F1F8\U0001F1E6 Panda 特殊 32 沙特阿拉伯"
   - "[VMess] \U0001F1F8\U0001F1EC Panda 特殊 39 新西兰"
+  - "[VMess] \U0001F1F9\U0001F1ED Panda 特殊 42 泰国"
+  - "[Trojan] \U0001F1F9\U0001F1ED YToo 特殊  泰国"
+  - "[VMess] \U0001F1F9\U0001F1F7 Panda 特殊 35 土耳其"
+  - "[Trojan] \U0001F1F9\U0001F1F7 YToo 特殊  土耳其 01"
+  - "[Trojan] \U0001F1F9\U0001F1F7 YToo 特殊  土耳其 02"
+  - "[VMess] \U0001F1FA\U0001F1E6 Panda 特殊 54 乌克兰"
+  - "[Trojan] \U0001F1FA\U0001F1E6 YToo 特殊  乌克兰"
+  - "[VMess] \U0001F1FB\U0001F1F3 Panda 特殊 48 越南"
+  - "[Trojan] \U0001F1FB\U0001F1F3 YToo 特殊  越南"
+  - "[Trojan] \U0001F1FF\U0001F1E6 YToo 特殊  南非"
 rules:
 - "DOMAIN, embyclub.maoxiong.cloud,\U0001F39E️ panda-emby"
 - "DOMAIN, embyclub2.maoxiong.cloud,\U0001F39E️ panda-emby"
 - "DOMAIN, pornemby.maoxiong.cloud,\U0001F39E️ panda-emby"
+- "DOMAIN, hoshino.maoxiong.cloud,\U0001F39E️ panda-emby-2"
 - DOMAIN,cdn.usefathom.com,✨ Claude
 - DOMAIN-SUFFIX,anthropic.com,✨ Claude
 - DOMAIN-SUFFIX,claude.ai,✨ Claude
+- DOMAIN,browser-intake-datadoghq.com,✨ ChatGPT
+- DOMAIN,chat.openai.com.cdn.cloudflare.net,✨ ChatGPT
+- DOMAIN,openai-api.arkoselabs.com,✨ ChatGPT
+- DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,✨ ChatGPT
+- DOMAIN,openaicomproductionae4b.blob.core.windows.net,✨ ChatGPT
+- DOMAIN,production-openaicom-storage.azureedge.net,✨ ChatGPT
+- DOMAIN,static.cloudflareinsights.com,✨ ChatGPT
+- DOMAIN-SUFFIX,ai.com,✨ ChatGPT
+- DOMAIN-SUFFIX,algolia.net,✨ ChatGPT
+- DOMAIN-SUFFIX,api.statsig.com,✨ ChatGPT
+- DOMAIN-SUFFIX,auth0.com,✨ ChatGPT
+- DOMAIN-SUFFIX,chatgpt.com,✨ ChatGPT
+- DOMAIN-SUFFIX,chatgpt.livekit.cloud,✨ ChatGPT
+- DOMAIN-SUFFIX,client-api.arkoselabs.com,✨ ChatGPT
+- DOMAIN-SUFFIX,events.statsigapi.net,✨ ChatGPT
+- DOMAIN-SUFFIX,featuregates.org,✨ ChatGPT
+- DOMAIN-SUFFIX,host.livekit.cloud,✨ ChatGPT
+- DOMAIN-SUFFIX,identrust.com,✨ ChatGPT
+- DOMAIN-SUFFIX,intercom.io,✨ ChatGPT
+- DOMAIN-SUFFIX,intercomcdn.com,✨ ChatGPT
+- DOMAIN-SUFFIX,launchdarkly.com,✨ ChatGPT
+- DOMAIN-SUFFIX,oaistatic.com,✨ ChatGPT
+- DOMAIN-SUFFIX,oaiusercontent.com,✨ ChatGPT
+- DOMAIN-SUFFIX,observeit.net,✨ ChatGPT
+- DOMAIN-SUFFIX,openai.com,✨ ChatGPT
+- DOMAIN-SUFFIX,openaiapi-site.azureedge.net,✨ ChatGPT
+- DOMAIN-SUFFIX,openaicom.imgix.net,✨ ChatGPT
+- DOMAIN-SUFFIX,segment.io,✨ ChatGPT
+- DOMAIN-SUFFIX,sentry.io,✨ ChatGPT
+- DOMAIN-SUFFIX,stripe.com,✨ ChatGPT
+- DOMAIN-SUFFIX,turn.livekit.cloud,✨ ChatGPT
+- DOMAIN-KEYWORD,openai,✨ ChatGPT
+- IP-CIDR,24.199.123.28/32,✨ ChatGPT,no-resolve
+- IP-CIDR,64.23.132.171/32,✨ ChatGPT,no-resolve
 - DOMAIN,ai.google.dev,✨ Gemini
 - DOMAIN,alkalimakersuite-pa.clients6.google.com,✨ Gemini
 - DOMAIN,makersuite.google.com,✨ Gemini
@@ -3282,19 +3125,9 @@ rules:
 - DOMAIN-KEYWORD,colab,✨ Gemini
 - DOMAIN-KEYWORD,developerprofiles,✨ Gemini
 - DOMAIN-KEYWORD,generativelanguage,✨ Gemini
-- DOMAIN,ai.google.dev,✨ Gemini
-- DOMAIN,alkalimakersuite-pa.clients6.google.com,✨ Gemini
-- DOMAIN,makersuite.google.com,✨ Gemini
-- DOMAIN-SUFFIX,bard.google.com,✨ Gemini
-- DOMAIN-SUFFIX,deepmind.com,✨ Gemini
-- DOMAIN-SUFFIX,deepmind.google,✨ Gemini
-- DOMAIN-SUFFIX,gemini.google.com,✨ Gemini
-- DOMAIN-SUFFIX,generativeai.google,✨ Gemini
-- DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com,✨ Gemini
-- DOMAIN-SUFFIX,apis.google.com,✨ Gemini
-- DOMAIN-KEYWORD,colab,✨ Gemini
-- DOMAIN-KEYWORD,developerprofiles,✨ Gemini
-- DOMAIN-KEYWORD,generativelanguage,✨ Gemini
+- DOMAIN-SUFFIX,grok.com,✨ Grok
+- DOMAIN-SUFFIX,x.ai,✨ Grok
+- DOMAIN-SUFFIX,x.ai grok.com,✨ Grok
 - DOMAIN,api.msn.com,✨ Copilot
 - DOMAIN,api.statsig.com,✨ Copilot
 - DOMAIN,assets.msn.com,✨ Copilot
@@ -3344,55 +3177,49 @@ rules:
 - DOMAIN-KEYWORD,openaicom-api,✨ Copilot
 - IP-CIDR,24.199.123.28/32,✨ Copilot,no-resolve
 - IP-CIDR,64.23.132.171/32,✨ Copilot,no-resolve
-- DOMAIN,api.msn.com,✨ Copilot
-- DOMAIN,api.statsig.com,✨ Copilot
-- DOMAIN,assets.msn.com,✨ Copilot
-- DOMAIN,browser-intake-datadoghq.com,✨ Copilot
-- DOMAIN,chat.openai.com.cdn.cloudflare.net,✨ Copilot
-- DOMAIN,copilot.microsoft.com,✨ Copilot
-- DOMAIN,gateway.bingviz.microsoft.net,✨ Copilot
-- DOMAIN,gateway.bingviz.microsoftapp.net,✨ Copilot
-- DOMAIN,in.appcenter.ms,✨ Copilot
-- DOMAIN,location.microsoft.com,✨ Copilot
-- DOMAIN,odc.officeapps.live.com,✨ Copilot
-- DOMAIN,openai-api.arkoselabs.com,✨ Copilot
-- DOMAIN,openaicomproductionae4b.blob.core.windows.net,✨ Copilot
-- DOMAIN,production-openaicom-storage.azureedge.net,✨ Copilot
-- DOMAIN,r.bing.com,✨ Copilot
-- DOMAIN,self.events.data.microsoft.com,✨ Copilot
-- DOMAIN,services.bingapis.com,✨ Copilot
-- DOMAIN,static.cloudflareinsights.com,✨ Copilot
-- DOMAIN,sydney.bing.com,✨ Copilot
-- DOMAIN,www.bing.com,✨ Copilot
-- DOMAIN-SUFFIX,algolia.net,✨ Copilot
-- DOMAIN-SUFFIX,api.microsoftapp.net,✨ Copilot
-- DOMAIN-SUFFIX,auth0.com,✨ Copilot
-- DOMAIN-SUFFIX,bing-shopping.microsoft-falcon.io,✨ Copilot
-- DOMAIN-SUFFIX,challenges.cloudflare.com,✨ Copilot
-- DOMAIN-SUFFIX,chatgpt.com,✨ Copilot
-- DOMAIN-SUFFIX,chatgpt.livekit.cloud,✨ Copilot
-- DOMAIN-SUFFIX,client-api.arkoselabs.com,✨ Copilot
-- DOMAIN-SUFFIX,edgeservices.bing.com,✨ Copilot
-- DOMAIN-SUFFIX,events.statsigapi.net,✨ Copilot
-- DOMAIN-SUFFIX,featuregates.org,✨ Copilot
-- DOMAIN-SUFFIX,host.livekit.cloud,✨ Copilot
-- DOMAIN-SUFFIX,identrust.com,✨ Copilot
-- DOMAIN-SUFFIX,intercom.io,✨ Copilot
-- DOMAIN-SUFFIX,intercomcdn.com,✨ Copilot
-- DOMAIN-SUFFIX,launchdarkly.com,✨ Copilot
-- DOMAIN-SUFFIX,oaistatic.com,✨ Copilot
-- DOMAIN-SUFFIX,oaiusercontent.com,✨ Copilot
-- DOMAIN-SUFFIX,observeit.net,✨ Copilot
-- DOMAIN-SUFFIX,openai.com,✨ Copilot
-- DOMAIN-SUFFIX,openaiapi-site.azureedge.net,✨ Copilot
-- DOMAIN-SUFFIX,openaicom.imgix.net,✨ Copilot
-- DOMAIN-SUFFIX,segment.io,✨ Copilot
-- DOMAIN-SUFFIX,sentry.io,✨ Copilot
-- DOMAIN-SUFFIX,stripe.com,✨ Copilot
-- DOMAIN-SUFFIX,turn.livekit.cloud,✨ Copilot
-- DOMAIN-KEYWORD,openaicom-api,✨ Copilot
-- IP-CIDR,24.199.123.28/32,✨ Copilot,no-resolve
-- IP-CIDR,64.23.132.171/32,✨ Copilot,no-resolve
+- DOMAIN-KEYWORD,anthropic,✨ Perplexity
+- DOMAIN-KEYWORD,claude,✨ Perplexity
+- DOMAIN-KEYWORD,openai,✨ Perplexity
+- DOMAIN,ai.google.dev,✨ Perplexity
+- DOMAIN,aistudio.google.com,✨ Perplexity
+- DOMAIN,api.githubcopilot.com,✨ Perplexity
+- DOMAIN,api.groq.com,✨ Perplexity
+- DOMAIN,api.together.xyz,✨ Perplexity
+- DOMAIN,bard.google.com,✨ Perplexity
+- DOMAIN,console.groq.com,✨ Perplexity
+- DOMAIN,copilot-proxy.githubusercontent.com,✨ Perplexity
+- DOMAIN,gemini.google.com,✨ Perplexity
+- DOMAIN,generativelanguage.googleapis.com,✨ Perplexity
+- DOMAIN,sydney.bing.com,✨ Perplexity
+- DOMAIN-SUFFIX,ai.azure.com,✨ Perplexity
+- DOMAIN-SUFFIX,anthropic.com,✨ Perplexity
+- DOMAIN-SUFFIX,auth0.com,✨ Perplexity
+- DOMAIN-SUFFIX,bard.google.com,✨ Perplexity
+- DOMAIN-SUFFIX,chatgpt.com,✨ Perplexity
+- DOMAIN-SUFFIX,claude.ai,✨ Perplexity
+- DOMAIN-SUFFIX,claudeusercontent.com,✨ Perplexity
+- DOMAIN-SUFFIX,client-api.arkoselabs.com,✨ Perplexity
+- DOMAIN-SUFFIX,copilot.cloud.microsoft,✨ Perplexity
+- DOMAIN-SUFFIX,copilot.microsoft.com,✨ Perplexity
+- DOMAIN-SUFFIX,cursor.com,✨ Perplexity
+- DOMAIN-SUFFIX,cursor.sh,✨ Perplexity
+- DOMAIN-SUFFIX,events.statsigapi.net,✨ Perplexity
+- DOMAIN-SUFFIX,featuregates.org,✨ Perplexity
+- DOMAIN-SUFFIX,gemini.google.com,✨ Perplexity
+- DOMAIN-SUFFIX,grazie.ai,✨ Perplexity
+- DOMAIN-SUFFIX,grazie.aws.intellij.net,✨ Perplexity
+- DOMAIN-SUFFIX,identrust.com,✨ Perplexity
+- DOMAIN-SUFFIX,intercom.io,✨ Perplexity
+- DOMAIN-SUFFIX,intercomcdn.com,✨ Perplexity
+- DOMAIN-SUFFIX,makersuite.google.com,✨ Perplexity
+- DOMAIN-SUFFIX,meta.ai,✨ Perplexity
+- DOMAIN-SUFFIX,mistral.ai,✨ Perplexity
+- DOMAIN-SUFFIX,oaistatic.com,✨ Perplexity
+- DOMAIN-SUFFIX,oaiusercontent.com,✨ Perplexity
+- DOMAIN-SUFFIX,openai.com,✨ Perplexity
+- DOMAIN-SUFFIX,openaiapi-site.azureedge.net,✨ Perplexity
+- DOMAIN-SUFFIX,perplexity.ai,✨ Perplexity
+- DOMAIN-SUFFIX,sora.com,✨ Perplexity
 - "DOMAIN-SUFFIX, 18comic.vip,\U0001F4D8 !JP"
 - "DOMAIN-SUFFIX, javdb.com,\U0001F4D8 !JP"
 - "DOMAIN-SUFFIX, javbus.com,\U0001F4D8 !JP"
@@ -3402,6 +3229,7 @@ rules:
 - "DOMAIN-SUFFIX, xlyx.xyz,\U0001F4D8 !JP"
 - "DOMAIN-SUFFIX, uxj.cc,\U0001F4D8 !JP"
 - "DOMAIN-SUFFIX, dzhfmq.com,\U0001F4D8 !JP"
+- "DOMAIN-SUFFIX, uxj.jnldgs.com,\U0001F4D8 !JP"
 - "DOMAIN,alt1-mtalk.google.com,\U0001F44C FCM"
 - "DOMAIN,alt2-mtalk.google.com,\U0001F44C FCM"
 - "DOMAIN,alt3-mtalk.google.com,\U0001F44C FCM"
@@ -5592,7 +5420,6 @@ rules:
 - "DOMAIN-SUFFIX,app-store.wang,\U0001F34E Apple"
 - "DOMAIN-SUFFIX,appe-store.com,\U0001F34E Apple"
 - "DOMAIN-SUFFIX,apple-appstore.cn,\U0001F34E Apple"
-- "DOMAIN-SUFFIX,apple-icloud.cn,\U0001F34E Apple"
 - "DOMAIN-SUFFIX,apple-itunes.cn,\U0001F34E Apple"
 - "DOMAIN-SUFFIX,apple-pay.com,\U0001F34E Apple"
 - "DOMAIN-SUFFIX,apple-pay.rs,\U0001F34E Apple"
@@ -5603,7 +5430,6 @@ rules:
 - "DOMAIN-SUFFIX,appleappstore.tv,\U0001F34E Apple"
 - "DOMAIN-SUFFIX,appledarwin.com,\U0001F34E Apple"
 - "DOMAIN-SUFFIX,appledarwin.net,\U0001F34E Apple"
-- "DOMAIN-SUFFIX,appleicloud.cn,\U0001F34E Apple"
 - "DOMAIN-SUFFIX,appleid-applemx.com,\U0001F34E Apple"
 - "DOMAIN-SUFFIX,appleid-applemx.us,\U0001F34E Apple"
 - "DOMAIN-SUFFIX,appleid-iclou.com,\U0001F34E Apple"
@@ -5612,7 +5438,6 @@ rules:
 - "DOMAIN-SUFFIX,appleid.com,\U0001F34E Apple"
 - "DOMAIN-SUFFIX,appleid.hamburg,\U0001F34E Apple"
 - "DOMAIN-SUFFIX,appleid.hk,\U0001F34E Apple"
-- "DOMAIN-SUFFIX,applemx-icloud.com,\U0001F34E Apple"
 - "DOMAIN-SUFFIX,appleone.audio,\U0001F34E Apple"
 - "DOMAIN-SUFFIX,appleone.blog,\U0001F34E Apple"
 - "DOMAIN-SUFFIX,appleone.chat,\U0001F34E Apple"
@@ -5648,7 +5473,6 @@ rules:
 - "DOMAIN-SUFFIX,applepaysupplies.tv,\U0001F34E Apple"
 - "DOMAIN-SUFFIX,applewallet.com,\U0001F34E Apple"
 - "DOMAIN-SUFFIX,applewallet.tv,\U0001F34E Apple"
-- "DOMAIN-SUFFIX,appsto.re,\U0001F34E Apple"
 - "DOMAIN-SUFFIX,appstore.co.id,\U0001F34E Apple"
 - "DOMAIN-SUFFIX,appstore.com,\U0001F34E Apple"
 - "DOMAIN-SUFFIX,appstore.hk,\U0001F34E Apple"
@@ -5660,50 +5484,7 @@ rules:
 - "DOMAIN-SUFFIX,darwinsource.com,\U0001F34E Apple"
 - "DOMAIN-SUFFIX,darwinsource.org,\U0001F34E Apple"
 - "DOMAIN-SUFFIX,darwinsourcecode.com,\U0001F34E Apple"
-- "DOMAIN-SUFFIX,icloud-apple.cn,\U0001F34E Apple"
-- "DOMAIN-SUFFIX,icloud-content.com,\U0001F34E Apple"
-- "DOMAIN-SUFFIX,icloud-isupport.com,\U0001F34E Apple"
-- "DOMAIN-SUFFIX,icloud-sandbox.com,\U0001F34E Apple"
-- "DOMAIN-SUFFIX,icloud.ch,\U0001F34E Apple"
-- "DOMAIN-SUFFIX,icloud.com,\U0001F34E Apple"
-- "DOMAIN-SUFFIX,icloud.com.cn,\U0001F34E Apple"
-- "DOMAIN-SUFFIX,icloud.de,\U0001F34E Apple"
-- "DOMAIN-SUFFIX,icloud.ee,\U0001F34E Apple"
-- "DOMAIN-SUFFIX,icloud.fi,\U0001F34E Apple"
-- "DOMAIN-SUFFIX,icloud.fr,\U0001F34E Apple"
-- "DOMAIN-SUFFIX,icloud.hu,\U0001F34E Apple"
-- "DOMAIN-SUFFIX,icloud.ie,\U0001F34E Apple"
-- "DOMAIN-SUFFIX,icloud.is,\U0001F34E Apple"
-- "DOMAIN-SUFFIX,icloud.jp,\U0001F34E Apple"
-- "DOMAIN-SUFFIX,icloud.lv,\U0001F34E Apple"
-- "DOMAIN-SUFFIX,icloud.net.cn,\U0001F34E Apple"
-- "DOMAIN-SUFFIX,icloud.om,\U0001F34E Apple"
-- "DOMAIN-SUFFIX,icloud.org,\U0001F34E Apple"
-- "DOMAIN-SUFFIX,icloud.pt,\U0001F34E Apple"
-- "DOMAIN-SUFFIX,icloud.ro,\U0001F34E Apple"
-- "DOMAIN-SUFFIX,icloud.se,\U0001F34E Apple"
-- "DOMAIN-SUFFIX,icloud.si,\U0001F34E Apple"
-- "DOMAIN-SUFFIX,icloud.sk,\U0001F34E Apple"
-- "DOMAIN-SUFFIX,icloud.vn,\U0001F34E Apple"
-- "DOMAIN-SUFFIX,icloudads.net,\U0001F34E Apple"
-- "DOMAIN-SUFFIX,icloudapple.cn,\U0001F34E Apple"
-- "DOMAIN-SUFFIX,icloudbox.net,\U0001F34E Apple"
-- "DOMAIN-SUFFIX,icloudbrowser.net,\U0001F34E Apple"
-- "DOMAIN-SUFFIX,icloude.com,\U0001F34E Apple"
-- "DOMAIN-SUFFIX,icloudhome.com,\U0001F34E Apple"
-- "DOMAIN-SUFFIX,icloudmail.net,\U0001F34E Apple"
-- "DOMAIN-SUFFIX,icloudmusic.net,\U0001F34E Apple"
-- "DOMAIN-SUFFIX,icloudnet.net,\U0001F34E Apple"
-- "DOMAIN-SUFFIX,icloudo.com,\U0001F34E Apple"
-- "DOMAIN-SUFFIX,icloudo.de,\U0001F34E Apple"
-- "DOMAIN-SUFFIX,icloudo.net,\U0001F34E Apple"
-- "DOMAIN-SUFFIX,icloudos.de,\U0001F34E Apple"
-- "DOMAIN-SUFFIX,icloudos.net,\U0001F34E Apple"
-- "DOMAIN-SUFFIX,icloudpay.net,\U0001F34E Apple"
-- "DOMAIN-SUFFIX,icloudsecure.net,\U0001F34E Apple"
-- "DOMAIN-SUFFIX,icloudsetup.com,\U0001F34E Apple"
 - "DOMAIN-SUFFIX,ids-apple.com,\U0001F34E Apple"
-- "DOMAIN-SUFFIX,ios-icloud.com,\U0001F34E Apple"
 - "DOMAIN-SUFFIX,itun.es,\U0001F34E Apple"
 - "DOMAIN-SUFFIX,itunbes.com,\U0001F34E Apple"
 - "DOMAIN-SUFFIX,ituneas.com,\U0001F34E Apple"
@@ -5737,12 +5518,8 @@ rules:
 - "DOMAIN-SUFFIX,itunesu.com,\U0001F34E Apple"
 - "DOMAIN-SUFFIX,itunesu.net,\U0001F34E Apple"
 - "DOMAIN-SUFFIX,iutunes.com,\U0001F34E Apple"
-- "DOMAIN-SUFFIX,me.com,\U0001F34E Apple"
 - "DOMAIN-SUFFIX,myappleid.com,\U0001F34E Apple"
-- "DOMAIN-SUFFIX,myicloud.net,\U0001F34E Apple"
-- "DOMAIN-SUFFIX,mylcloud.net,\U0001F34E Apple"
 - "DOMAIN-SUFFIX,tvappstore.net,\U0001F34E Apple"
-- "DOMAIN-SUFFIX,wwwicloud.com,\U0001F34E Apple"
 - "DOMAIN-SUFFIX,wwwitunes.com,\U0001F34E Apple"
 - "DOMAIN-SUFFIX,aplestore.com,\U0001F34E Apple"
 - "DOMAIN-SUFFIX,aplleipods.com,\U0001F34E Apple"
@@ -5971,11 +5748,9 @@ rules:
 - "DOMAIN-SUFFIX,wwwipodlounge.com,\U0001F34E Apple"
 - "DOMAIN-SUFFIX,wwwmacbookair.com,\U0001F34E Apple"
 - "DOMAIN-SUFFIX,apple.comscoreresearch.com,\U0001F34E Apple"
-- "DOMAIN-SUFFIX,apple.news,\U0001F34E Apple"
 - "DOMAIN-SUFFIX,appleenews.com,\U0001F34E Apple"
 - "DOMAIN-SUFFIX,applemusic.berlin,\U0001F34E Apple"
 - "DOMAIN-SUFFIX,applemusic.co,\U0001F34E Apple"
-- "DOMAIN-SUFFIX,applemusic.com,\U0001F34E Apple"
 - "DOMAIN-SUFFIX,applemusic.com.au,\U0001F34E Apple"
 - "DOMAIN-SUFFIX,applemusic.hamburg,\U0001F34E Apple"
 - "DOMAIN-SUFFIX,applemusic.wang,\U0001F34E Apple"
@@ -6008,12 +5783,65 @@ rules:
 - "DOMAIN-SUFFIX,iphoto.wang,\U0001F34E Apple"
 - "DOMAIN-SUFFIX,musickit.net,\U0001F34E Apple"
 - "DOMAIN-SUFFIX,wwwapplemusic.com,\U0001F34E Apple"
+- "DOMAIN-SUFFIX,applemusic.com,\U0001F34E Apple"
 - "DOMAIN-SUFFIX,apple-dns.net,\U0001F34E Apple"
+- "DOMAIN-SUFFIX,apple.news,\U0001F34E Apple"
+- "DOMAIN-SUFFIX,appsto.re,\U0001F34E Apple"
+- "DOMAIN-SUFFIX,cdn-apple.com,\U0001F34E Apple"
 - "DOMAIN-SUFFIX,digicert.com,\U0001F34E Apple"
 - "DOMAIN-SUFFIX,apple-cloudkit.com,\U0001F34E Apple"
+- "DOMAIN-SUFFIX,apple-icloud.cn,\U0001F34E Apple"
 - "DOMAIN-SUFFIX,apple-livephotoskit.com,\U0001F34E Apple"
+- "DOMAIN-SUFFIX,appleicloud.cn,\U0001F34E Apple"
+- "DOMAIN-SUFFIX,applemx-icloud.com,\U0001F34E Apple"
 - "DOMAIN-SUFFIX,apzones.com,\U0001F34E Apple"
-- "DOMAIN-SUFFIX,cdn-apple.com,\U0001F34E Apple"
+- "DOMAIN-SUFFIX,icloud-apple.cn,\U0001F34E Apple"
+- "DOMAIN-SUFFIX,icloud-content.com,\U0001F34E Apple"
+- "DOMAIN-SUFFIX,icloud-isupport.com,\U0001F34E Apple"
+- "DOMAIN-SUFFIX,icloud-sandbox.com,\U0001F34E Apple"
+- "DOMAIN-SUFFIX,icloud.ch,\U0001F34E Apple"
+- "DOMAIN-SUFFIX,icloud.com,\U0001F34E Apple"
+- "DOMAIN-SUFFIX,icloud.com.cn,\U0001F34E Apple"
+- "DOMAIN-SUFFIX,icloud.de,\U0001F34E Apple"
+- "DOMAIN-SUFFIX,icloud.ee,\U0001F34E Apple"
+- "DOMAIN-SUFFIX,icloud.fi,\U0001F34E Apple"
+- "DOMAIN-SUFFIX,icloud.fr,\U0001F34E Apple"
+- "DOMAIN-SUFFIX,icloud.hu,\U0001F34E Apple"
+- "DOMAIN-SUFFIX,icloud.ie,\U0001F34E Apple"
+- "DOMAIN-SUFFIX,icloud.is,\U0001F34E Apple"
+- "DOMAIN-SUFFIX,icloud.jp,\U0001F34E Apple"
+- "DOMAIN-SUFFIX,icloud.lv,\U0001F34E Apple"
+- "DOMAIN-SUFFIX,icloud.net.cn,\U0001F34E Apple"
+- "DOMAIN-SUFFIX,icloud.om,\U0001F34E Apple"
+- "DOMAIN-SUFFIX,icloud.org,\U0001F34E Apple"
+- "DOMAIN-SUFFIX,icloud.pt,\U0001F34E Apple"
+- "DOMAIN-SUFFIX,icloud.ro,\U0001F34E Apple"
+- "DOMAIN-SUFFIX,icloud.se,\U0001F34E Apple"
+- "DOMAIN-SUFFIX,icloud.si,\U0001F34E Apple"
+- "DOMAIN-SUFFIX,icloud.sk,\U0001F34E Apple"
+- "DOMAIN-SUFFIX,icloud.vn,\U0001F34E Apple"
+- "DOMAIN-SUFFIX,icloudads.net,\U0001F34E Apple"
+- "DOMAIN-SUFFIX,icloudapple.cn,\U0001F34E Apple"
+- "DOMAIN-SUFFIX,icloudbox.net,\U0001F34E Apple"
+- "DOMAIN-SUFFIX,icloudbrowser.net,\U0001F34E Apple"
+- "DOMAIN-SUFFIX,icloude.com,\U0001F34E Apple"
+- "DOMAIN-SUFFIX,icloudhome.com,\U0001F34E Apple"
+- "DOMAIN-SUFFIX,icloudmail.net,\U0001F34E Apple"
+- "DOMAIN-SUFFIX,icloudmusic.net,\U0001F34E Apple"
+- "DOMAIN-SUFFIX,icloudnet.net,\U0001F34E Apple"
+- "DOMAIN-SUFFIX,icloudo.com,\U0001F34E Apple"
+- "DOMAIN-SUFFIX,icloudo.de,\U0001F34E Apple"
+- "DOMAIN-SUFFIX,icloudo.net,\U0001F34E Apple"
+- "DOMAIN-SUFFIX,icloudos.de,\U0001F34E Apple"
+- "DOMAIN-SUFFIX,icloudos.net,\U0001F34E Apple"
+- "DOMAIN-SUFFIX,icloudpay.net,\U0001F34E Apple"
+- "DOMAIN-SUFFIX,icloudsecure.net,\U0001F34E Apple"
+- "DOMAIN-SUFFIX,icloudsetup.com,\U0001F34E Apple"
+- "DOMAIN-SUFFIX,ios-icloud.com,\U0001F34E Apple"
+- "DOMAIN-SUFFIX,me.com,\U0001F34E Apple"
+- "DOMAIN-SUFFIX,myicloud.net,\U0001F34E Apple"
+- "DOMAIN-SUFFIX,mylcloud.net,\U0001F34E Apple"
+- "DOMAIN-SUFFIX,wwwicloud.com,\U0001F34E Apple"
 - "DOMAIN-KEYWORD,apple-support.akadns.net,\U0001F34E Apple"
 - "DOMAIN-KEYWORD,apple.com.akadns.net,\U0001F34E Apple"
 - "DOMAIN-KEYWORD,apple.com.edgekey.net,\U0001F34E Apple"
@@ -7012,6 +6840,7 @@ rules:
 - "DOMAIN-SUFFIX,disneyworld-go.com,\U0001F4FA Disney"
 - "DOMAIN-SUFFIX,dlp-media.com,\U0001F4FA Disney"
 - "DOMAIN-SUFFIX,dmed.technology,\U0001F4FA Disney"
+- "DOMAIN-SUFFIX,dssedge.com,\U0001F4FA Disney"
 - "DOMAIN-SUFFIX,dssott.com,\U0001F4FA Disney"
 - "DOMAIN-SUFFIX,dtci.co,\U0001F4FA Disney"
 - "DOMAIN-SUFFIX,dtci.technology,\U0001F4FA Disney"
@@ -8280,6 +8109,7 @@ rules:
 - "DOMAIN-KEYWORD,claude,\U0001F3AC 其他媒体"
 - "DOMAIN-KEYWORD,openai,\U0001F3AC 其他媒体"
 - "DOMAIN,ai.google.dev,\U0001F3AC 其他媒体"
+- "DOMAIN,aistudio.google.com,\U0001F3AC 其他媒体"
 - "DOMAIN,api.githubcopilot.com,\U0001F3AC 其他媒体"
 - "DOMAIN,api.groq.com,\U0001F3AC 其他媒体"
 - "DOMAIN,api.together.xyz,\U0001F3AC 其他媒体"
@@ -8295,9 +8125,12 @@ rules:
 - "DOMAIN-SUFFIX,bard.google.com,\U0001F3AC 其他媒体"
 - "DOMAIN-SUFFIX,chatgpt.com,\U0001F3AC 其他媒体"
 - "DOMAIN-SUFFIX,claude.ai,\U0001F3AC 其他媒体"
+- "DOMAIN-SUFFIX,claudeusercontent.com,\U0001F3AC 其他媒体"
 - "DOMAIN-SUFFIX,client-api.arkoselabs.com,\U0001F3AC 其他媒体"
 - "DOMAIN-SUFFIX,copilot.cloud.microsoft,\U0001F3AC 其他媒体"
 - "DOMAIN-SUFFIX,copilot.microsoft.com,\U0001F3AC 其他媒体"
+- "DOMAIN-SUFFIX,cursor.com,\U0001F3AC 其他媒体"
+- "DOMAIN-SUFFIX,cursor.sh,\U0001F3AC 其他媒体"
 - "DOMAIN-SUFFIX,events.statsigapi.net,\U0001F3AC 其他媒体"
 - "DOMAIN-SUFFIX,featuregates.org,\U0001F3AC 其他媒体"
 - "DOMAIN-SUFFIX,gemini.google.com,\U0001F3AC 其他媒体"
@@ -14441,6 +14274,7 @@ rules:
 - "DOMAIN-SUFFIX,xiami.net,\U0001F3AF 全球直连"
 - "DOMAIN-SUFFIX,ykimg.com,\U0001F3AF 全球直连"
 - "DOMAIN-SUFFIX,youku.com,\U0001F3AF 全球直连"
+- "DOMAIN-SUFFIX,qwen.ai,\U0001F3AF 全球直连"
 - "DOMAIN-SUFFIX,baidu.com,\U0001F3AF 全球直连"
 - "DOMAIN-SUFFIX,baidubcr.com,\U0001F3AF 全球直连"
 - "DOMAIN-SUFFIX,baidupcs.com,\U0001F3AF 全球直连"
@@ -18942,7 +18776,7 @@ dns:
   listen: 0.0.0.0:7874
   fake-ip-filter-mode: blacklist
   nameserver:
-  - 223.5.5.5:53
+  - 192.168.199.9:53
   fake-ip-filter:
   - "*.lan"
   - "*.localdomain"
@@ -19086,6 +18920,11 @@ dns:
   - "+.uu.163.com"
   - ps.res.netease.com
   - "+.pub.3gppnetwork.org"
+  - "+.xlyx.xyz"
+  - embyclub.maoxiong.cloud
+  - embyclub2.maoxiong.cloud
+  - pornemby.maoxiong.cloud
+  - hoshino.maoxiong.cloud
   - "+.services.googleapis.cn"
   - "+.googleapis.cn"
   - "+.xn--ngstr-lra8j.com"
@@ -19100,10 +18939,14 @@ external-ui-name: metacubexd
 keep-alive-interval: 15
 keep-alive-idle: 600
 ipv6: false
-interface-name: eth0
+interface-name: eth0.10
 geodata-loader: standard
 tcp-concurrent: true
 unified-delay: true
+geox-url:
+  mmdb: https://testingcf.jsdelivr.net/gh/alecthw/mmdb_china_ip_list@release/lite/Country.mmdb
+  geoip: https://testingcf.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/geoip.dat
+  geosite: https://testingcf.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/geosite.dat
 sniffer:
   enable: true
   override-destination: true
