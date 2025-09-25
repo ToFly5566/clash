@@ -6,6 +6,6 @@
 # DOMAIN-SUFFIX: 9
 # TOTAL: 4
 
-DOMAIN-SUFFIX,grok.com
-DOMAIN-SUFFIX,x.ai
-DOMAIN-SUFFIX,x.ai grok.com
+DOMAIN-SUFFIX, grok.com
+DOMAIN-SUFFIX, x.ai
+DOMAIN-SUFFIX, x.ai grok.com
