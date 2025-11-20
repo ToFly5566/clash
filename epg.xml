@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<tv info-name="by spark" info-url="https://epg.112114.xyz">
+
+  <channel id="458041">
+    <display-name lang="zh">天津都市</display-name>
+  </channel>
+
+  <programme channel="458041" start="20251120185300 +0800" stop="20251120194300 +0800">
+    <title lang="zh">消费者</title>
+  </programme>
+
+  <programme channel="458041" start="20251120194500 +0800" stop="20251120201500 +0800">
+    <title lang="zh">赶大集</title>
+  </programme>
+
+</tv>
