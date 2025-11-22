@@ -1,0 +1,20 @@
+# NAME: hbo-1
+# AUTHOR: ToFly5566
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2025-02-26 16:12:40
+# DOMAIN: 1
+# DOMAIN-SUFFIX: 9
+# TOTAL: 1
+
+DOMAIN, default.any-amer.prd.api.max.com
+DOMAIN, play.max.com
+DOMAIN, default.any-any.prd.api.max.com
+DOMAIN, telegraph.prd.api.max.com
+DOMAIN, default.beam-any.prd.api.max.com
+DOMAIN, default.beam-amer.prd.api.max.com
+DOMAIN, default.beam-amer.use.prd.api.max.com
+DOMAIN, events.prd.api.max.com
+DOMAIN-SUFFIX,prd.api.discomax.com
+DOMAIN-SUFFIX,media.max.com
+DOMAIN-SUFFIX,prd.api.max.com
+DOMAIN-SUFFIX,max.com
