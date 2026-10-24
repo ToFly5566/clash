@@ -1,0 +1,17 @@
+# Aqara CN domain rules
+# Policy is assigned by the subscription conversion template.
+DOMAIN-SUFFIX,track-cn.aqara.com
+DOMAIN-SUFFIX,aiot-rpc-cn.aqara.com
+DOMAIN-SUFFIX,aiot-coap-cn.aqara.com
+DOMAIN-SUFFIX,coap-cn.aqara.com
+DOMAIN-SUFFIX,rpc-cn.aqara.com
+DOMAIN-SUFFIX,open-cn.aqara.com
+DOMAIN-SUFFIX,aiot-rpc-3rd.aqara.cn
+DOMAIN-SUFFIX,aiot-rpc.aqara.cn
+DOMAIN-SUFFIX,coap.aqara.cn
+DOMAIN-SUFFIX,rpc.aqara.cn
+DOMAIN-SUFFIX,aiot-coap.aqara.cn
+DOMAIN-SUFFIX,opencloud.aqara.cn
+DOMAIN-SUFFIX,aiot-rpc.ankasa.cn
+DOMAIN-KEYWORD,aqara-camera-cn.
+DOMAIN-SUFFIX,cdn.aqara.cn
